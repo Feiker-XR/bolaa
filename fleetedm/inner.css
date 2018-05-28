@@ -1,0 +1,107 @@
+﻿html, body
+{
+    margin: 0px;
+    background-color: #958683;
+}
+
+.wrap
+{
+    width: 640px;
+    height: 1136px;
+    overflow: visible;
+    position: absolute;
+}
+
+img, canvas
+{
+    display: block;
+    position: absolute;
+    border: 0px none;
+}
+
+.bag
+{
+    position: absolute;
+    left: 26px;
+    top: 59px;
+    width: 588px;
+    height: 792px;
+}
+
+.paper
+{
+    position: absolute;
+    width: 624px;
+    height: 828px;
+}
+
+#main
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#flipbook .p-temporal
+{
+    background-color: #fff;
+}
+
+#flipbook .page img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#flipmask
+{
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    z-index: 10;
+}
+
+#flipmask img
+{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes clicktip
+{
+    0% { transform: translate(0%, 0%); }
+    100% { transform: translate(-5%, 0%); }
+}
+
+@-webkit-keyframes clicktip
+{
+    0% { -webkit-transform: translate(0%, 0%); }
+    100% { -webkit-transform: translate(-5%, 0%); }
+}
+
+.clicktip
+{
+    animation: clicktip alternate 1s linear infinite;
+    -webkit-animation: clicktip alternate 1s linear infinite;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.btn
+{
+    position: absolute;
+    display: block;
+    width: 50%;
+    bottom: 0px;
+    left: 0px;
+    z-index: 11;
+}
+
+#flipbook .btn img
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}

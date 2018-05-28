@@ -1,0 +1,63 @@
+body{margin:0px;padding:0px;}
+.page{width:640px;position: absolute;overflow: hidden;}
+.logo{left:534px;top:10px;width:92px;height:54px;background:url(/Content/images/logo.png) no-repeat;position: absolute;z-index:1;}
+#p1{background:url(/Content/images/p1.jpg) no-repeat center bottom;}
+#p2{overflow:hidden;}
+#p1_1{background:url(/Content/images/p1_1.png) no-repeat center center;width:478px;height:334px;left:83px;}
+#p2_1{background:url(/Content/images/p2_p1.png) no-repeat center center;width:485px;height:625px;left:80px; }
+#p2_2{background:url(/Content/images/p2_p2.png) no-repeat center center;width:457px;height:507px;left:116px; }
+#p2_3{background:url(/Content/images/p2_p3.png) no-repeat center center;width:438px;height:516px;left:94px; }
+.moveobj{position: absolute;bottom:-625px;}
+#p3{background:url(/Content/images/p3.jpg) no-repeat center bottom;}
+#p4{background:url(/Content/images/p4.jpg) no-repeat center bottom;}
+#lt{background:url(/Content/images/lt.png) no-repeat center;width:156px;height:156px;position:absolute;left:0px;top:0px;}
+#rb{background:url(/Content/images/rb.png) no-repeat center;width:326px;height:326px;position:absolute;bottom:0px;right:0px;}
+@-webkit-keyframes circle
+{
+	from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+#xuan{width:1250px;height:1250px;position:absolute;background:url(/Content/images/p2.jpg);-webkit-animation:circle 10s linear infinite ;}
+#startbutton{left:123px;width:396;height:113px;position: absolute;bottom:404px;}
+#lbutton{left:8px;opacity: 0.5;}
+#rbutton{right:8px;-webkit-transform:scale(-1);}
+.arrow{background: url(/Content/images/arrow.png) no-repeat center;width:33px;height:41px;position:absolute;bottom:552px;}
+#ok{position:absolute;left:136px;bottom:144px;width:324px;height:104px;}
+#carsContener{width:539px;height:228px;position:absolute;left:48px;bottom:450px;overflow: hidden;}
+.car{width:539;height:228px;background:url(/Content/images/car1.png) no-repeat center;position: absolute;}
+
+#gamepage{background: url(/Content/images/bg.jpg);}
+#gameContainer{width:100%;height:100%;}
+#guang{background: url(/Content/images/guang.png) no-repeat center top;height:100%;width:640px;position: absolute;top: 0px;}
+#prompt{}
+.curtain{width:100%;height:100%;position: fixed;background:#000;opacity: 0.5;}
+#startprompt{width:497px;height:606px;background: url(/Content/images/tips.png) no-repeat center;position: fixed;left:71px;bottom:238px;}
+#endprompt{width:497px;height:606px;background: url(/Content/images/over.png) no-repeat center;position: fixed;left:71px;bottom:238px;}
+#signup{background: url(/Content/images/signup.jpg) no-repeat center bottom;}
+#buttons{background: url(/Content/images/buttons.png) no-repeat center;width:505px;height:108px;position:absolute;left: 66px;bottom: 84px;}
+#buttons div{position:absolute;width:108px;height:108px;}
+#speedup{left:386px;}
+#turnl{left:8px; }
+#turnr{left:159px;}
+.movecar{position: absolute;width:101px;height:187px;background:url(/Content/images/carbak.png) no-repeat center;}
+.movecar2{position: absolute;width:101px;height:187px;background:url(/Content/images/carbak2.png) no-repeat center;}
+#usercar{width:69px;height:136px;opacity: 0.8;}
+
+#overtips{position: absolute;width:356px;height:92px;left:72px;top: 148px;
+  font-size: 46px;
+  color: white;
+  text-align: center;}
+.button{position:absolute;width:210px;left:144px;height:74px;}
+#try{top:294px;}
+#su{top:420px;}
+
+.text{width:280px;left:212px;position:absolute;height:50px;font-size:32px;}
+#name{bottom:644px;}
+#tel{bottom:544px;}
+#date{bottom:444px;}
+#submit{width:128px;bottom:266px;left:150px;}
+#return{width:128px;bottom:266px;left:354px;}
+
+
+

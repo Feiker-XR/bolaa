@@ -1,0 +1,195 @@
+﻿html, body
+{
+    margin: 0px;
+}
+
+body
+{
+    background-color: #b4f2ef;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.mask
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home_circle
+{
+    position: absolute;
+    bottom: 0px;
+    left: -65.5px;
+    display: block;
+}
+
+@keyframes home_car_rotate
+{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes home_car_rotate
+{
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+.home_car
+{
+    position: absolute;
+    left: -266px;
+    top: 830px;
+    width: 1174px;
+    height: 1174px;
+    animation: home_car_rotate 20s linear infinite both;
+    -webkit-animation: home_car_rotate 20s linear infinite both;
+}
+
+.home_car img
+{
+    display: block;
+    position: absolute;
+}
+
+.home_car img:nth-of-type(2) {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.home_car img:nth-of-type(3) {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.home_car img:nth-of-type(4) {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+}
+
+.home_logo
+{
+    position: absolute;
+    left: 126px;
+    top: 1000px;
+}
+
+.home_title
+{
+    position: absolute;
+    left: 105px;
+    top: 321px;
+}
+
+.home_play
+{
+    position: absolute;
+    left: 245px;
+    top: 640px;
+}
+
+#game
+{
+    background-image: -webkit-canvas(gamebg);
+    background-size: contain;
+    background-position: center center;
+}
+
+#gamecanvas
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#popup img
+{
+    position: absolute;
+    display: block;
+}
+
+.rule
+{
+    position: absolute;
+    top: 287px;
+}
+
+.box
+{
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    left: 218px;
+    border: 0px none;
+    box-sizing: border-box;
+    font-size: 36px;
+    line-height: 51px;
+    padding: 0px 25px;
+    background-color: transparent;
+    color: #135994;
+}
+
+#p_name
+{
+    top: 230px;
+}
+
+#p_phone
+{
+    top: 291px;
+}
+
+.oilCount
+{
+    position: absolute;
+    left: 372px;
+    display: block;
+    width: 82px;
+    font-size: 60px;
+    color: #e03f00;
+    letter-spacing: -5px;
+    text-align: center;
+    top: 103px;
+}
+
+.btn_submit
+{
+    left: 136px;
+    top: 369px;
+}
+
+.btn_again
+{
+    left: 342px;
+    top: 369px;
+}
+
+.btn_share
+{
+    left: 131px;
+    top: 460px;
+}
+
+.btn_share2
+{
+    left: 153px;
+    top: 325px;
+}
+
+.sharetip
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.sharetip img
+{
+    display: block;
+    width: 100%;
+}

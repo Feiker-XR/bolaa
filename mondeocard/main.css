@@ -1,0 +1,581 @@
+﻿html, body
+{
+    height: 100%;
+    margin: 0px;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+img
+{
+    display: block;
+}
+
+.page
+{
+    background-image: -webkit-canvas(pagebg);
+    background-position: center top;
+    background-size: 100%;
+}
+
+.bg1
+{
+    background-image: -webkit-canvas(pagebg1);
+}
+
+.loading img
+{
+    position: absolute;
+    width: 100%;
+    top: 545px;
+}
+
+.p
+{
+    width: 640px;
+    height: 1136px;
+    position: absolute;
+}
+
+#p1 .word
+{
+    position: absolute;
+    left: 69px;
+    top: 316px;
+    width: 461px;
+    height: 505px;
+}
+
+#p1 .word .bg
+{
+    position: absolute;
+}
+
+#p1 .word .fill
+{
+    bottom: 0px;
+    position: absolute;
+    width: 461px;
+    height: 0px;
+    overflow: hidden;
+}
+
+#p1 .word .fill img
+{
+    position: absolute;
+    bottom: 0px;
+}
+
+#p1 .word .top
+{
+    position: absolute;
+    opacity: 0;
+}
+
+.bg
+{
+    position: absolute;
+    width: 100%;
+}
+
+.btn_start
+{
+    position: absolute;
+    left: 175px;
+    top: 685px;
+}
+
+.sp
+{
+    position: absolute;
+    overflow: visible;
+}
+
+.sp img
+{
+    position: absolute;
+    opacity: 0;
+}
+
+.sp.go img
+{
+    opacity: 1;
+}
+
+.sp .sp_1
+{
+    left: 172px;
+    top: -58px;
+}
+
+.sp .sp_2
+{
+    left: -143px;
+    top: 361px;
+}
+
+.sp .sp_3
+{
+    left: 342px;
+    top: 659px;
+}
+
+.sp .sp_4
+{
+    left: 680px;
+    top: 354px;
+}
+
+.sp.go .sp_1
+{
+    left: 172px;
+    top: 242px;
+}
+
+.sp.go .sp_2
+{
+    left: 157px;
+    top: 361px;
+}
+
+.sp.go .sp_3
+{
+    left: 342px;
+    top: 359px;
+}
+
+.sp.go .sp_4
+{
+    left: 380px;
+    top: 354px;
+}
+
+.btn_submitword
+{
+    position: absolute;
+    left: 161px;
+    top: 905px;
+}
+
+.word_arr
+{
+    position: absolute;
+    top: 217px;
+}
+
+.font_arr
+{
+    position: absolute;
+    top: 470px;
+}
+
+.arr_left
+{
+    left: 21px;
+}
+
+.arr_right
+{
+    right: 21px;
+    transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+}
+
+.word_show
+{
+    position: absolute;
+    display: none;
+    left: 129px;
+    top: 210px;
+    transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+}
+
+.font_show
+{
+    position: absolute;
+    display: none;
+    left: 129px;
+    top: 463px;
+}
+
+.word_preview
+{
+    position: absolute;
+    display: none;
+    left: 47px;
+    top: 681px;
+}
+
+.btn_uploadphoto
+{
+    position: absolute;
+    left: 207px;
+    top: 419px;
+    width: 114px;
+    height: 46px;
+    display: block;
+}
+
+.btn_uploadphoto img
+{
+    display: block;
+}
+
+.btn_uploadphoto input
+{
+    opacity: 0;
+    position: absolute;
+    width: 114px;
+    height: 46px;
+}
+
+.btn_selectphoto
+{
+    position: absolute;
+    left: 324px;
+    top: 419px;
+}
+
+.btn_selectvoice
+{
+    position: absolute;
+    left: 249px;
+    top: 800px;
+}
+
+.voice_btn
+{
+    position: absolute;
+    left: 243px;
+    top: 566px;
+}
+
+.voice_btn img
+{
+    position: absolute;
+}
+
+.voice_tip
+{
+    position: absolute;
+    left: 184px;
+    top: 750px;
+}
+
+.voice_tip_mask
+{
+    position: absolute;
+    left: 184px;
+    top: 750px;
+    width: 290px;
+    height: 35px;
+    background-color: #fff;
+    opacity: 0;
+}
+
+.voice_full
+{
+    position: absolute;
+    width: 174px;
+    height: 174px;
+}
+
+.voice_full img
+{
+    position: absolute;
+}
+
+.voice_full .wave
+{
+    position: absolute;
+    left: 51px;
+}
+
+.voice_full .play
+{
+    display: none;
+}
+
+.voice_full.play .play
+{
+    display: block;
+}
+.voice_full.play .stop
+{
+    display: none;
+}
+
+.photoeditor
+{
+    position: absolute;
+    left: 144px;
+    top: 151px;
+}
+
+.photoeditor img, .photoeditor canvas
+{
+    width: 350px;
+    position: absolute;
+}
+
+.btn_preview
+{
+    position: absolute;
+    left: 161px;
+    top: 889px;
+}
+
+.voice_item
+{
+    position: absolute;
+    left: 49px;
+}
+
+.voice_item:nth-of-type(1) {
+    top: 354px;
+}
+
+.voice_item:nth-of-type(2) {
+    top: 495px;
+}
+
+.voice_item:nth-of-type(3) {
+    top: 636px;
+}
+
+.voice_item:nth-of-type(4) {
+    top: 777px;
+}
+
+.voice_item .playbtn
+{
+    position: absolute;
+    left: 32px;
+    top: 30px;
+}
+
+.voice_item .bar
+{
+    position: absolute;
+    left: 144px;
+    top: 41px;
+}
+
+.voice_item .mark
+{
+    position: absolute;
+    left: 407px;
+    top: 64px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #e40d0d;
+}
+
+.voice_item .mark.play
+{
+    background-color: #0b530b;
+}
+
+.voice_item .ok
+{
+    position: absolute;
+    left: 469px;
+    top: 37px;
+}
+
+.message
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    z-index: 99999;
+}
+
+.message table, .message tr, .message td
+{
+    width: 100%;
+    height: 100%;
+    border: 0px none;
+    border-spacing: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.rec
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    z-index: 99999;
+}
+
+.rec table, .rec tr, .rec td
+{
+    width: 100%;
+    height: 100%;
+    border: 0px none;
+    border-spacing: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.rec img
+{
+    display: block;
+    margin: 0px auto;
+    width: 27%;
+}
+
+.photo_item
+{
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.photo_item:nth-of-type(1) {
+    left: 70px;
+    top: 372px;
+}
+
+.photo_item:nth-of-type(2) {
+    left: 347px;
+    top: 372px;
+}
+
+.photo_item:nth-of-type(3) {
+    left: 70px;
+    top: 650px;
+}
+
+.photo_item:nth-of-type(4) {
+    left: 347px;
+    top: 650px;
+}
+
+.photo_item img
+{
+    display: block;
+    height: 234px;
+    margin-left: -72px;
+}
+
+.photo_show
+{
+    position: absolute;
+    left: 130px;
+    top: 209px;
+}
+
+.photo_show img, .photo_show canvas
+{
+    display: block;
+    position: absolute;
+}
+
+.btn_back
+{
+    left: 123px;
+    top: 779px;
+    position: absolute;
+}
+
+.word_finish
+{
+    position: absolute;
+    width: 393px;
+    height: 150px;
+    overflow: hidden;
+    left: 130px;
+    top: 452px;
+}
+
+.word_finish img
+{
+    position: relative;
+    height: 150px;
+    margin: 0px auto;
+    display: block;
+}
+
+#p5 .voice_item
+{
+    left: 165px;
+    top: 641px;
+}
+
+#p5 .voice_item .playbtn
+{
+    left: 0px;
+    top: 0px;
+}
+
+#p5 .voice_item .bar
+{
+    left: 76px;
+    top: 11px;
+}
+
+#p5 .voice_item .mark
+{
+    left: 297px;
+    top: 34px;
+}
+
+.sharetip
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10000;
+}
+
+.sharetip img
+{
+    display: block;
+    width: 100%;
+}
+
+.voice_empty_mask
+{
+    position: absolute;
+    width: 174px;
+    height: 177px;
+    background-color: #fff;
+    opacity: 0;
+}
+
+.page2
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.touchtip
+{
+    position: absolute;
+    top: 370px;
+    left: 180px;
+}

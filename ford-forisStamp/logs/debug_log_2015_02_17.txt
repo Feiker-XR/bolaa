@@ -1,0 +1,8 @@
+﻿2015/2/17 17:43:53
+参数化查询 '(@username nvarchar(4000),@stampnum nvarchar(4000),@media_id nva' 需要参数 '@stampnum'，但未提供该参数。
+
+
+2015/2/17 17:50:54
+参数化查询 '(@username nvarchar(4000),@stampnum nvarchar(4000),@media_id nva' 需要参数 '@stampnum'，但未提供该参数。
+
+

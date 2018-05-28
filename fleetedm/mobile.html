@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>长安福特供应商员工购车优惠计划</title>
+    <link href="inner.css" rel="stylesheet" />
+    <script src="js/wx.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="http://wx.app.bolaa.net/scenelib/scenelib.js"></script>
+    <script type="text/javascript" src="js/bag.js"></script>
+    <script src="js/turn.min.js"></script>
+    <script type="text/javascript">
+        var bag;
+        
+        var stage;
+
+        //document.addEventListener('touchmove', function (evt) {
+        //    evt.preventDefault();
+        //});
+
+        $(function () {
+            var w = $(window).width();
+            var h = $(window).height();
+
+            
+
+            var zoom = Math.min(w / 624, h / 828);
+
+            var bookWidth = 624 * zoom;
+            var bookHeight = 828 * zoom;
+
+            var first = true;
+            
+            $('#flipbook').css({
+                left: (w - bookWidth) / 2 + 'px',
+                top: (h - bookHeight) / 2 + 'px'
+            }).turn({
+                width: bookWidth,
+                height: bookHeight,
+                display: 'single',
+                inclination: 50,
+                duration: 2000
+            });
+
+            $("#flipbook").bind("turning", function (evt, page, view) {
+                //console.log(arguments);
+                if (page == 5) {
+                    $('.clicktip').hide();
+                }
+                else {
+                    $('.clicktip').show();
+                }
+
+                if (page == 5) {
+                    $('.btn').show();
+                }
+                else {
+                    $('.btn').hide();
+                }
+            });
+
+            $('#flipmask').css({
+                left: (w - bookWidth) / 2 + 'px',
+                top: (h - bookHeight) / 2 + 'px',
+                width: bookWidth + 'px',
+                height: bookHeight + 'px'
+            });
+
+            $('#flipbook').append($('<img src="img/clicktip.png" class="clicktip" />'));
+
+            $('<a href="TableDownload.ashx" target="_blank" class="btn" style="display: none;"><img src="img/btn.png" /></a>').appendTo($('#flipbook'));
+
+            bag = new Bag(document.getElementById('main'));
+
+            bag.addEventListener('complete', function (evt) {
+                $('#flipbook, #flipmask').show();
+                $('#flipbook').animate({ opacity: 1 }, {duration: 2500});
+            });
+        });
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?d1f5db9340baac4a3ce25ce4bbf7d956";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+<body>
+    <canvas id="main"></canvas>
+    <div id="flipbook" style="display: none; opacity: 0;">
+        <div class="page">
+            <img src="img/paperbg.png" />
+            <img src="img/paper_0.png" />
+            
+        </div>
+        <div class="page">
+            <img src="img/paperbg.png" />
+            <img src="img/paper_1.png" />
+        </div>
+        <div class="page">
+            <img src="img/paperbg.png" />
+            <img src="img/paper_2.png" />
+        </div>
+        <div class="page">
+            <img src="img/paperbg.png" />
+            <img src="img/paper_3.png" />
+        </div>
+        <div class="page">
+            <img src="img/paperbg.png" />
+            <img src="img/paper_4.png" />
+        </div>
+    </div>
+    <div id="loading_imgs" style="display: none;">
+        <img src="img/bag.jpg" data-name="bag" />
+        <img src="img/bag_top.png" data-name="bag_top" />
+        <img src="img/hand.png" data-name="hand" />
+        <img src="img/coin.png" data-name="coin" />
+        <img src="img/line.png" data-name="line" />
+        <img src="img/paper_0.png" data-name="paper_0" />
+        <img src="img/paper_mask.png" data-name="paper_mask" />
+        <img src="img/paperbg.png" data-name="paperbg" />
+    </div>
+</body>
+</html>

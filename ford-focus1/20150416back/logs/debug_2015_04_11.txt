@@ -1,0 +1,60 @@
+﻿2015/4/11 10:18:18
+access_token:Fpg99oTky64Qz5RXv7_jt1ITTVPfs0tnJwHJwL4E6vzeseB-pEdm7vkqOzxOy02Pq__4AOHR1_ogkFqo3CDjBqd8wCKqas8k7I-eqb5pWnE
+
+
+2015/4/11 10:18:18
+noncestr:cJ8YfrTOHcXYr05o
+
+
+2015/4/11 10:18:18
+signature:C1F0CFF2AB55DEA60238943D5F4659191D434395
+
+
+2015/4/11 10:18:18
+timespan:1428718698
+
+
+2015/4/11 10:18:18
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/11 17:34:59
+access_token:nLNfyo47wwrXQyawMDZ3r0FN0RaJpC3B5XYVDIsxolwYe4sRfhOyONLSNHqrcrMsq6r790gMBelYQ81x0Weag0qJeuStO0oMSAZRd_5fxbU
+
+
+2015/4/11 17:34:59
+noncestr:XUlaOaoIzqenQdsc
+
+
+2015/4/11 17:34:59
+signature:F1ED25909506B071FF07B707BA481DF30A8F9654
+
+
+2015/4/11 17:34:59
+timespan:1428744899
+
+
+2015/4/11 17:34:59
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/11 20:43:01
+access_token:xufMHzAWCrwRXuEFrNZG2ryap_ZF1k20C_SJA1A1pgOMFKBlqqHGKoOgdfainn99VRklvpeu8nREaFO_Ds3i3gNXewwjGgjp7-Mlk5Js15g
+
+
+2015/4/11 20:43:01
+noncestr:yKmJcZmE1DaM2EXB
+
+
+2015/4/11 20:43:01
+signature:5A076C9C706EEC7A32A6F82A41BBBCABF8C9272C
+
+
+2015/4/11 20:43:01
+timespan:1428756181
+
+
+2015/4/11 20:43:01
+url:http://ford-focus1.ser2.ford001.com/
+
+

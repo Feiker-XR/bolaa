@@ -1,0 +1,140 @@
+﻿2015/4/13 11:47:46
+access_token:5gLDrsaAAa9cyQLc7R0yPnBSLMmwBXCRittp6X5E7AhLwgz1siGF5mAmU4ZmdxZO5LoSBGvJD7xEUBkxNJ3eNk9kcfXG3Q22CoDAAukWFd4
+
+
+2015/4/13 11:47:46
+noncestr:crkCdcKjXOeGqxv6
+
+
+2015/4/13 11:47:46
+signature:9FA1A32683C7B5409A9DBB1CE739477399A10CEA
+
+
+2015/4/13 11:47:46
+timespan:1428896866
+
+
+2015/4/13 11:47:46
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/13 12:03:25
+access_token:48Aft0D2iFob2DEk68bzJf5NpR6zVw-SvQcZyDfyYfYIkLqRvHQsvKUxtikIoC0dT-DY-dfL4FigiodstrX2RrNRz9htDJxrxnoA2zYuLhA
+
+
+2015/4/13 12:03:25
+noncestr:ScqdLt0Gpci8TgAh
+
+
+2015/4/13 12:03:25
+signature:5D8A235F1C7D7F76DE961CB6E158C97D09A8561A
+
+
+2015/4/13 12:03:25
+timespan:1428897805
+
+
+2015/4/13 12:03:25
+url:http://ford-focus1.ser2.ford001.com/?from=groupmessage&isappinstalled=0
+
+
+2015/4/13 12:06:19
+access_token:Bn9LiEPLMP8-_9uiDhxXi490_UI0tB-EfX1uTLHAkIQFlfaLP3qp6Y16XTavyaKWnn6RSzp_czvE9E_ff-r7CULnIxZU33Y3xTNCg0Skwv4
+
+
+2015/4/13 12:06:19
+noncestr:Eg63Fxu9PCmwJSOB
+
+
+2015/4/13 12:06:19
+signature:0383F2B050F80DC768A7C1004DF91A87E587C874
+
+
+2015/4/13 12:06:19
+timespan:1428897979
+
+
+2015/4/13 12:06:19
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/13 17:25:49
+access_token:270jujJNL_sCLs6KphsgZPbVS1d3xsXaiqmRbb0zWrWuZ4pV5pGWNRITkPsR0IwKOtVSCqCnS2AEwmczsYaG3-qv1EuzC8YX-vKn1atl1SQ
+
+
+2015/4/13 17:25:49
+noncestr:agmo4kr1ko7xUNSt
+
+
+2015/4/13 17:25:49
+signature:7346667ADD67DA927693AA4B0813641CA44D8BAA
+
+
+2015/4/13 17:25:49
+timespan:1428917149
+
+
+2015/4/13 17:25:49
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/13 17:28:17
+access_token:270jujJNL_sCLs6KphsgZPbVS1d3xsXaiqmRbb0zWrWuZ4pV5pGWNRITkPsR0IwKOtVSCqCnS2AEwmczsYaG3-qv1EuzC8YX-vKn1atl1SQ
+
+
+2015/4/13 17:28:17
+noncestr:agmo4kr1ko7xUNSt
+
+
+2015/4/13 17:28:17
+signature:7346667ADD67DA927693AA4B0813641CA44D8BAA
+
+
+2015/4/13 17:28:17
+timespan:1428917149
+
+
+2015/4/13 17:28:17
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/13 17:32:00
+access_token:azP10S9HSrnHasEHrKio4JY8QXvGjOefNhUyJCb4tdumYHs3gKjdHPQ-9DYTNdE13JAC9WcirpzRBPvVj2DhGxonZEKOwO7fMLhpDX-N5p0
+
+
+2015/4/13 17:32:00
+noncestr:kTUefgMgdTsfEPVC
+
+
+2015/4/13 17:32:00
+signature:912493DDA24E1A99809B5037291E4774DD6FAA5C
+
+
+2015/4/13 17:32:00
+timespan:1428917520
+
+
+2015/4/13 17:32:00
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/13 17:33:14
+access_token:azP10S9HSrnHasEHrKio4JY8QXvGjOefNhUyJCb4tdumYHs3gKjdHPQ-9DYTNdE13JAC9WcirpzRBPvVj2DhGxonZEKOwO7fMLhpDX-N5p0
+
+
+2015/4/13 17:33:14
+noncestr:kTUefgMgdTsfEPVC
+
+
+2015/4/13 17:33:14
+signature:912493DDA24E1A99809B5037291E4774DD6FAA5C
+
+
+2015/4/13 17:33:14
+timespan:1428917520
+
+
+2015/4/13 17:33:14
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+

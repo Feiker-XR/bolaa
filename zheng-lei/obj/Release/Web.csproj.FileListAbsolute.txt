@@ -1,0 +1,13 @@
+D:\Work\Focus\Web\bin\Web.dll.config
+D:\Work\Focus\Web\bin\Web.dll
+D:\Work\Focus\Web\bin\Web.pdb
+D:\Work\Focus\Web\bin\CommonLibrary.dll
+D:\Work\Focus\Web\bin\DatabaseClient.dll
+D:\Work\Focus\Web\bin\Newtonsoft.Json.dll
+D:\Work\Focus\Web\bin\CommonLibrary.pdb
+D:\Work\Focus\Web\bin\CommonLibrary.xml
+D:\Work\Focus\Web\bin\DatabaseClient.pdb
+D:\Work\Focus\Web\bin\DatabaseClient.xml
+D:\Work\Focus\Web\obj\Release\Web.dll
+D:\Work\Focus\Web\obj\Release\Web.pdb
+D:\Work\Focus\Web\obj\Release\Web.csprojResolveAssemblyReference.cache

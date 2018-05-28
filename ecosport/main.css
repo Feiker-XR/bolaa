@@ -1,0 +1,380 @@
+﻿html, body
+{
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+img
+{
+    display: block;
+}
+
+.wrap
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.scroller
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    transition: transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+.pw
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.page, .page2
+{
+    position: absolute;
+    width: 640px;
+    height: 1136px;
+    transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+    overflow: hidden;
+    display: none;
+    box-sizing: border-box;
+}
+
+.bg
+{
+    display: block;
+    width: 100%;
+    position: absolute;
+}
+
+#p1 .btn1
+{
+    position: absolute;
+    left: 96px;
+    top: 518px;
+    display: block;
+}
+
+#p1 .btn2
+{
+    position: absolute;
+    left: 335px;
+    top: 518px;
+    display: block;
+}
+
+#p2 .btn
+{
+    position: absolute;
+    left: 208px;
+    top: 923px;
+    display: block;
+}
+
+#p2 .lightning
+{
+    position: absolute;
+    left: 401px;
+    top: 99px;
+}
+
+.bottom
+{
+    position: absolute;
+    width: 100%;
+    display: block;
+    bottom: 0px;
+}
+
+.p3_btns
+{
+    position: relative;
+    top: 721px;
+    margin: 0px auto;
+    width: 367px;
+    height: 289px;
+}
+
+.p3_btns .btn
+{
+    width: 172px;
+    margin-bottom: 15px;
+}
+
+.p3_btns .btn:nth-of-type(2n+2) {
+    float: left;
+}
+
+.p3_btns .btn:nth-of-type(2n+1) {
+    float: right;
+}
+
+.p3_person
+{
+    position: absolute;
+    width: 640px;
+    height: 593px;
+    overflow: hidden;
+}
+
+.p3_person .jiangtai
+{
+    position: absolute;
+    top: 364px;
+}
+
+.p3_person .person
+{
+    position: absolute;
+    left: 263px;
+}
+
+.p3_person .badge
+{
+    position: absolute;
+    left: 60px;
+    top: 25px;
+    opacity: 0;
+    transform: scale(3, 3);
+    -webkit-transform: scale(3, 3);
+}
+
+@keyframes badge
+{
+    0% { opacity: 0; transform: scale(3, 3); }
+    100% { opacity: 1; transform: scale(1, 1); }
+}
+
+@-webkit-keyframes badge
+{
+    0% { opacity: 0; -webkit-transform: scale(3, 3); }
+    100% { opacity: 1; -webkit-transform: scale(1, 1); }
+}
+
+.p3_person .badge.show
+{
+    animation: badge 1.5s both ease-in;
+    -webkit-animation: badge 1.5s both ease-in;
+}
+
+.page4 .btn
+{
+    position: absolute;
+    left: 130px;
+    top: 951px;
+}
+
+@keyframes info
+{
+    0% { transform: scale(1, 1); }
+    100% { transform: scale(1.2, 1.2); }
+}
+
+@-webkit-keyframes info
+{
+    0% { -webkit-transform: scale(1, 1); }
+    100% { -webkit-transform: scale(1.2, 1.2); }
+}
+
+#p4 .info
+{
+    position: absolute;
+    left: 327px;
+    top: 258px;
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    animation: info 800ms linear both alternate infinite;
+    -webkit-animation: info 800ms linear both alternate infinite;
+}
+
+#p5 .pop1
+{
+    position: absolute;
+    left: 268px;
+    top: 271px;
+}
+
+#p5 .pop2
+{
+    position: absolute;
+    left: 278px;
+    top: 234px;
+}
+
+#p5 .pop3
+{
+    position: absolute;
+    left: 255px;
+    top: 135px;
+}
+
+#p6 canvas{
+    position: absolute;
+    left: 188px;
+    top: 231px;
+}
+
+@keyframes cloud
+{
+    0% { left: 640px; }
+    100% { left: -200px; }
+}
+
+@-webkit-keyframes cloud
+{
+    0% { left: 640px; }
+    100% { left: -200px; }
+}
+
+#p7 .cloud1
+{
+    position: absolute;
+    top: 42px;
+    animation: cloud linear 3s infinite both;
+    -webkit-animation: cloud linear 3s infinite both;
+}
+
+#p7 .cloud2
+{
+    position: absolute;
+    top: 192px;
+    animation: cloud linear 3s infinite both 800ms;
+    -webkit-animation: cloud linear 3s infinite both 800ms;
+}
+
+@keyframes hand
+{
+    0% { transform: rotate(40deg); }
+    100% { transform: rotate(-40deg); }
+}
+
+@-webkit-keyframes hand
+{
+    0% { -webkit-transform: rotate(40deg); }
+    100% { -webkit-transform: rotate(-40deg); }
+}
+
+@keyframes foot
+{
+    0% { transform: rotate(35deg); }
+    100% { transform: rotate(-35deg); }
+}
+
+@-webkit-keyframes foot
+{
+    0% { -webkit-transform: rotate(35deg); }
+    100% { -webkit-transform: rotate(-35deg); }
+}
+
+#p7 .hand
+{
+    position: absolute;
+    left: 320px;
+    top: 280px;
+    transform-origin: 7px 11px;
+    -webkit-transform-origin: 7px 11px;
+    animation: hand linear 1s infinite both alternate;
+    -webkit-animation: hand linear 1s infinite both alternate;
+}
+
+#p7 .hand2
+{
+    animation: hand linear 1s infinite both alternate-reverse;
+    -webkit-animation: hand linear 1s infinite both alternate-reverse;
+}
+
+#p7 .foot
+{
+    position: absolute;
+    left: 318px;
+    top: 364px;
+    transform-origin: 11px 13px;
+    -webkit-transform-origin: 11px 13px;
+    animation: foot linear 1s infinite both alternate;
+    -webkit-animation: foot linear 1s infinite both alternate;
+}
+
+#p7 .foot2
+{
+    animation: foot linear 1s infinite both alternate-reverse;
+    -webkit-animation: foot linear 1s infinite both alternate-reverse;
+}
+
+#p7 .person
+{
+    position: absolute;
+    left: 278px;
+    top: 156px;
+}
+
+#p8 canvas
+{
+    position: absolute;
+    display: block;
+}
+
+@keyframes arr_up
+{
+    0% { bottom: 0px; }
+    100% { bottom: 30px; }
+}
+
+@-webkit-keyframes arr_up
+{
+    0% { bottom: 0px; }
+    100% { bottom: 30px; }
+}
+
+.arr_up
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    display: block;
+    animation: arr_up 1s linear 1s infinite both;
+    -webkit-animation: arr_up 1s linear infinite both;
+}
+
+#p10 .btn1
+{
+    position: absolute;
+    left: 88px;
+    top: 886px;
+}
+
+#p10 .btn2
+{
+    position: absolute;
+    left: 352px;
+    top: 886px;
+}
+
+#intro
+{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.intro_close
+{
+    position: absolute;
+    left: 522px;
+    top: 132px;
+}
+
+.intro_link
+{
+    position: absolute;
+    left: 101px;
+    top: 898px;
+}

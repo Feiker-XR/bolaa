@@ -1,0 +1,168 @@
+﻿
+.sharetip {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.sharetip img {
+    display: block;
+    width: 100%;
+}
+
+.result {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    display: table;
+}
+
+.result .wrap {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.result .form {
+    color: #fff;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.result .form h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+    color: #673326;
+}
+
+.result .form h3 {
+    margin: 0px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #af6c65;
+}
+
+.result .form h3 span
+{
+    font-size: 22px;
+    color: #673326;
+}
+
+.result .form .btns {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.result .form .btns a {
+    display: block;
+    background-color: #673326;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.result .form .btns .again {
+    float: left;
+    width: 40%;
+}
+
+.result .form .btns .share {
+    float: right;
+    width: 50%;
+}
+
+.result .form .text {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #6d3c30;
+}
+
+.result .form .join {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    background-color: #673326;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#home {
+    display: block;
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#home .home
+{
+    width: 70%;
+    margin: 0px auto;
+}
+
+#home .home img
+{
+    display: block;
+    width: 100%;
+}
+
+.rule
+{
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.rule_area
+{
+    position: relative;
+    width: 100%;
+}
+
+.rule_area img
+{
+    display: block;
+    width: 100%;
+}
+
+@keyframes rule_btn
+{
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+
+@-webkit-keyframes rule_btn
+{
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+
+.rule_btn
+{
+    position: absolute;
+    animation: rule_btn linear 1s infinite alternate;
+    -webkit-animation: rule_btn linear 1s infinite alternate;
+}

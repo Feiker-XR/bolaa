@@ -1,0 +1,1580 @@
+﻿2015/4/16 10:53:38
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 10:53:38
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 10:53:38
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 10:53:38
+timespan:1429152818
+
+
+2015/4/16 10:53:38
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 10:55:17
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 10:55:17
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 10:55:17
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 10:55:17
+timespan:1429152818
+
+
+2015/4/16 10:55:17
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 10:56:49
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 10:56:49
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 10:56:49
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 10:56:49
+timespan:1429152818
+
+
+2015/4/16 10:56:49
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:01:55
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:01:55
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:01:55
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:01:55
+timespan:1429152818
+
+
+2015/4/16 11:01:55
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:02:25
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:02:25
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:02:25
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:02:25
+timespan:1429152818
+
+
+2015/4/16 11:02:25
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:03:13
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:03:13
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:03:13
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:03:13
+timespan:1429152818
+
+
+2015/4/16 11:03:13
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:03:51
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:03:51
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:03:51
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:03:51
+timespan:1429152818
+
+
+2015/4/16 11:03:51
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:04:00
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:04:00
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:04:00
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:04:00
+timespan:1429152818
+
+
+2015/4/16 11:04:00
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:04:11
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:04:11
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:04:11
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:04:11
+timespan:1429153451
+
+
+2015/4/16 11:04:11
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:04:38
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:04:38
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:04:38
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:04:38
+timespan:1429153451
+
+
+2015/4/16 11:04:38
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:04:55
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:04:55
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:04:55
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:04:55
+timespan:1429153451
+
+
+2015/4/16 11:04:55
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:05:21
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:05:21
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:05:21
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:05:21
+timespan:1429153451
+
+
+2015/4/16 11:05:21
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:05:43
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:05:43
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:05:43
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:05:43
+timespan:1429153451
+
+
+2015/4/16 11:05:43
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:05:50
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:05:50
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:05:50
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:05:50
+timespan:1429153451
+
+
+2015/4/16 11:05:50
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:06:03
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:06:03
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:06:03
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:06:03
+timespan:1429153451
+
+
+2015/4/16 11:06:03
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:06:38
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:06:38
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:06:38
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:06:38
+timespan:1429152818
+
+
+2015/4/16 11:06:38
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:06:56
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:06:56
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:06:56
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:06:56
+timespan:1429153451
+
+
+2015/4/16 11:06:56
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:07:38
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:07:38
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:07:38
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:07:38
+timespan:1429152818
+
+
+2015/4/16 11:07:38
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:08:22
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:08:22
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:08:22
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:08:22
+timespan:1429152818
+
+
+2015/4/16 11:08:22
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:09:23
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:09:23
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:09:23
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:09:23
+timespan:1429152818
+
+
+2015/4/16 11:09:23
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:10:09
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:10:09
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:10:09
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:10:09
+timespan:1429152818
+
+
+2015/4/16 11:10:09
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:11:55
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:11:55
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:11:55
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:11:55
+timespan:1429152818
+
+
+2015/4/16 11:11:55
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:13:18
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:13:18
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:13:18
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:13:18
+timespan:1429152818
+
+
+2015/4/16 11:13:18
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:15:02
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:15:02
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:15:02
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:15:02
+timespan:1429152818
+
+
+2015/4/16 11:15:02
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:22:59
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:22:59
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:22:59
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:22:59
+timespan:1429153451
+
+
+2015/4/16 11:22:59
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:25:18
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:25:18
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:25:18
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:25:18
+timespan:1429153451
+
+
+2015/4/16 11:25:18
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:25:38
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:25:38
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:25:38
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:25:38
+timespan:1429153451
+
+
+2015/4/16 11:25:38
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:27:57
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:27:57
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:27:57
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:27:57
+timespan:1429152818
+
+
+2015/4/16 11:27:57
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:28:15
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:28:15
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:28:15
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:28:15
+timespan:1429152818
+
+
+2015/4/16 11:28:15
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:34:41
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:34:41
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:34:41
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:34:41
+timespan:1429152818
+
+
+2015/4/16 11:34:41
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:35:53
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:35:53
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:35:53
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:35:53
+timespan:1429153451
+
+
+2015/4/16 11:35:53
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:37:05
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:37:05
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:37:05
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:37:05
+timespan:1429153451
+
+
+2015/4/16 11:37:05
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:37:46
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:37:46
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:37:46
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:37:46
+timespan:1429153451
+
+
+2015/4/16 11:37:46
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:37:55
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:37:55
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:37:55
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:37:55
+timespan:1429153451
+
+
+2015/4/16 11:37:55
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:38:05
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:38:05
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:38:05
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:38:05
+timespan:1429153451
+
+
+2015/4/16 11:38:05
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:38:55
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:38:55
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:38:55
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:38:55
+timespan:1429153451
+
+
+2015/4/16 11:38:55
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:41:23
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:41:23
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:41:23
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:41:23
+timespan:1429153451
+
+
+2015/4/16 11:41:23
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:41:33
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:41:33
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:41:33
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:41:33
+timespan:1429153451
+
+
+2015/4/16 11:41:33
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:45:32
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:45:32
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:45:32
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:45:32
+timespan:1429153451
+
+
+2015/4/16 11:45:32
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:46:04
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:46:04
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:46:04
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:46:04
+timespan:1429152818
+
+
+2015/4/16 11:46:04
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:46:11
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:46:11
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:46:11
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:46:11
+timespan:1429153451
+
+
+2015/4/16 11:46:11
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:46:26
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:46:26
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:46:26
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:46:26
+timespan:1429152818
+
+
+2015/4/16 11:46:26
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:48:04
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:48:04
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:48:04
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:48:04
+timespan:1429152818
+
+
+2015/4/16 11:48:04
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:48:55
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 11:48:55
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 11:48:55
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 11:48:55
+timespan:1429152818
+
+
+2015/4/16 11:48:55
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 11:49:55
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:49:55
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:49:55
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:49:55
+timespan:1429153451
+
+
+2015/4/16 11:49:55
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:51:05
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:51:05
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:51:05
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:51:05
+timespan:1429153451
+
+
+2015/4/16 11:51:05
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 11:52:41
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 11:52:41
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 11:52:41
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 11:52:41
+timespan:1429153451
+
+
+2015/4/16 11:52:41
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 12:03:30
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 12:03:30
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 12:03:30
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 12:03:30
+timespan:1429152818
+
+
+2015/4/16 12:03:30
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 12:08:55
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 12:08:55
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 12:08:55
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 12:08:55
+timespan:1429152818
+
+
+2015/4/16 12:08:55
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 12:09:52
+access_token:QP198IL1NZQ-2RXJnyMRkI8x76VU_JCv7zuyXW3IBaMmNzvTm97g4SoylfJdv_TEUb4cJuk36wTGm838tqT3p-j7VjKh9gmWCw8NNxx3Hk0
+
+
+2015/4/16 12:09:52
+noncestr:jL1o4f5lmqhtGHGN
+
+
+2015/4/16 12:09:52
+signature:0AAA8575BAA58C389BCCB9CC6F9F5E9194283545
+
+
+2015/4/16 12:09:52
+timespan:1429152818
+
+
+2015/4/16 12:09:52
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 12:11:18
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 12:11:18
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 12:11:18
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 12:11:18
+timespan:1429153451
+
+
+2015/4/16 12:11:18
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 12:11:27
+access_token:DRjAc_yt_iQmCJkcAdzkNVGbX85JnAoBfeUFAHjoXOJIfJzXlB0CHBFR866uZWJvkqLGHwwen0T7hU_LC1fFnvFWnxUJYGZpLh3Z-GkuN1s
+
+
+2015/4/16 12:11:27
+noncestr:e4257jYRzMC7hfns
+
+
+2015/4/16 12:11:27
+signature:D0D5FC7CAD426D649B78359676BEC1B42DB0D9C7
+
+
+2015/4/16 12:11:27
+timespan:1429153451
+
+
+2015/4/16 12:11:27
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 14:03:45
+access_token:4_6LCQ4nDpDuZ-M012Dz41hcZAl2RjMSKUgBzL5Z42z8wV5GDyBwug6akvHbTtE9q7cnVcGzR24C0p03j0OOR0FX2hWmYIBMdtWppoAaJwU
+
+
+2015/4/16 14:03:45
+noncestr:ff2qSm9EL2JNkSfy
+
+
+2015/4/16 14:03:45
+signature:12E7D698BE3CE4C0CC1D1D4270420DFD2D239324
+
+
+2015/4/16 14:03:45
+timespan:1429164225
+
+
+2015/4/16 14:03:45
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:44:38
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 18:44:38
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 18:44:38
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 18:44:38
+timespan:1429181078
+
+
+2015/4/16 18:44:38
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:48:03
+access_token:fH4rYL_ZXKBfqU4FLc6YwzuCSUYey3xK42zDxjDQ9et4z9ZPTFMwckHCDjIaRrWpOOJTiok9bZS8YhjiddcBLLDH5LyFuJrGWqC6h-TzTao
+
+
+2015/4/16 18:48:03
+noncestr:V792Hc0TJhVTJeg8
+
+
+2015/4/16 18:48:03
+signature:F6ACCA4A8A69CB1CAE9B79F2DC95C2851CACF993
+
+
+2015/4/16 18:48:03
+timespan:1429181283
+
+
+2015/4/16 18:48:03
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 18:48:20
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 18:48:20
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 18:48:20
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 18:48:20
+timespan:1429181078
+
+
+2015/4/16 18:48:20
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:48:21
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 18:48:21
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 18:48:21
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 18:48:21
+timespan:1429181078
+
+
+2015/4/16 18:48:21
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:48:27
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 18:48:27
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 18:48:27
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 18:48:27
+timespan:1429181078
+
+
+2015/4/16 18:48:27
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:48:28
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 18:48:28
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 18:48:28
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 18:48:28
+timespan:1429181078
+
+
+2015/4/16 18:48:28
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:48:30
+access_token:fH4rYL_ZXKBfqU4FLc6YwzuCSUYey3xK42zDxjDQ9et4z9ZPTFMwckHCDjIaRrWpOOJTiok9bZS8YhjiddcBLLDH5LyFuJrGWqC6h-TzTao
+
+
+2015/4/16 18:48:30
+noncestr:V792Hc0TJhVTJeg8
+
+
+2015/4/16 18:48:30
+signature:F6ACCA4A8A69CB1CAE9B79F2DC95C2851CACF993
+
+
+2015/4/16 18:48:30
+timespan:1429181283
+
+
+2015/4/16 18:48:30
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 18:50:23
+access_token:fH4rYL_ZXKBfqU4FLc6YwzuCSUYey3xK42zDxjDQ9et4z9ZPTFMwckHCDjIaRrWpOOJTiok9bZS8YhjiddcBLLDH5LyFuJrGWqC6h-TzTao
+
+
+2015/4/16 18:50:23
+noncestr:V792Hc0TJhVTJeg8
+
+
+2015/4/16 18:50:23
+signature:F6ACCA4A8A69CB1CAE9B79F2DC95C2851CACF993
+
+
+2015/4/16 18:50:23
+timespan:1429181283
+
+
+2015/4/16 18:50:23
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 18:52:35
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 18:52:35
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 18:52:35
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 18:52:35
+timespan:1429181078
+
+
+2015/4/16 18:52:35
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:53:23
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 18:53:23
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 18:53:23
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 18:53:23
+timespan:1429181078
+
+
+2015/4/16 18:53:23
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:53:55
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 18:53:55
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 18:53:55
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 18:53:55
+timespan:1429181078
+
+
+2015/4/16 18:53:55
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 18:56:04
+access_token:fH4rYL_ZXKBfqU4FLc6YwzuCSUYey3xK42zDxjDQ9et4z9ZPTFMwckHCDjIaRrWpOOJTiok9bZS8YhjiddcBLLDH5LyFuJrGWqC6h-TzTao
+
+
+2015/4/16 18:56:04
+noncestr:V792Hc0TJhVTJeg8
+
+
+2015/4/16 18:56:04
+signature:F6ACCA4A8A69CB1CAE9B79F2DC95C2851CACF993
+
+
+2015/4/16 18:56:04
+timespan:1429181283
+
+
+2015/4/16 18:56:04
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 19:00:24
+access_token:fH4rYL_ZXKBfqU4FLc6YwzuCSUYey3xK42zDxjDQ9et4z9ZPTFMwckHCDjIaRrWpOOJTiok9bZS8YhjiddcBLLDH5LyFuJrGWqC6h-TzTao
+
+
+2015/4/16 19:00:24
+noncestr:V792Hc0TJhVTJeg8
+
+
+2015/4/16 19:00:24
+signature:F6ACCA4A8A69CB1CAE9B79F2DC95C2851CACF993
+
+
+2015/4/16 19:00:24
+timespan:1429181283
+
+
+2015/4/16 19:00:24
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 19:01:43
+access_token:fH4rYL_ZXKBfqU4FLc6YwzuCSUYey3xK42zDxjDQ9et4z9ZPTFMwckHCDjIaRrWpOOJTiok9bZS8YhjiddcBLLDH5LyFuJrGWqC6h-TzTao
+
+
+2015/4/16 19:01:43
+noncestr:V792Hc0TJhVTJeg8
+
+
+2015/4/16 19:01:43
+signature:F6ACCA4A8A69CB1CAE9B79F2DC95C2851CACF993
+
+
+2015/4/16 19:01:43
+timespan:1429181283
+
+
+2015/4/16 19:01:43
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 19:07:59
+access_token:fH4rYL_ZXKBfqU4FLc6YwzuCSUYey3xK42zDxjDQ9et4z9ZPTFMwckHCDjIaRrWpOOJTiok9bZS8YhjiddcBLLDH5LyFuJrGWqC6h-TzTao
+
+
+2015/4/16 19:07:59
+noncestr:V792Hc0TJhVTJeg8
+
+
+2015/4/16 19:07:59
+signature:F6ACCA4A8A69CB1CAE9B79F2DC95C2851CACF993
+
+
+2015/4/16 19:07:59
+timespan:1429181283
+
+
+2015/4/16 19:07:59
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 19:19:53
+access_token:MQLGDqrZgqJIOLHSOdwXqoenM9nA-73JSkT6dPIu4-Ku_tReXrF0vFN5lOY7qcc3HpDVpb1yQVjMKSnvn68_MaZ_vh0Y1pzDjMXOO76IfDQ
+
+
+2015/4/16 19:19:53
+noncestr:JjCf79nANjargT1m
+
+
+2015/4/16 19:19:53
+signature:65B57D65B590F9EC455C2D4EE7B908B2D3E35F9C
+
+
+2015/4/16 19:19:53
+timespan:1429181078
+
+
+2015/4/16 19:19:53
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 22:35:53
+access_token:Bn9LiEPLMP8-_9uiDhxXi7ozyRt-LJUa9qxYLtSrGaBN8d8v01Rzx9ZM0Ep6uqeLQBmX5DHu4E4_wWtKidB49B4iqYEQSnn29SC_4zP2wO0
+
+
+2015/4/16 22:35:53
+noncestr:IvvyYn0OFyIgklgv
+
+
+2015/4/16 22:35:53
+signature:DF0FC37750E0FFF668CB8AF31D15B8F398A10B88
+
+
+2015/4/16 22:35:53
+timespan:1429194953
+
+
+2015/4/16 22:35:53
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 22:36:05
+access_token:Bn9LiEPLMP8-_9uiDhxXi7ozyRt-LJUa9qxYLtSrGaBN8d8v01Rzx9ZM0Ep6uqeLQBmX5DHu4E4_wWtKidB49B4iqYEQSnn29SC_4zP2wO0
+
+
+2015/4/16 22:36:05
+noncestr:IvvyYn0OFyIgklgv
+
+
+2015/4/16 22:36:05
+signature:DF0FC37750E0FFF668CB8AF31D15B8F398A10B88
+
+
+2015/4/16 22:36:05
+timespan:1429194953
+
+
+2015/4/16 22:36:05
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 22:36:21
+access_token:Bn9LiEPLMP8-_9uiDhxXi7ozyRt-LJUa9qxYLtSrGaBN8d8v01Rzx9ZM0Ep6uqeLQBmX5DHu4E4_wWtKidB49B4iqYEQSnn29SC_4zP2wO0
+
+
+2015/4/16 22:36:21
+noncestr:IvvyYn0OFyIgklgv
+
+
+2015/4/16 22:36:21
+signature:DF0FC37750E0FFF668CB8AF31D15B8F398A10B88
+
+
+2015/4/16 22:36:21
+timespan:1429194953
+
+
+2015/4/16 22:36:21
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 22:37:54
+access_token:Bn9LiEPLMP8-_9uiDhxXi7ozyRt-LJUa9qxYLtSrGaBN8d8v01Rzx9ZM0Ep6uqeLQBmX5DHu4E4_wWtKidB49B4iqYEQSnn29SC_4zP2wO0
+
+
+2015/4/16 22:37:54
+noncestr:IvvyYn0OFyIgklgv
+
+
+2015/4/16 22:37:54
+signature:DF0FC37750E0FFF668CB8AF31D15B8F398A10B88
+
+
+2015/4/16 22:37:54
+timespan:1429194953
+
+
+2015/4/16 22:37:54
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 22:39:58
+access_token:Bn9LiEPLMP8-_9uiDhxXi7ozyRt-LJUa9qxYLtSrGaBN8d8v01Rzx9ZM0Ep6uqeLQBmX5DHu4E4_wWtKidB49B4iqYEQSnn29SC_4zP2wO0
+
+
+2015/4/16 22:39:58
+noncestr:IvvyYn0OFyIgklgv
+
+
+2015/4/16 22:39:58
+signature:DF0FC37750E0FFF668CB8AF31D15B8F398A10B88
+
+
+2015/4/16 22:39:58
+timespan:1429194953
+
+
+2015/4/16 22:39:58
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 22:46:50
+access_token:Bn9LiEPLMP8-_9uiDhxXi7ozyRt-LJUa9qxYLtSrGaBN8d8v01Rzx9ZM0Ep6uqeLQBmX5DHu4E4_wWtKidB49B4iqYEQSnn29SC_4zP2wO0
+
+
+2015/4/16 22:46:50
+noncestr:IvvyYn0OFyIgklgv
+
+
+2015/4/16 22:46:50
+signature:DF0FC37750E0FFF668CB8AF31D15B8F398A10B88
+
+
+2015/4/16 22:46:50
+timespan:1429194953
+
+
+2015/4/16 22:46:50
+url:http://ford-focus1.ser2.ford001.com/
+
+
+2015/4/16 22:47:45
+access_token:Q688RJTgUCQlMDX8efOcHpbhrw0j3ctZTcMBvXXboUhJP8EC71eI7fAnzmUrmdtSoF-7i8Gwhtpur4_-BBi7BFvXqxI51bnMe9oadkPCMK0
+
+
+2015/4/16 22:47:45
+noncestr:NGrhBsqYjzn3RvDF
+
+
+2015/4/16 22:47:45
+signature:85D99563194845D0D10B0913ECFEB7BCC341C3D6
+
+
+2015/4/16 22:47:45
+timespan:1429195665
+
+
+2015/4/16 22:47:45
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 22:59:56
+access_token:Q688RJTgUCQlMDX8efOcHpbhrw0j3ctZTcMBvXXboUhJP8EC71eI7fAnzmUrmdtSoF-7i8Gwhtpur4_-BBi7BFvXqxI51bnMe9oadkPCMK0
+
+
+2015/4/16 22:59:56
+noncestr:NGrhBsqYjzn3RvDF
+
+
+2015/4/16 22:59:56
+signature:85D99563194845D0D10B0913ECFEB7BCC341C3D6
+
+
+2015/4/16 22:59:56
+timespan:1429195665
+
+
+2015/4/16 22:59:56
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 23:01:58
+access_token:Q688RJTgUCQlMDX8efOcHpbhrw0j3ctZTcMBvXXboUhJP8EC71eI7fAnzmUrmdtSoF-7i8Gwhtpur4_-BBi7BFvXqxI51bnMe9oadkPCMK0
+
+
+2015/4/16 23:01:58
+noncestr:NGrhBsqYjzn3RvDF
+
+
+2015/4/16 23:01:58
+signature:85D99563194845D0D10B0913ECFEB7BCC341C3D6
+
+
+2015/4/16 23:01:58
+timespan:1429195665
+
+
+2015/4/16 23:01:58
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+
+2015/4/16 23:02:06
+access_token:Q688RJTgUCQlMDX8efOcHpbhrw0j3ctZTcMBvXXboUhJP8EC71eI7fAnzmUrmdtSoF-7i8Gwhtpur4_-BBi7BFvXqxI51bnMe9oadkPCMK0
+
+
+2015/4/16 23:02:06
+noncestr:NGrhBsqYjzn3RvDF
+
+
+2015/4/16 23:02:06
+signature:85D99563194845D0D10B0913ECFEB7BCC341C3D6
+
+
+2015/4/16 23:02:06
+timespan:1429195665
+
+
+2015/4/16 23:02:06
+url:http://ford-focus1.ser2.ford001.com/?from=singlemessage&isappinstalled=0
+
+

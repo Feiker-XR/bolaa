@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="FordQuiz.admin.admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="css/fullcalendar.css" />
+    <link rel="stylesheet" href="css/maruti-style.css" />
+    <link rel="stylesheet" href="css/maruti-media.css" class="skin-color" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <!--Header-part-->
+    <div id="header">
+        <h1>福特问题竞猜后台</h1>
+    </div>
+    <!--close-Header-part--> 
+
+    <!--top-Header-messaages-->
+    <div class="btn-group rightzero"> <a class="top_message tip-left" title="Manage Files"><i class="icon-file"></i></a> <a class="top_message tip-bottom" title="Manage Users"><i class="icon-user"></i></a> <a class="top_message tip-bottom" title="Manage Comments"><i class="icon-comment"></i><span class="label label-important">5</span></a> <a class="top_message tip-bottom" title="Manage Orders"><i class="icon-shopping-cart"></i></a> </div>
+    <!--close-top-Header-messaages--> 
+
+    <div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
+        <ul>
+        <!--<li class="active"><a href="CountProbability.aspx"><i class="icon icon-home"></i> <span>中奖概率、数量设置</span></a></li>
+        <li> <a href="jiangpincount.aspx"><i class="icon icon-signal"></i> <span>每日送出的奖品数量</span></a> </li>
+        <li> <a href="DrawUserinfo.aspx"><i class="icon icon-signal"></i> <span>中奖用户信息</span></a> </li>
+        <li> <a href="tongji.aspx"><i class="icon icon-inbox"></i> <span>授权人数统计</span></a> </li>
+        <li> <a href="DefaultPV.aspx"><i class="icon icon-inbox"></i> <span>整合页面PV</span></a> </li>
+        <li> <a href="flspv.aspx"><i class="icon icon-inbox"></i> <span>福禄寿PV</span></a> </li>
+        <li> <a href="laodaoPV.aspx"><i class="icon icon-inbox"></i> <span>唠叨PV</span></a> </li>
+        <li> <a href="flssb.aspx"><i class="icon icon-inbox"></i> <span>福禄寿分享回流</span></a> </li>
+        <li> <a href="ldsb.aspx"><i class="icon icon-inbox"></i> <span>唠叨分享回流</span></a> </li>--> 
+        </ul>
+    </div>
+    <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

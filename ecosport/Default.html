@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <!--<script src="js/wxshare.js"></script>-->
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>趣冒险·暖归程~翼搏拼一代</title>
+    <link href="main.css" rel="stylesheet" />
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            //var hm = document.createElement("script");
+            //hm.src = "//hm.baidu.com/hm.js?683bca59a3f2efac3681139659b975ee";
+            //var s = document.getElementsByTagName("script")[0];
+            //s.parentNode.insertBefore(hm, s);
+        })();
+</script>
+
+</head>
+<body>
+    <div class="wrap">
+        <div class="scroller">
+            <div class="pw" id="p1">
+                <div class="page">
+                    <img class="bg" src="img/bg_1.jpg" />
+                    <img class="btn1" src="img/btn_page1_1.png" onclick="go3();" />
+                    <img class="btn2" src="img/btn_page1_2.png" onclick="go2();" />
+                </div>
+            </div>
+            <div class="pw" id="p2">
+                <div class="page">
+                    <img class="bg" src="img/bg_2.jpg" />
+                    <img class="lightning" src="img/page2_lightning.png" />
+                    <img class="lightning lightning2" src="img/page2_lightning2.png" style="visibility: hidden;" />
+                    <img class="btn" src="img/btn_page2.png" onclick="go3_2();" />
+                </div>
+            </div>
+            <div class="pw" id="p3">
+                <div class="page">
+                    <img class="bg" src="img/bg_3.jpg" />
+                    <div class="p3_person">
+                        <img class="jiangtai" src="img/page3_jiangtai.png" />
+                        <img class="person" src="img/page3_person.png" />
+                        <img class="badge" src="img/page3_badge.png" />
+                    </div>
+                    <img class="bottom" src="img/page3_bottom.png" />
+                    <div class="p3_btns">
+                        <img src="img/page3_txt1.png" />
+
+                        <img class="btn" src="img/page3_btn1.png" onclick="go4();" />
+                        <img class="btn" src="img/page3_btn2.png" onclick="go5();" />
+                        <img class="btn" src="img/page3_btn3.png" onclick="go6();" />
+                        <img class="btn" src="img/page3_btn4.png" onclick="go7();" />
+                    </div>
+                </div>
+            </div>
+            <div class="pw page4" id="p4" style="display: none;">
+                <div class="page">
+                    <img class="bg" src="img/bg_4.jpg" />
+                    <img class="info" src="img/page4_info.png" />
+                    <img class="btn" src="img/btn_ecosport.png" onclick="switchPage(currentPage + 1);" />
+                </div>
+            </div>
+            <div class="pw page4" id="p5" style="display: none;">
+                <div class="page">
+                    <img class="bg" src="img/bg_5.jpg" />
+                    <img src="img/page5_pop1.png" class="pop1" style="display: none;" />
+                    <img src="img/page5_pop2.png" class="pop2" style="display: none;" />
+                    <img src="img/page5_pop3.png" class="pop3" style="display: none;" />
+                    <img class="btn" src="img/btn_ecosport.png" onclick="switchPage(currentPage + 1);" />
+                </div>
+            </div>
+            <div class="pw page4" id="p6" style="display: none;">
+                <div class="page">
+                    <img class="bg" src="img/bg_6.jpg" />
+
+                    <img src="img/page6_arrow.png" id="page6_arrow" style="display: none;" />
+                    <canvas width="294" height="239"></canvas>
+                    <img class="btn" src="img/btn_ecosport.png" onclick="switchPage(currentPage + 1);" />
+                </div>
+            </div>
+            <div class="pw page4" id="p7" style="display: none;">
+                <div class="page">
+                    <img class="bg" src="img/bg_7.jpg" />
+                    <img src="img/page7_cloud1.png" class="cloud1" />
+                    <img src="img/page7_cloud2.png" class="cloud2" />
+
+                    <img src="img/page7_foot.png" class="foot" />
+                    <img src="img/page7_foot.png" class="foot foot2" />
+                    <img src="img/page7_hand.png" class="hand hand2" />
+                    <img src="img/page7_person.png" class="person" />
+                    <img src="img/page7_hand.png" class="hand" />
+
+                    <img class="btn" src="img/btn_ecosport.png" onclick="switchPage(currentPage + 1);" />
+                </div>
+
+            </div>
+            <div class="pw page4" id="p8">
+                <div class="page">
+                    <img class="bg" src="img/bg_8.jpg" />
+                    <canvas width="640" height="1136"></canvas>
+                </div>
+                <img src="img/arr_up.png" class="arr_up" />
+            </div>
+
+            <div class="pw page4" id="p9">
+                <div class="page">
+                    <img class="bg" src="img/bg_9.jpg" />
+                </div>
+                <img src="img/arr_up.png" class="arr_up" />
+            </div>
+
+            <div class="pw page4" id="p10">
+                <div class="page">
+                    <img class="bg" src="img/bg_10.jpg" />
+                    <img src="img/page10_btn1.png" class="btn1" onclick="$('#intro').show();" />
+                    <a href="http://m.ecosport.ford.com.cn/pincar" target="_blank"><img src="img/page10_btn2.png" class="btn2" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap" id="intro" style="display: none;">
+        <div class="pw">
+            <div class="page2">
+                <img class="bg" src="img/intro.png" />
+                <img class="intro_close" src="img/intro_close.png" onclick="$('#intro').hide();" />
+                <a href="http://m.ecosport.ford.com.cn/pincar/index.php/index/duty" target="_blank"><img class="intro_link" src="img/intro_link.png" /></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+        var zoom;
+        var dy;
+        var currentPage = 0;
+        var running = false;
+
+        document.addEventListener('touchmove', function (evt) {
+            evt.preventDefault();
+        });
+
+        $(function () {
+            zoom = $(window).width() / 640;
+
+            dy = (1136 * zoom - $(window).height()) / 2;
+
+            //var dy2 = (1136 * zoom - $(window).height()) / 2;
+
+            $('.page').css({
+                transform: 'scale(' + zoom + ',' + zoom + ')',
+                webkitTransform: 'scale(' + zoom + ',' + zoom + ')',
+                top: 0 - dy + 'px',
+                display: 'block'
+            });
+
+            var zoom2 = Math.min($(window).innerHeight() / 1136, zoom);
+
+            $('.page2').css({
+                transform: 'scale(' + zoom2 + ',' + zoom2 + ')',
+                webkitTransform: 'scale(' + zoom2 + ',' + zoom2 + ')',
+                left: ($(window).width() - 640 * zoom2) / 2 + 'px',
+                display: 'block'
+            });
+
+
+            //if (dy / zoom > 31) {
+            //    var p3btnZoom = (1136 - 721 - dy / zoom) / 289;
+            //    $('.p3_btns').css('zoom', p3btnZoom);
+            //}
+
+            var p3PersonY = 92;
+            if (dy > 92) {
+                p3PersonY = dy;
+            }
+            $('.p3_person').css('top', p3PersonY + 'px');
+
+            var p8 = $('#p8')[0];
+            p8.goPrev = function () {
+                switchPage(currentPage - 1);
+            };
+            p8.goNext = function () {
+                switchPage(currentPage + 1);
+            };
+
+            var p9 = $('#p9')[0];
+            p9.goPrev = function () {
+                switchPage(currentPage - 1);
+            };
+            p9.goNext = function () {
+                switchPage(currentPage + 1);
+            };
+
+            var p10 = $('#p10')[0];
+            p10.goPrev = function () {
+                switchPage(currentPage - 1);
+            };
+            p10.goNext = function () {
+
+            };
+
+            setTouch(p8);
+            setTouch(p9);
+            setTouch(p10);
+
+
+
+            loadImage([
+                { name: 'top', url: 'img/page8_top.png' },
+                { name: 'bottom', url: 'img/page8_bottom.png' },
+                { name: 'mask', url: 'img/page8_mask.png' }
+            ], function (images) {
+                var canvas = $('#p8 canvas')[0];
+                var cxt = canvas.getContext('2d');
+
+                cxt.translate(400, 262);
+                var scale = (504 - dy) / 504;
+                cxt.scale(scale, scale);
+
+                cxt.drawImage(images.top, 0 - images.top.width / 2, 0 - images.top.height / 2);
+
+                cxt.setTransform(1, 0, 0, 1, 0, 0);
+                cxt.translate(320, 1050);
+                cxt.scale(scale, scale);
+                cxt.drawImage(images.bottom, 0 - images.bottom.width / 2, 0 - images.bottom.height / 2);
+
+                cxt.setTransform(1, 0, 0, 1, 0, 0);
+                cxt.globalCompositeOperation = "destination-in";
+
+                cxt.drawImage(images.mask, 0, 0);
+
+                cxt.globalCompositeOperation = "source-over";
+            });
+        });
+
+        function go2() {
+            $('#p2').show();
+            $('#p3').hide();
+            switchPage(currentPage + 1);
+            page2_flash();
+        }
+
+        function go3() {
+            $('#p2').hide();
+            $('#p3').show();
+            switchPage(currentPage + 1);
+            p3_ready();
+        }
+
+        function go3_2() {
+            $('#p3').show();
+            switchPage(currentPage + 1);
+            p3_ready();
+        }
+
+        function go4() {
+            $('#p4, #p5, #p6, #p7').hide();
+            $('#p4').show();
+            switchPage(currentPage + 1);
+        }
+
+        function go5() {
+            $('#p4, #p5, #p6, #p7').hide();
+            $('#p5').show();
+            switchPage(currentPage + 1);
+            page5_run();
+        }
+
+        function go6() {
+            $('#p4, #p5, #p6, #p7').hide();
+            $('#p6').show();
+            switchPage(currentPage + 1);
+            page6_run();
+        }
+
+        function go7() {
+            $('#p4, #p5, #p6, #p7').hide();
+            $('#p7').show();
+            switchPage(currentPage + 1);
+        }
+
+        function p3_ready() {
+            $('.p3_person .badge').removeClass('show');
+            setTimeout(function () {
+                $('.p3_person .badge').addClass('show');
+            }, 1000);
+        }
+
+        function switchPage(id) {
+            if (id == currentPage) return;
+            if (running) return;
+
+            $('.scroller').css({
+                transform: 'translate(0%, ' + (0 - id * 100) + '%)',
+                webkitTransform: 'translate(0%, ' + (0 - id * 100) + '%)'
+            });
+
+            currentPage = id;
+        }
+
+        function page2_flash() {
+            var img = $('#p2 .lightning2')[0];
+
+            $(img).css('visibility', 'visible');
+            setTimeout(function () {
+                $(img).css('visibility', 'hidden');
+                setTimeout(function () {
+                    $(img).css('visibility', 'visible');
+                    setTimeout(function () {
+                        $(img).css('visibility', 'hidden');
+                        setTimeout(function () {
+                            $(img).css('visibility', 'visible');
+                            setTimeout(function () {
+                                $(img).css('visibility', 'hidden');
+                                setTimeout(page2_flash, 2000);
+                            }, 100);
+                        }, 100);
+                    }, 100);
+                }, 100);
+            }, 100);
+        }
+
+        function page5_run() {
+            $('#p5 .pop1').show();
+            setTimeout(function () {
+                $('#p5 .pop2').show();
+                setTimeout(function () {
+                    $('#p5 .pop3').show();
+                    setTimeout(function () {
+                        $('#p5 .pop1, #p5 .pop2, #p5 .pop3').hide();
+                        setTimeout(function () {
+                            page5_run();
+                        }, 500);
+                    }, 2000);
+                }, 300);
+            }, 300);
+        }
+
+
+        var page6_timer = new Date();
+        function page6_run() {
+            var elapsed = new Date() - page6_timer;
+
+            //console.log(elapsed);
+
+            var t = elapsed % 2500;
+
+            var canvas = $('#p6 canvas')[0];
+            var cxt = canvas.getContext('2d');
+
+            cxt.clearRect(0, 0, canvas.width, canvas.height);
+            cxt.drawImage(document.getElementById('page6_arrow'), 0, 0);
+            if (t < 1000) {
+                cxt.globalCompositeOperation = 'destination-in';
+                cxt.beginPath();
+                cxt.arc(0, canvas.height, Math.sqrt(canvas.width * canvas.width + canvas.height * canvas.height) * t / 1000, 0, Math.PI * 2, true);
+                cxt.closePath();
+                cxt.fill();
+                cxt.globalCompositeOperation = 'source-over';
+            }
+
+            setTimeout(page6_run, 20);
+        }
+
+        function setTouch(page) {
+            page.touch = null;
+            page.addEventListener('touchstart', (function (evt) {
+                this.touch = {
+                    y: evt.touches[0].pageY
+                };
+            }).bind(page));
+
+            page.addEventListener('touchmove', (function (evt) {
+                if (this.touch == null) return;
+                var delta = evt.touches[0].pageY - this.touch.y;
+
+                if (delta < 0 - $(window).height() / 5) {
+                    this.goNext();
+                    this.touch = null;
+                }
+                else if (delta > $(window).height() / 5) {
+                    this.goPrev();
+                    this.touch = null;
+                }
+            }).bind(page));
+
+            page.addEventListener('touchend', (function (evt) {
+                this.touch = null;
+            }).bind(page));
+        }
+
+
+        var loadImage = function (list, onComplete, onProgress) {
+            var loader = {
+                onComplete: onComplete,
+                onProgress: onProgress,
+                isComplete: false
+            };
+
+            if (typeof (list) == 'object' && list.constructor == Array) {
+                //加载一个数组
+                loader.type = 'list';
+                loader.images = [];
+                for (var i = 0; i < list.length; i++) {
+                    var item = {
+                        name: list[i].name,
+                        image: new Image()
+                    };
+                    item.image.addEventListener('load', function () {
+                        var complete = 0;
+                        for (var i = 0; i < loader.images.length; i++) {
+                            if (loader.images[i].image.complete) {
+                                complete++;
+                            }
+                        }
+
+                        if (loader.onProgress) {
+                            loader.onProgress(Math.floor(complete * 100 / loader.images.length));
+                        }
+                        if (complete >= loader.images.length) {
+                            if (loader.isComplete) return;
+                            loader.isComplete = true;
+                            var result = {};
+
+                            for (var i = 0; i < loader.images.length; i++) {
+                                result[loader.images[i].name] = loader.images[i].image;
+                            }
+                            if (loader.onComplete) {
+                                loader.onComplete(result);
+                                if (loader.onProgress) {
+                                    delete loader.onProgress;
+                                }
+                                delete loader.onComplete;
+                            }
+                        }
+                    });
+                    item.image.addEventListener('error', function (evt) {
+                        var src = evt.target.src;
+                        evt.target.src = "";
+                        evt.target.src = src;
+                    });
+                    loader.images.push(item);
+
+                }
+                for (var i = 0; i < list.length; i++) {
+                    loader.images[i].image.src = list[i].url;
+                }
+            }
+            else if (typeof (list) == 'string') {
+                //加载单个图片地址
+                loader.type = 'image';
+                loader.image = new Image();
+                loader.image.addEventListener('load', function (evt) {
+                    if (loader.onComplete) {
+                        loader.onComplete(loader.image);
+                    }
+                });
+                loader.image.addEventListener('error', function (evt) {
+                    var src = evt.target.src;
+                    evt.target.src = "";
+                    evt.target.src = src;
+                });
+                loader.image.src = list;
+            }
+        }
+    </script>
+</body>
+</html>

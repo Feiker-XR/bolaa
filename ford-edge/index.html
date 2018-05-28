@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1" />
+    <title>锐意前行 界由我定</title>
+    <link href="Content/css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <audio autoplay="autoplay" loop="loop" id="audio">
+		  <source src="Content/src/bg.mp3" type="audio/mpeg">
+		  Your browser does not support the audio element.
+		</audio>
+    <div id="music" class="mi">
+    </div>
+    <!--loading-->
+    <div class="page loading">
+        <div id="loading_length">
+            <div id="load_progress">
+            </div>
+          <!-- <div id="load_word">
+                <span>0<span>%</div>-->
+        </div> 
+    </div>
+    <!--page1-->
+    <div class="page" id="p1">
+        <img src="Content/images/p1_light1.png" class="p1_light1" />
+        <img src="Content/images/p1_word1.png" class="p1_word1" />
+        <div class="p1_light2">
+        </div>
+        <img src="Content/images/p1_word2.png" class="p1_word2" />
+        <img src="Content/images/p1_word3.png" class="p1_word3" />
+        <img src="Content/images/p1_car.gif" class="p1_car" />
+        <img src="Content/images/p1_car.png" class="p1_carer" />
+    </div>
+    <!--page2-->
+    <div class="page" id="p2">
+        <img src="Content/images/p2_light.png" class="p2_light" />
+        <div class="p2_word">
+        </div>
+    </div>
+    <div class="page" id="p2_1">
+        <img src="Content/images/p2_light.png" class="p2_light" />
+        <div class="p2_word">
+        </div>
+    </div>
+    <!--page3-->
+    <div class="page" id="p3">
+        <img src="Content/images/p3_title.png" class="p3_title" />
+        <img src="Content/images/p3_word.png" class="p3_word" />
+    </div>
+    <!--page4-->
+    <div class="page" id="p4">
+        <img src="Content/images/p4_title.png" class="p4_title" />
+        <div class="p4_content">
+        </div>
+    </div>
+    <!--page5-->
+    <div class="page" id="p5">
+        <img src="Content/images/p5_title.png" class="p5_title" />
+        <div class="p5_content">
+        </div>
+        <img src="Content/images/click.png" class="click" />
+    </div>
+    <!--page6-->
+    <div class="page" id="p6">
+        <img src="Content/images/p6_title.png" class="p6_title" />
+        <img src="Content/images/p6_content.png" class="p6_content" />
+    </div>
+    <!--page7-->
+    <div class="page" id="p7">
+        <img src="Content/images/p7_title.png" class="p7_title" />
+        <div class="p7_content">
+        </div>
+        <img src="Content/images/p7_monitor.png" class="p7_monitor" />
+    </div>
+    <!--page8-->
+    <div class="page" id="p8">
+        <img src="Content/images/p8_title.png" class="p8_title" />
+        <div class="p8_content">
+        </div>
+        <img src="Content/images/p8_circle1.png" class="p8_circle1" />
+        <img src="Content/images/p8_circle2.png" class="p8_circle2" />
+        <img src="Content/images/p8_circle3.png" class="p8_circle3" />
+        <img src="Content/images/p8_circle4.png" class="p8_circle4" />
+        <img src="Content/images/p8_circle5.png" class="p8_circle5" />
+    </div>
+    <!--page9-->
+    <div class="page" id="p9">
+        <img src="Content/images/p9_title.png" class="p9_title" />
+        <img src="Content/images/p9_content.png" class="p9_content" />
+    </div>
+    <!--page10-->
+    <div class="page" id="p10">
+        <img src="Content/images/p10_title.png" class="p10_title" />
+        <img src="Content/images/p10_content.png" class="p10_content" />
+        <img src="Content/images/p10_black_car.png" class="p10_black_car" />
+        <img src="Content/images/p10_white_car.png" class="p10_white_car" />
+    </div>
+    <!--page11-->
+    <div class="page" id="p11">
+        <img src="Content/images/p11_title.png" class="p11_title" />
+        <div class="p11_content">
+        </div>
+    </div>
+    <!--page12-->
+    <div class="page" id="p12">
+        <img src="Content/images/p12_title.png" class="p12_title" />
+        <img src="Content/images/p12_content.png" class="p12_content" />
+        <div class="p12_car">
+            <img src="Content/images/p12_wheel.png" class="p12_wheel" />
+        </div>
+    </div>
+    <!--page13-->
+    <div class="page" id="p13">
+        <img src="Content/images/p13_car.png" class="p13_car" />
+        <img src="Content/images/p13_car2.png" class="p13_car2" />
+        <div class="p13_content">
+        </div>
+        <img src="Content/images/click.png" class="car_click" />
+    </div>
+    <!--page14-->
+    <!--    <div class="page" id="p14">
+        <img src="Content/images/p14_title.png" class="p14_title" />
+        <div class="p14_content">
+        </div>
+    </div>-->
+    <!--page15-->
+    <div class="page" id="p15">
+        <img src="Content/images/p15_title.png" class="p15_title" />
+        <div class="p15_content">
+        </div>
+    </div>
+    <!--page16-->
+    <div class="page" id="p16">
+        <form name="resForm" id="resForm" action="">
+        <input type="text" name="username" class="username" maxlength="10" />
+        <input type="tel" name="phone" class="phone" maxlength="13" />
+        <input type="text" name="province" class="province" maxlength="10" />
+        <select id="s_province" class="selprovince">
+        </select>
+        <input type="text" name="city" class="city" maxlength="10" />
+        <select id="s_city" class="selcity">
+        </select>
+        <input type="text" class="com_txt" maxlength="10" />
+        <select id="selAddress" class="com" name="com">
+            <option value="北京">北京</option>
+            <option value="北京">天津</option>
+            <option value="北京">上海</option>
+            <option value="北京">重庆</option>
+        </select>
+        <input id="btnSub" type="button" class="submit" value="" onclick="subReserve()" />
+        <p id="subLoad" class="subload" style="">
+            <img src="Content/images/loading.gif" style="padding-top: 20px;" alt="" /><br />
+            提交中...
+        </p>
+        </form>
+    </div>
+    <script src="Scripts/jquery.min.1.7.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.tmpl.min.js" type="text/javascript"></script>
+    <script src="Scripts/index.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.form.js" type="text/javascript"></script>
+    <script src="Scripts/wx.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var dealerModel;
+        function dealerData() {
+            var self = this;
+            var p_markup = '<option value="${province}">${province}</option>';
+            $.template("PTmp", p_markup);
+
+            var s_markup = '<option value="${city}">${city}</option>';
+            $.template("STmp", s_markup);
+
+            var ad_markup = '<option value="${dname}">${dname}</option>';
+            $.template("ADTmp", ad_markup);
+
+            self.getProvince = function () {
+                $.ajax({
+                    url: "/Home/GetProvince",
+                    type: "post",
+                    success: function (response) {
+                        $("#s_province").empty();
+                        $("#s_province").append("<option></option>");
+                        $.tmpl("PTmp", response.Data).appendTo("#s_province");
+                    }
+                });
+            }
+            self.getCity = function (p) {
+                $.ajax({
+                    url: "/Home/GetCity",
+                    data: { province: p },
+                    type: "post",
+                    success: function (response) {
+                        $("#s_city").empty();
+                        $("#s_city").append("<option></option>");
+                        $.tmpl("STmp", response.Data).appendTo("#s_city");
+                    }
+                });
+            }
+            self.getAddress = function (p, c) {
+                $.ajax({
+                    url: "/Home/GetDealer",
+                    data: { province: p, city: c },
+                    type: "post",
+                    success: function (response) {
+                        $("#selAddress").empty();
+                        $("#selAddress").append("<option></option>");
+                        $.tmpl("ADTmp", response.Data).appendTo("#selAddress");
+                    }
+                });
+            }
+        }
+        $(function () {
+            dealerModel = new dealerData();
+            dealerModel.getProvince();
+
+            $('#p16 .com').change(function () {
+                var txt = $(this).find('option:selected').text();
+                $('#p16 .com_txt').val(txt);
+            });
+            $('#s_province').change(function () {
+                var val = $(this).val();
+                $('input[name="city"]').val();
+                $('input[name="province"]').val(val);
+                $('#p16 .com_txt').val();
+                dealerModel.getCity(val);
+            });
+            $('#s_city').change(function () {
+                var province = $('#s_province').val();
+                var city = $(this).val();
+                $('input[name="city"]').val(city);
+                dealerModel.getAddress(province, city);
+            });
+        });
+
+        function promptinfo(s) {
+            $(s).prev().val($(s).val());
+        }
+        function subReserve() {
+            var name = $('input[name="username"]').val();
+            var phone = $('input[name="phone"]').val();
+            var province = $('input[name="province"]').val();
+            var city = $('input[name="city"]').val();
+            var com = $('input[name="com"]').val();
+
+            if (name == '') {
+                alert('请输入姓名!');
+                return;
+            }
+            if (phone == '' || !IsTelephone(phone)) {
+                alert('请输入正确的联系电话!');
+                return;
+            }
+            if (province == '') {
+                alert('请输入所在省份!');
+                return;
+            }
+            if (city == '') {
+                alert('请输入所在城市!');
+                return;
+            }
+            if (com == '') {
+                alert('请选择经销商!');
+                return;
+            }
+            $("#btnSub").hide();
+            $('#subLoad').show();
+
+            $("#resForm").ajaxSubmit({
+                url: '/Home/SubReserve',
+                type: "POST",
+                dataType: 'json',
+                success: function (data) {
+                    if (data.Msg == 'OK') {
+                        alert('提交成功!');
+                    }
+                    else {
+                        alert(data.Msg);
+                    }
+
+                    $('#subLoad').hide();
+                    $("#btnSub").show();
+                    return false;
+                }
+            });
+        }
+        // 正则判断
+        function IsTelephone(obj) {
+            var pattern = /(^[0-9]{3,4}\-[0-9]{3,8}$)|(^[0-9]{3,8}$)|(^\([0-9]{3,4}\)[0-9]{3,8}$)|(^0{0,1}1[3|4|5|6|7|8|9][0-9]{9}$)/;
+            if (pattern.test(obj)) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        } 
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?e0503ab27118d36cfa0ef0bad1fa897d";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</body>
+</html>

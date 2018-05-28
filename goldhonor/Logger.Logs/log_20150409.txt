@@ -1,0 +1,141 @@
+2015/4/9 3:10:31
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>67942647</smsid>
+</SubmitResult>
+
+
+2015/4/9 9:38:28
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>67972990</smsid>
+</SubmitResult>
+
+
+2015/4/9 10:13:08
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>67982156</smsid>
+</SubmitResult>
+
+
+2015/4/9 10:59:17
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>67994347</smsid>
+</SubmitResult>
+
+
+2015/4/9 10:59:33
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>67994439</smsid>
+</SubmitResult>
+
+
+2015/4/9 11:00:07
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>67994593</smsid>
+</SubmitResult>
+
+
+2015/4/9 11:03:34
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>67995876</smsid>
+</SubmitResult>
+
+
+2015/4/9 11:05:07
+58,106,156,198
+
+2015/4/9 11:20:03
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>68000508</smsid>
+</SubmitResult>
+
+
+2015/4/9 11:31:27
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>68003697</smsid>
+</SubmitResult>
+
+
+2015/4/9 11:34:46
+Eis_3DCdDKlVSLqj3UbcEZclLjvlX5jXHr8q2xfOtPwulhV6coe8myqZ2x6yGXR7
+
+2015/4/9 11:37:36
+66Ijv6DzkS3jaZmdZr1-IJfG2KNhSOKEXOOrWDf5JxU9xXsoatcsrDL2OmEjTjKE
+
+2015/4/9 11:39:12
+P713wiC2YNzPr-ocC5zjQA1i5oz6el7rSvVXBFyQuEFQn5q8blVkNdz5IFewyKgR
+
+2015/4/9 11:40:49
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>68006277</smsid>
+</SubmitResult>
+
+
+2015/4/9 14:27:40
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>407</code>
+<msg>短信内容含有敏感字符(论坛)</msg>
+<smsid>0</smsid>
+</SubmitResult>
+
+
+2015/4/9 14:33:19
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>68055295</smsid>
+</SubmitResult>
+
+
+2015/4/9 14:35:02
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>68055804</smsid>
+</SubmitResult>
+
+
+2015/4/9 14:42:15
+l4NeyodWexbd6j0E_f0PBos10D1VobA4bw9nSfC5BcznACUSf-v2zYjYgae_DE1r
+
+2015/4/9 14:47:02
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>68059256</smsid>
+</SubmitResult>
+
+

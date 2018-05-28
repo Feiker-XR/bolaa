@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta charset="utf-8" />
+    <title>开自己的车，就是踏实</title>
+    <link href="SceneLib/SceneLib.css" rel="stylesheet" />
+    <link href="main.css" rel="stylesheet" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/wx.js"></script>
+    <script src="SceneLib/SceneLib.js"></script>
+    <script type="text/javascript" src="SceneLib/EventDispatcher.js"></script>
+    <script type="text/javascript" src="SceneLib/TransitionManager.js"></script>
+    <script type="text/javascript" src="SceneLib/AnimationManager.js"></script>
+    <script type="text/javascript" src="SceneLib/Stage.js"></script>
+    <script type="text/javascript" src="SceneLib/Page.js"></script>
+    <script type="text/javascript" src="SceneLib/Content.js"></script>
+    <script type="text/javascript" src="SceneLib/Navigator.js"></script>
+    <script type="text/javascript" src="SceneLib/CustomNavigator.js"></script>
+    <script type="text/javascript" src="SceneLib/SlideNavigator.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?894d0dab531f20ca44c1afedc5ec72f6";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <div class="sl-stage">
+        <div class="sl-container">
+            <div class="sl-page" id="p1">
+                <img src="img/logo.png" class="logo" />
+                <div class="sl-content">
+                    <img src="img/icon.png" class="icon" />
+
+                    <img src="img/car6.png" class="car6" />
+                    <img src="img/car5.png" class="car5" />
+                    <img src="img/car4.png" class="car4" />
+                    <img src="img/car3.png" class="car3" />
+                    <img src="img/car2.png" class="car2" />
+                    <img src="img/car1.png" class="car1" />
+
+                    <img src="img/mount.png" class="mount" />
+                </div>
+            </div>
+
+            <div class="sl-page" id="p2">
+                <img src="img/logo.png" class="logo" />
+                <div class="sl-content">
+                    <img src="img/p2_title.png" class="p2_title" />
+                    <img src="img/p2_tip1.png" class="p2_tip1" style="display: none;" />
+                    <img src="img/p2_tip2.png" class="p2_tip2" style="display: none;" />
+                    <img src="img/p2_tip3.png" class="p2_tip3" style="display: none;" />
+                    <img src="img/p2_tip3_icon.png" class="p2_tip3_icon" />
+                </div>
+            </div>
+
+            <div class="sl-page" id="p3">
+                <div class="sidebar">
+                    <div class="bg"></div>
+                </div>
+                <div class="list">
+                    <div class="header">您所在的机关部门？</div>
+                    <div class="scroll">
+                    </div>
+                    <div class="btn">
+                        <div class="arrows">
+                            <img src="img/list_arrow.png" />
+                        </div>
+                        <a onclick="submitDep();">确 认</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sl-page" id="p4">
+                <div class="sl-content">
+                    <img src="img/form_bg.png" />
+                    <img src="img/result_1.png" class="result_1" />
+                    <img src="img/result_2.png" class="result_2" style="display: none;" />
+                    <div class="form_tip">请留下您的联系方式，我们会有专人与您取得联系。</div>
+
+                    <span class="label" id="name">姓名</span>
+                    <input type="text" class="box" id="p_name" maxlength="20" />
+
+                    <span class="label" id="phone">手机</span>
+                    <input type="tel" class="box" id="p_phone" maxlength="11" />
+
+                    <label class="listwrap1" style="left: 31px;">
+                        <select id="p_prov" onchange="onProvChange();">
+                            <option value="">请选择省份</option>
+                        </select>
+                        <span id="prov">请选择省份</span>
+                    </label>
+
+                    <label class="listwrap1" style="left: 326px;">
+                        <select id="p_city" onchange="onCityChange();">
+                            <option value="">请选择城市</option>
+                        </select>
+                        <span id="city">请选择城市</span>
+                    </label>
+
+                    <span class="label" id="dealer">经销商</span>
+                    <label class="listwrap2">
+                        <select id="p_dealer" onchange="onDealerChange();">
+                            <option value="">请选择</option>
+                        </select>
+                        <span id="s_dealer">请选择</span>
+                    </label>
+
+
+                    <img src="img/btn_submit.png" class="btn_submit" onclick="submitForm();" />
+                </div>
+            </div>
+
+            <div class="sl-page" id="p5">
+                <div class="sl-content">
+                    <img src="img/complete.png" class="complete" />
+                    <!--<img src="img/btn_share.png" class="btn_share" onclick="$('.sharetip').show();" />-->
+
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjI5ODc0Mg==&mid=203887555&idx=1&sn=6890e3eeeb490254633e70a9e5126af6#rd" target="_blank"><img src="img/btn_follow.png" class="btn_follow" /></a>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow">
+        <img src="img/arrow.png" />
+    </div>
+    <div class="sharetip" style="display: none;" onclick="$('.sharetip').hide();">
+        <img src="img/sharetip.png" />
+    </div>
+    <audio controls="controls" src="img/music.mp3" autoplay="autoplay" preload="auto" loop="loop" style="display: none;" id="bgm">
+        <source src="img/music.mp3" type="audio/mpeg" />
+    </audio>
+</body>
+</html>

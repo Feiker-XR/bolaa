@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+	<title>踢被子大作战</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+	<style type="text/css">
+		body{margin:0px;overflow: hidden;}
+		.page{width:640px;height:1136px;margin-top:-106px;position: absolute;}
+		.curtain{width:100%;height:100%;background-color: #000;opacity:0.5;}
+		#contener{width:100%;height:100%;overflow: hidden;}
+		.word{width: 134px;top: 1031px;-webkit-transform: rotate(-5deg);-webkit-transform-origin: 0px 0px;font-size: 34px;
+		position: absolute;font-weight: bold;color: #6e3800;}
+		.baby{position:absolute;top:350px;left:50px;}
+		@-webkit-keyframes loadBarMove
+		{
+			from {background-position-x:0px;}
+            to {background-position-x:53px;}
+		}
+		#loadBar{-webkit-animation:loadBarMove 500ms linear infinite;background-image:url(images/lin.png);position:absolute;left:83px;top:568px;width:488px;height:94px;}
+		@-webkit-keyframes brandMove
+		{
+			from {-webkit-transform: rotate(30deg);	}
+            to {-webkit-transform: rotate(-30deg);}
+		}
+		#brand{-webkit-animation:brandMove 2s linear infinite alternate;position:absolute;top:138px;left:22px;-webkit-transform-origin:291px 18px;}
+	</style>
+</head>
+<body>
+<div id="contener">
+	<div class="page" id="loading" style="background-image:url(images/loading.jpg);display:none;" >
+	<div id="loadBar"></div>
+	<img src="images/lout.png" style="position:absolute;left:58px;top:568px;"/>	
+	</div>
+	<div class="page" id="start" style="background-image:url(images/start.jpg);">
+		<img id="brand" src="images/brand.png"/>
+		<img src="images/nail.png" style="position:absolute;left: 301px;top: 116px;"/>
+		<div style="position:absolute;top:134px;left:420px;width:222px;height:144px;" onclick="showRank()">
+		</div>
+		<div style="position:absolute;top:668px;left:192px;width:252px;height:242px;" onclick="start(this.parentNode)">
+		</div>
+	</div>
+	<div class="page" id="game" style="background-image:url(images/game-bg.jpg); display:none;" >
+	<img id="line" src="images/line.png" style="z-index:1;margin-top: 123px;margin-left: 301px;-webkit-transform: rotate(0deg);
+-webkit-transform-origin: 23px 23px;"/>
+		<div style="position:absolute;top:126px;left:464px;width:146px;height:148px;" onclick="pause()">
+		</div>
+		<!--div class="baby"><image src="images/baby1_1.png"/></div>
+		<div class="baby"><image src="images/baby1_1.png"/></div>
+		<div class="baby"><image src="images/baby1_1.png"/></div>
+		<div class="baby"><image src="images/baby1_1.png"/></div>
+		<div class="baby"><image src="images/baby1_1.png"/></div>-->
+		<span class="word" id="time" style="left:170px;">1:30</span>
+		<span class="word" id="score" style="left:419px;">0</span>
+	</div>
+	<div class="page" id="rank" style="position:absolute;top:0px;display:none;" >
+		<div class="curtain"></div>
+		<div style="background-image:url(images/rank.png);position:absolute;width:613px;height:762px;left:16px;top:181px;">
+			<span style="color:#6e3800;position:absolute;top: 333px;left: 371px;font-size: 30px;">108</span>
+		</div>
+		<img src="" style="position:absolute;left:244px;top:580px;width:60px;height:60px;"/>
+		<span style="color: #fff;position:absolute;top:595px;left: 350px;font-size: 28px;">张*&nbsp&nbsp&nbsp200</span>
+		<img src="" style="position:absolute;left:244px;top:684px;width:60px;height:60px;"/>
+		<span style="color: #fff;position:absolute;top: 700px;left: 350px;font-size: 28px;">李*四&nbsp&nbsp&nbsp198</span>
+		<img src="" style="position:absolute;left:244px;top:788px;width:60px;height:60px;"/>
+		<span style="color: #fff;position:absolute;top: 807px;left: 350px;font-size: 28px;">al***d&nbsp&nbsp&nbsp190</span>
+		<div style="position:absolute;left:508px;top:270px;width:114px;height:110px;" onclick="this.parentNode.style.display='none'"></div>
+		
+	</div>
+	<div class="page" id="pause" style="position:absolute;top:0px;display:none;"  >
+		<div class="curtain"></div>
+		<div style="background-image:url(images/pause.png);position:absolute;width:613px;height:608px;left:16px;top:181px;"></div>
+		<div style="position:absolute;left:108px;top:600px;width:166px;height:162px;" onclick="resume()"></div>
+		<div style="position:absolute;left:366px;top:600px;width:166px;height:162px;" onclick="goback()"></div>
+	</div>
+	<div class="page" id="over" style="position:absolute;top:0px;display:none;"  >
+		<div class="curtain"></div>
+		<div style="background-image:url(images/over.png);position:absolute;width:613px;height:878px;left:16px;top:181px;"></div>
+		<div style="position:absolute;left:326px;top:380px;width:282px;height:74px;color: #6e3800;font-size: 54px;"><span id="endScore">108</span></div>
+		<div style="position:absolute;left:58px;top:562px;width:140px;height:136px;" onclick="window.location.href='http://mp.weixin.qq.com/s?__biz=MzA3MTE3ODAwMw==&mid=202003012&idx=1&sn=4c58d97d2e1d669e18762765bf3821ec#rd';"></div>
+		<div style="position:absolute;left:248px;top:562px;width:140px;height:136px;" onclick="document.getElementById('share').style.display='block';"></div>
+		<div style="position:absolute;left:438px;top:562px;width:140px;height:136px;" onclick="start(this.parentNode);"></div>
+		<div style="position:absolute;left:22px;top:754px;width:282px;height:74px;" onclick="window.location.href='http://sale.jd.com/act/sjI6fQFg3nlv0a.html';"></div>
+		<div style="position:absolute;left:332px;top:754px;width:282px;height:74px;" onclick="window.location.href='http://shop.suning.com/30000052/index.html'"></div>
+		<div style="position:absolute;left:332px;top:754px;width:282px;height:74px;" onclick="document.getElementById('weibo').style.display='block'"></div>
+	</div>
+	<div class="page" id="weibo" style="position:absolute;top:0px;display:none;"  onclick="this.style.diplay='none';">
+		<div class="curtain"></div>
+		<img src="images/weibo.png"/>
+	</div>
+	<div class="page" id="share" style="position:absolute;background-image:url(images/share.png);top:0px;display:none;" onclick="this.style.display='none';" >
+	</div>
+</div>
+	
+<script type="text/javascript">
+	function showRank(){
+		document.getElementById("rank").style.display="block";
+	}
+	var game;
+	function start(o){
+		var babys=document.getElementsByClassName("baby");
+		console.trace(babys.length);
+		var len=babys.length;
+		for(var i=0;i<len;i++){
+			babys[0].parentNode.removeChild(babys[0]);
+			
+		}
+		o.style.display="none";
+		document.getElementById("game").style.display="block";
+		loadBaby();
+		game=new Game(baby,cBaby,document.getElementById("line"),40,140,90000,document.getElementById("game"),50,350,100,120,showTime,showEnd);
+		game.start();
+	}
+	function pause(){
+		game.pause();
+		document.getElementById("pause").style.display="block";
+	}
+	function resume(){
+		game.resume();
+		document.getElementById("pause").style.display="none";
+		
+	}
+	function goback(){
+		document.getElementById("pause").style.display="none";
+		document.getElementById("game").style.display="none";
+		document.getElementById("start").style.display="block";
+
+	}
+	function showScore(){
+		document.getElementById("score").innerText=score;
+	}
+	function showEnd(){
+	document.getElementById("endScore").innerText=score;
+		document.getElementById("over").style.display="block";
+	}
+	function showTime(time){
+		var strTime=Math.floor(time/1000/60)+":"+Math.floor(time/1000)%60;
+		document.getElementById("time").innerText=strTime;
+	}
+	var score=0;
+	var baby=new Array();
+	var cBaby=new Array();
+	function loadBaby(){
+		for(var i=0;i<3;i++){
+			//baby[i]=new Image();
+			baby[i]="images/baby"+(i+1)+"_1.png";
+			//cBaby[i]=new Image();
+			cBaby[i]="images/baby"+(i+1)+"_2.png";
+		}
+	}
+	var Game=function(baby,cBaby,line,sDeg,eDeg,totalTime,contener,firstX,firstY,posX,posY,tickCallback,endCallback){
+		var matrix=[[null,null,null,null,null],[null,null,null,null,null],[null,null,null,null,null]
+		,[null,null,null,null,null],[null,null,null,null,null]];
+		var isPause=null;
+		var ticks=0;
+		var currentDeg=sDeg;
+		var direct="a";
+		score=0;
+		var Baby=function(index){
+			this.state=0;
+			this.ticks=0;
+			this.index=index;
+			this.view=document.createElement("div");
+			this.image=new Image();
+			this.image.src=baby[index];
+			this.image.data=this;
+			//console.trace(Event.ontouchstart);
+			//this.image.ontouchstart=function(e){
+			this.image.onclick=function(e){
+				if(!this.data.state){
+					this.data.image.src=cBaby[this.data.index];
+					this.data.state=1;
+					score++;
+					showScore(score);
+				}
+			}
+			this.view.appendChild(this.image);
+		}
+		this.pause=function(){
+			isPause=true;
+		}
+		this.resume=function(){
+			isPause=null;
+			setTimeout(oneTick,40);
+		}
+		this.start=function(){
+			setTimeout(oneTick,40);
+		}
+		function oneTick(){
+			var flag=null;
+			var pos=null;
+			var baby;
+			var top=firstY;
+			var left=firstX;
+			var babyImage=null;
+			//console.trace(isPause);
+			if(isPause){
+			console.trace(isPause);
+				return;
+			}
+			if(totalTime>=0){
+				tickCallback(totalTime);
+			}
+			if(totalTime<=0){
+				console.trace("aa");
+				endCallback(score);
+				return;
+			}
+			for(var i=0;i<5;i++){
+				for(var j=0;j<5;j++){
+					if(matrix[i][j]){
+						matrix[i][j].view.style.opacity=1-matrix[i][j].ticks/30;
+						if(matrix[i][j].ticks==29){
+							contener.removeChild(matrix[i][j].view);
+							matrix[i][j].view.style.display="none";
+							matrix[i][j]=null;
+						}else{
+							if(isAcross(matrix[i][j])){
+								contener.removeChild(matrix[i][j].view);
+								matrix[i][j].view.style.display="none";
+								matrix[i][j]=null;
+							}
+						}
+						if(matrix[i][j])
+							matrix[i][j].ticks++;
+					}
+				}
+			}
+			if(ticks%30==0){
+				for(var i=0;i<3;i++){
+					baby=null;
+					flag=true;
+					pos=0;
+					while(flag){
+						pos=Math.floor(25*Math.random());
+						//console.trace(pos+":"+Math.floor(pos/5)+":"+pos%5);
+						if(!matrix[Math.floor(pos/5)][pos%5]){
+							
+							baby=new Baby(Math.floor(3*Math.random()));
+							matrix[Math.floor(pos/5)][pos%5]=baby;
+							baby.view.style.left=left+pos%5*posX+"px";
+							console.trace(pos+":"+(left+pos%5*posX)+"px");
+							baby.view.style.top=top+Math.floor(pos/5)*posY+"px";
+							baby.view.className="baby";
+							contener.appendChild(baby.view);
+							flag=null;
+						}
+					}
+				}
+			}
+			ticks++;
+			if(direct=="a"){
+				currentDeg++;
+				if(currentDeg>=eDeg){
+					console.trace(direct);
+					direct="d";
+				}
+			}else{
+				currentDeg--;
+				if(currentDeg<=sDeg){
+					console.trace(direct);
+					direct="a";
+				}
+			}
+			line.style.webkitTransform="rotate("+currentDeg+"deg)";
+			if(totalTime>0){
+				setTimeout(oneTick,40);
+			}
+			totalTime-=40;
+		}
+		function isAcross(a){
+			var leftstr=a.view.style.left;
+			var x1=Number(leftstr.substr(0,leftstr.length-2));
+			var topstr=a.view.style.top;
+			var y1=Number(topstr.substr(0,topstr.length-2));
+			var x2=x1+a.image.width;
+			var y2=y1+a.image.height;
+			
+			var _y1,_y2;
+			if(currentDeg==90){
+				if(x1<320 && x2>320)
+					return true;
+			}else{
+
+				_y1=Math.tan(Math.PI/180*currentDeg)*(x1-320)+123;
+				_y2=Math.tan(Math.PI/180*currentDeg)*(x2-320)+123;
+
+				if((_y1<y1 && _y2>=y1) ||(_y1>=y1 && _y2<y1)){
+					console.trace("_y1:"+_y1+";_y2:"+_y2+";y1:"+y1+";x1:"+x1+";x2:"+x2+":"+currentDeg);
+					return true;
+				}
+			}
+			return false;
+		}
+	}
+	var pages=document.getElementsByClassName("page");
+	for(var i=0;i<pages.length;i++){
+		pages[i].style.zoom=document.body.clientWidth/640;
+	}
+	
+
+</script>
+</body>
+</html>

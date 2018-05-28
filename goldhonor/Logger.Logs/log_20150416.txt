@@ -1,0 +1,27 @@
+2015/4/16 10:16:18
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>69964529</smsid>
+</SubmitResult>
+
+
+2015/4/16 10:18:35
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>69965311</smsid>
+</SubmitResult>
+
+
+2015/4/16 10:19:35
+<?xml version="1.0" encoding="utf-8"?>
+<SubmitResult xmlns="http://106.ihuyi.cn/">
+<code>2</code>
+<msg>提交成功</msg>
+<smsid>69965614</smsid>
+</SubmitResult>
+
+

@@ -1,0 +1,115 @@
+.sl_stage {
+	position: absolute;
+	overflow: hidden;
+}
+
+.sl_hidden_layer {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.sl_page_layer {
+	position: absolute;
+}
+
+.sl_float_layer {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+}
+
+.sl_page {
+	position: absolute;
+	overflow: hidden;
+}
+
+.sl_page_zoomwrap {
+	position: absolute;
+	transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%;
+}
+
+.sl_slide_left {
+	transform: translate3d(-100%, 0%, 0px);
+	-webkit-transform: translate3d(-100%, 0%, 0px);
+	-moz-transform: translate3d(-100%, 0%, 0px);
+	-o-transform: translate3d(-100%, 0%, 0px);
+	-ms-transform: translate3d(-100%, 0%, 0px);
+}
+
+.sl_slide_right {
+	transform: translate3d(100%, 0%, 0px);
+	-webkit-transform: translate3d(100%, 0%, 0px);
+	-moz-transform: translate3d(100%, 0%, 0px);
+	-o-transform: translate3d(100%, 0%, 0px);
+	-ms-transform: translate3d(100%, 0%, 0px);
+}
+
+.sl_slide_top {
+	transform: translate3d(0%, -100%, 0px);
+	-webkit-transform: translate3d(0%, -100%, 0px);
+	-moz-transform: translate3d(0%, -100%, 0px);
+	-o-transform: translate3d(0%, -100%, 0px);
+	-ms-transform: translate3d(0%, -100%, 0px);
+}
+
+.sl_slide_bottom {
+	transform: translate3d(0%, 100%, 0px);
+	-webkit-transform: translate3d(0%, 100%, 0px);
+	-moz-transform: translate3d(0%, 100%, 0px);
+	-o-transform: translate3d(0%, 100%, 0px);
+	-ms-transform: translate3d(0%, 100%, 0px);
+}
+
+.sl_zoom_left {
+	transform: scale3d(0.01, 0.01, 1);
+	-webkit-transform: scale3d(0.01, 0.01, 1);
+	-moz-transform: scale3d(0.01, 0.01, 1);
+	-o-transform: scale3d(0.01, 0.01, 1);
+	-ms-transform: scale3d(0.01, 0.01, 1);
+	transform-origin: left center;
+}
+
+.sl_zoom_right {
+	transform: scale3d(0.01, 0.01, 1);
+	-webkit-transform: scale3d(0.01, 0.01, 1);
+	-moz-transform: scale3d(0.01, 0.01, 1);
+	-o-transform: scale3d(0.01, 0.01, 1);
+	-ms-transform: scale3d(0.01, 0.01, 1);
+	transform-origin: right center;
+}
+
+.sl_zoom_top {
+	transform: scale3d(0.01, 0.01, 1);
+	-webkit-transform: scale3d(0.01, 0.01, 1);
+	-moz-transform: scale3d(0.01, 0.01, 1);
+	-o-transform: scale3d(0.01, 0.01, 1);
+	-ms-transform: scale3d(0.01, 0.01, 1);
+	transform-origin: center top;
+}
+
+.sl_zoom_bottom {
+	transform: scale3d(0.01, 0.01, 1);
+	-webkit-transform: scale3d(0.01, 0.01, 1);
+	-moz-transform: scale3d(0.01, 0.01, 1);
+	-o-transform: scale3d(0.01, 0.01, 1);
+	-ms-transform: scale3d(0.01, 0.01, 1);
+	transform-origin: center bottom;
+}
+
+.sl_flip {
+	position: absolute;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+

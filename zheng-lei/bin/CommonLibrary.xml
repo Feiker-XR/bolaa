@@ -1,0 +1,2381 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:CommonLibrary.Web.ValidateCodeImage">
+            <summary>
+            一个验证码图片对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.ValidateCodeImage.#ctor">
+            <summary>
+            受保护的构造方法
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.ValidateCodeImage.Create(System.String)">
+            <summary>
+            用指定的验证字符串生成一个验证码图片
+            </summary>
+            <param name="code">要使用的验证字符串</param>
+            <returns>验证码图片对象</returns>
+        </member>
+        <member name="M:CommonLibrary.Web.ValidateCodeImage.Create(System.Int32)">
+            <summary>
+            生成一个验证码图片
+            </summary>
+            <param name="strLen">验证字符串长度</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Web.ValidateCodeImage.Image">
+            <summary>
+            获取验证码图片
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.ValidateCodeImage.Code">
+            <summary>
+            获取验证字符串
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Zip.ZipReaderEntry">
+            <summary>
+            Zip压缩文件读取入口
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReaderEntry.GetStream">
+            <summary>
+            获取文件内容读取流
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.BaseEntry">
+            <summary>
+            获取基础J#中的基础文件入口
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.BaseFile">
+            <summary>
+            获取J#中的基础Zip文件对象
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.IsCompressed">
+            <summary>
+            获取此文件在Zip中是否已被压缩
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.Comment">
+            <summary>
+            获取文件注释
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.Crc32">
+            <summary>
+            获取原始文件的CRC32校验
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.Name">
+            <summary>
+            获取文件在Zip文件中的名称
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.IsDirectory">
+            <summary>
+            获取该入口是否为目录
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.Extra">
+            <summary>
+            获取文件的附加数据
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.CompressedSize">
+            <summary>
+            获取文件压缩后的大小
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.Size">
+            <summary>
+            获取文件的原始大小
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntry.LastModifyTime">
+            <summary>
+            获取文件的最后修改时间
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.UI.ScriptBlock">
+            <summary>
+            用于在页面中呈现一个脚本块的控件
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.UI.ScriptBlock.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将控件的内容输出到指定的HtmlTextWriter
+            </summary>
+            <param name="writer">要输出到的HtmlTextWriter</param>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.ScriptBlock.SourceFile">
+            <summary>
+            获取或设置脚本块的源文件（设置此项为非空会清空Content）
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.ScriptBlock.Content">
+            <summary>
+            获取或设置脚本块的内容（设置此项为非空会清空SourceFile）
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.ScriptBlock.Language">
+            <summary>
+            获取或设置此脚本块的语言类型
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.ScriptBlock.Type">
+            <summary>
+            获取或设置此脚本块的类型
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.UI.HtmlScriptLanguage">
+            <summary>
+            提供HTML页面中允许使用的脚本语言类型
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptLanguage.CSharp">
+            <summary>
+            C#
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptLanguage.JavsScript">
+            <summary>
+            JavaScript
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptLanguage.VBScript">
+            <summary>
+            VBScript
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptLanguage.JScript">
+            <summary>
+            JScript
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptLanguage.PHP">
+            <summary>
+            PHP
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptLanguage.VB">
+            <summary>
+            VB
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptLanguage.Unknown">
+            <summary>
+            不使用此属性
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.UI.HtmlScriptType">
+            <summary>
+            提供HTML页面中允许使用的脚本类型
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.ApplicationEcmaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.ApplicationJavaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.ApplicationXEcmaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.ApplicationXJavaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.TextEcmaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.TextJavaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.TextJscript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.TextLiveScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.TextTcl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.TextXEcmaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.HtmlScriptType.TextXJavaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.Functions">
+            <summary>
+            提供供Web应用使用的全局方法
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.Functions.MergeUrl(System.String,System.String)">
+            <summary>
+            根据基URL地址和相对URL地址计算绝对URL地址
+            </summary>
+            <param name="baseUrl">基URL地址</param>
+            <param name="relaUrl">相对URL地址</param>
+            <returns>绝对URL地址</returns>
+        </member>
+        <member name="M:CommonLibrary.Web.Functions.GetRootDomain(System.String)">
+            <summary>
+            获取指定地址的根域名
+            </summary>
+            <param name="url">URL地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Web.Functions.SplitCookie(System.String,System.Uri)">
+            <summary>
+            将Cookie字符串写入到Cookie集合中
+            </summary>
+            <param name="cookieString">Cookie字符串</param>
+            <param name="u">标明Cookie作用域的Uri</param>
+            <returns>Cookie集合</returns>
+        </member>
+        <member name="M:CommonLibrary.Web.Functions.SplitCookie(System.String,System.String,System.String)">
+            <summary>
+            将Cookie字符串写入到Cookie集合中
+            </summary>
+            <param name="cookieString">Cookie字符串</param>
+            <param name="domain">Cookie作用域</param>
+            <param name="path">Cookie作用路径</param>
+            <returns>Cookie集合</returns>
+        </member>
+        <member name="M:CommonLibrary.Web.Functions.SplitCookie(System.String,System.String)">
+            <summary>
+            将Cookie字符串写入到Cookie集合中
+            </summary>
+            <param name="cookieString">Cookie字符串</param>
+            <param name="domain">Cookie作用域</param>
+            <returns>Cookie集合</returns>
+        </member>
+        <member name="M:CommonLibrary.Web.Functions.GetRootUrl(System.Web.HttpContext)">
+            <summary>
+            获取指定HTTP环境的站点根Url
+            </summary>
+            <param name="context">HTTP环境</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Web.Functions.GetRootUrl">
+            <summary>
+            获取当前HTTP环境的站点根Url
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLibrary.Web.UI.LinkElement">
+            <summary>
+            表示一个Html link元素
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.UI.LinkElement.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将控件的内容呈现到HtmlTextWriter上
+            </summary>
+            <param name="writer">要呈现内容的HtmlTextWriter</param>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.LinkElement.Rel">
+            <summary>
+            获取或设置此元素与页面的关系
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.LinkElement.Rev">
+            <summary>
+            获取或设置此元素与页面的反向关系
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.LinkElement.Href">
+            <summary>
+            获取或设置链接目标的地址
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.LinkElement.Type">
+            <summary>
+            获取或设置链接类型
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.LinkElement.Title">
+            <summary>
+            获取或设置链接的标题
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.UI.StyleSheetBlock">
+            <summary>
+            表示一个对CSS文件的链接引用
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.StyleSheetBlock.Rel">
+            <summary>
+            获取CSS链接的关系类型
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.UI.StyleSheetBlock.Type">
+            <summary>
+            获取或设置链接的类型
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.UI.Relationship">
+            <summary>
+            HTML Link元素关系类型
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Alternate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Appendix">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Bookmark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Chapter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Contents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Copyright">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Glossary">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Help">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Index">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Next">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Prev">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Section">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Stylesheet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.Subsection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.Relationship.None">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.UI.LinkType">
+            <summary>
+            HTML Link元素类型
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.LinkType.CSS">
+            <summary>
+            text/css
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.LinkType.Javascript">
+            <summary>
+            text/javascript
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.LinkType.RSS">
+            <summary>
+            application/rss+xml
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.LinkType.Atom">
+            <summary>
+            application/rss+atom
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.UI.LinkType.None">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Zip.Functions">
+            <summary>
+            提供Zip相关的方法
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.Functions.JSharpLibrary">
+            <summary>
+            获取J#运行库
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.Functions.ZipSupport">
+            <summary>
+            获取当前运行环境是否可以使用J#提供的Zip功能
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.Functions.TZipFile">
+            <summary>
+            获取J#中ZipFile的类型
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.Functions.TZipEntry">
+            <summary>
+            获取J#中ZipEntry的类型
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.ByteConverter">
+            <summary>
+            提供字节类型转换
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.ByteConverter.ToByte(System.SByte)">
+            <summary>
+            转换为字节
+            </summary>
+            <param name="sb">有符号字节值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.ByteConverter.ToSByte(System.Byte)">
+            <summary>
+            转换为有符号字节
+            </summary>
+            <param name="b">字节值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.ByteConverter.CopyTo(System.Byte[],System.SByte[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            字节数组复制
+            </summary>
+            <param name="from">源字节数组</param>
+            <param name="to">目标有符号字节数组</param>
+            <param name="fromStart">开始复制的位置</param>
+            <param name="toStart">目标开始接收的位置</param>
+            <param name="count">复制长度</param>
+        </member>
+        <member name="M:CommonLibrary.ByteConverter.CopyTo(System.SByte[],System.Byte[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            字节数组复制
+            </summary>
+            <param name="from">源有符号字节数组</param>
+            <param name="to">目标字节数组</param>
+            <param name="fromStart">开始复制的位置</param>
+            <param name="toStart">目标开始接收的位置</param>
+            <param name="count">复制长度</param>
+        </member>
+        <member name="T:CommonLibrary.StreamCopy">
+            <summary>
+            在两个流之间复制数据的对象
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.StreamCopy._Cancelled">
+            <summary>
+            用户暂停标记
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.StreamCopy.#ctor(System.IO.Stream,System.IO.Stream)">
+            <summary>
+            初始化一个流复制对象
+            </summary>
+            <param name="source">要复制的源流</param>
+            <param name="target">要复制到的目标流</param>
+        </member>
+        <member name="M:CommonLibrary.StreamCopy.Copy(System.Int64)">
+            <summary>
+            将数据从源流复制到目标流
+            </summary>
+            <param name="size">要复制的字节数，传入-1表示一直复制到源流结束</param>
+            <returns>实际复制的字节数</returns>
+        </member>
+        <member name="M:CommonLibrary.StreamCopy.Copy">
+            <summary>
+            将源流从当前位置开始的数据复制到目标流
+            </summary>
+            <returns>实际复制的字节数</returns>
+        </member>
+        <member name="M:CommonLibrary.StreamCopy.BeginCopy(System.Int64)">
+            <summary>
+            开始一个异步复制操作
+            </summary>
+            <param name="size">要复制的最大字节数</param>
+        </member>
+        <member name="M:CommonLibrary.StreamCopy.BeginCopy">
+            <summary>
+            将源流中的内容异步复制到目标流
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.StreamCopy.Cancel">
+            <summary>
+            取消一个异步复制事件
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.SourceStream">
+            <summary>
+            获取复制的源流
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.TargetStream">
+            <summary>
+            获取复制的目标流
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.IsBusy">
+            <summary>
+            获取复制是否进行中
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.BufferSize">
+            <summary>
+            获取或设置复制的缓冲区大小
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.NotifyBlockSize">
+            <summary>
+            获取或设置每复制多少字节发送一次进度通知事件
+            
+            设为0表示不发送进度通知事件，此值与BufferSize之间较大的值决定通知发送的时机
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.StreamCopy.Progress">
+            <summary>
+            复制进度事件
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.StreamCopy.Complete">
+            <summary>
+            完成事件
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.StreamCopy.AsyncCopyState">
+            <summary>
+            用于在异步复制操作中传递数据的对象
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.StreamCopy.ProgressChangedEventArgs">
+            <summary>
+            进度变更事件数据对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.StreamCopy.ProgressChangedEventArgs.#ctor(System.Int64,System.Int64)">
+            <summary>
+            初始化一个进度变更事件数据对象
+            </summary>
+            <param name="byteCopied">已复制的字节数</param>
+            <param name="byteTotal">要复制的字节数</param>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.ProgressChangedEventArgs.ByteCopied">
+            <summary>
+            获取已经复制的字节数
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.ProgressChangedEventArgs.ByteTotal">
+            <summary>
+            获取总共要复制的字节数
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.StreamCopy.CompletedEventArgs">
+            <summary>
+            复制结束事件数据对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.StreamCopy.CompletedEventArgs.#ctor(System.Int64,System.Exception,System.Boolean)">
+            <summary>
+            初始化一个复制完成事件对象
+            </summary>
+            <param name="size">已复制的字节数</param>
+            <param name="error">复制过程中发生的异常</param>
+            <param name="isCancelled">用户是否取消了复制操作</param>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.CompletedEventArgs.Error">
+            <summary>
+            获取在复制过程中发生的异常
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.CompletedEventArgs.IsCancelled">
+            <summary>
+            获取是否用户取消的复制操作
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.StreamCopy.CompletedEventArgs.Size">
+            <summary>
+            获取总共复制的字节数
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.XmlHttpRequest">
+            <summary>
+            使用XML作为Ajax结果输出载体的请求处理对象
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.AjaxRequest">
+            <summary>
+            Ajax处理对象基类
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Web.AjaxRequest.DefaultMethodParamName">
+            <summary>
+            默认的处理方法HTTP参数名
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.AjaxRequest.#ctor(System.String)">
+            <summary>
+            初始化一个Ajax处理对象
+            </summary>
+            <param name="methodParamName">用于标记处理方法的HTTP参数名</param>
+        </member>
+        <member name="M:CommonLibrary.Web.AjaxRequest.#ctor">
+            <summary>
+            使用默认的HTTP参数定义初始化一个Ajax处理对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.AjaxRequest.ProcessRequest(System.Web.HttpContext)">
+            <summary>
+            路由并处理请求
+            </summary>
+            <param name="context">请求上下文</param>
+        </member>
+        <member name="M:CommonLibrary.Web.AjaxRequest.DefaultProcessor">
+            <summary>
+            默认的请求处理器
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.AjaxRequest.OnBeforeRoute">
+            <summary>
+            当开始寻找处理方法前进行的操作
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.AjaxRequest.OnBeforeCall">
+            <summary>
+            当开始执行处理方法前进行的操作
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.AjaxRequest.OnAfterCall">
+            <summary>
+            当处理方法执行结束后进行的操作
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.AjaxRequest.MethodParamName">
+            <summary>
+            获取当前处理对象所使用的标记处理方法的HTTP参数名
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.AjaxRequest.Context">
+            <summary>
+            获取当前正在处理的HTTP上下文环境
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.AjaxRequest.Request">
+            <summary>
+            获取HTTP请求对象
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.AjaxRequest.CurrentMethod">
+            <summary>
+            获取或设置当前被请求的方法名
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.AjaxRequest.IsReusable">
+            <summary>
+            指示此对象是否可重用
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.XmlHttpRequest.#ctor(System.Text.Encoding,System.String)">
+            <summary>
+            初始化一个XMLHttpRequest对象
+            </summary>
+            <param name="respEnc">响应文档编码</param>
+            <param name="methodParamName">处理方法HTTP参数名</param>
+        </member>
+        <member name="M:CommonLibrary.Web.XmlHttpRequest.#ctor(System.Text.Encoding)">
+            <summary>
+            初始化一个XMLHttpRequest对象
+            </summary>
+            <param name="respEnc">响应文档编码</param>
+        </member>
+        <member name="M:CommonLibrary.Web.XmlHttpRequest.#ctor(System.String)">
+            <summary>
+            初始化一个XMLHttpRequest对象
+            </summary>
+            <param name="methodParamName">处理方法HTTP参数名</param>
+        </member>
+        <member name="M:CommonLibrary.Web.XmlHttpRequest.#ctor">
+            <summary>
+            初始化一个XMLHttpRequest对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.XmlHttpRequest.OnAfterCall">
+            <summary>
+            当处理结束时进行的操作
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.XmlHttpRequest.ResponseDocument">
+            <summary>
+            获取Xml响应文档
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AssemblyLoader">
+            <summary>
+            提供插件程序集的载入功能
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AssemblyLoader.Load(System.String)">
+            <summary>
+            加载程序集
+            </summary>
+            <param name="path">程序集的完整路径</param>
+            <returns>程序集对象</returns>
+        </member>
+        <member name="P:CommonLibrary.AssemblyLoader.Cache">
+            <summary>
+            获取已经缓存的程序集
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AssemblyLoader.CacheExpires">
+            <summary>
+            获取或设置程序集缓存时间
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AssemblyCacheInfo">
+            <summary>
+            程序集载入缓存对象
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AssemblyCacheInfo.AssemblyPath">
+            <summary>
+            获取程序集的完整路径
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AssemblyCacheInfo.LastUpdateTime">
+            <summary>
+            获取程序集的上一次更新时间
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AssemblyCacheInfo.LoadTime">
+            <summary>
+            获取加载程序集的时间
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AssemblyCacheInfo.Assembly">
+            <summary>
+            获取程序集对象
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AssemblyCache">
+            <summary>
+            程序集载入缓存集合对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AssemblyCache.#ctor">
+            <summary>
+            初始化程序集载入缓存集合对象
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AssemblyCache.CacheExpires">
+            <summary>
+            获取或设置缓存的有效时间
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AssemblyCache.Item(System.String)">
+            <summary>
+            获取指定地址的程序集缓存
+            </summary>
+            <param name="path">程序集完整路径</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLibrary.Zip.ZipWriteStream">
+            <summary>
+            想Zip文件中写入数据的流
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipWriteStream.Flush">
+            <summary>
+            刷新基础缓冲区
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipWriteStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="buffer"></param>
+            <param name="offset"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipWriteStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>
+            
+            </summary>
+            <param name="offset"></param>
+            <param name="origin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipWriteStream.SetLength(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipWriteStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            将数据写入流
+            </summary>
+            <param name="buffer">要写入的字节数组</param>
+            <param name="offset">字节数组中写入的位置</param>
+            <param name="count">最大写入长度</param>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriteStream.CanRead">
+            <summary>
+            获取流是否可读
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriteStream.CanSeek">
+            <summary>
+            获取流是否可定位
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriteStream.CanWrite">
+            <summary>
+            获取流是否可写
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriteStream.Length">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriteStream.Position">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Week">
+            <summary>
+            提供对周的处理方法
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Week.Add(System.Int32)">
+            <summary>
+            在此周上加上指定的周数(可以为负数)
+            </summary>
+            <param name="weeks">要增加的周数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.Subtract(CommonLibrary.Week)">
+            <summary>
+            计算另一个周与本周的差
+            
+            仅可对两个周起点类型相同的周进行计算
+            </summary>
+            <param name="otherWeek">要计算差值的周</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.#ctor(System.DateTime,System.DayOfWeek)">
+            <summary>
+            初始化一个周
+            </summary>
+            <param name="basedate">此周内所包含的某一天</param>
+            <param name="weekType">周起点类型</param>
+        </member>
+        <member name="M:CommonLibrary.Week.GetHashCode">
+            <summary>
+            返回该周的HashCode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_Addition(CommonLibrary.Week,System.Int32)">
+            <summary>
+            在一个周实例上加上指定的周数
+            </summary>
+            <param name="week">周实例</param>
+            <param name="weeks">指定的周数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_Subtraction(CommonLibrary.Week,System.Int32)">
+            <summary>
+            在一个周实例上减去指定周数
+            </summary>
+            <param name="week">周实例</param>
+            <param name="weeks">要减去的周数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_Subtraction(CommonLibrary.Week,CommonLibrary.Week)">
+            <summary>
+            计算两个周的差值
+            </summary>
+            <param name="week1">起点周</param>
+            <param name="week2">终点周</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_GreaterThan(CommonLibrary.Week,CommonLibrary.Week)">
+            <summary>
+            计算week1是否大于week2
+            </summary>
+            <param name="week1"></param>
+            <param name="week2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_LessThan(CommonLibrary.Week,CommonLibrary.Week)">
+            <summary>
+            计算week1是否小于week2
+            </summary>
+            <param name="week1"></param>
+            <param name="week2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_LessThanOrEqual(CommonLibrary.Week,CommonLibrary.Week)">
+            <summary>
+            计算week1是否小于等于week2
+            </summary>
+            <param name="week1"></param>
+            <param name="week2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_GreaterThanOrEqual(CommonLibrary.Week,CommonLibrary.Week)">
+            <summary>
+            计算week1是否大于等于week2
+            </summary>
+            <param name="week1"></param>
+            <param name="week2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_Equality(CommonLibrary.Week,CommonLibrary.Week)">
+            <summary>
+            计算两个周是否相等
+            </summary>
+            <param name="week1"></param>
+            <param name="week2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.op_Inequality(CommonLibrary.Week,CommonLibrary.Week)">
+            <summary>
+            计算两个周是否不相等
+            </summary>
+            <param name="week1"></param>
+            <param name="week2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.Equals(System.Object)">
+            <summary>
+            计算两个对象是否相等
+            </summary>
+            <param name="obj">要比较的对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.ToString">
+            <summary>
+            返回此周的字符串表示形式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Week.CompareTo(CommonLibrary.Week)">
+            <summary>
+            计算两个周之间的大小关系
+            
+            只有相同周类型的两个周之间可以计算
+            </summary>
+            <param name="other">另一个周</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Week.WeekType">
+            <summary>
+            获取或设置周起点类型
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Week.StartDate">
+            <summary>
+            获取此周的开始日
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Week.EndDate">
+            <summary>
+            获取此周的结束日
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Week.WeekOfYear">
+            <summary>
+            获取此周是其所在年度的第几周(仅可对使用周一作为周起点的周有效)
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Week.ThisWeek">
+            <summary>
+            获取以周一作为起点的当前周
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Compression">
+            <summary>
+            提供简单的压缩与解压操作
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Compression.MaxMemoryBufferSize">
+            <summary>
+            获取或设置最大内存缓冲大小，大于此值的内容处理将使用文件缓冲
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Compression.Compress(System.IO.Stream,System.IO.Stream,System.Int64,CommonLibrary.Compression.BufferType)">
+            <summary>
+            读取输入流中的数据，压缩后写入输出流
+            </summary>
+            <param name="input">输入流</param>
+            <param name="output">输出流</param>
+            <param name="length">源流中要读取的长度</param>
+            <param name="bType">缓冲方式</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.Compress(System.IO.Stream,System.IO.Stream,System.Int64)">
+            <summary>
+            读取输入流中的数据，压缩后写入输出流
+            </summary>
+            <param name="input">输入流</param>
+            <param name="output">输出流</param>
+            <param name="length">源流中要读取的长度</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.Compress(System.IO.Stream,System.IO.Stream,CommonLibrary.Compression.BufferType)">
+            <summary>
+            读取输入流中的数据，压缩后写入输出流
+            </summary>
+            <param name="input">输入流</param>
+            <param name="output">输出流</param>
+            <param name="bType">缓冲方式</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.Compress(System.IO.Stream,System.IO.Stream)">
+            <summary>
+            读取输入流中的数据，压缩后写入输出流
+            </summary>
+            <param name="input">输入流</param>
+            <param name="output">输出流</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.Compress(System.Byte[])">
+            <summary>
+            压缩数据
+            </summary>
+            <param name="data">要压缩的数据</param>
+            <returns>压缩后的数据</returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.Decompress(System.IO.Stream,System.IO.Stream,System.Int64,CommonLibrary.Compression.BufferType)">
+            <summary>
+            解压缩输入流中的数据，写入到输出流中
+            </summary>
+            <param name="input">数据输入流</param>
+            <param name="output">数据输出流</param>
+            <param name="length">输入流中要读取的数据长度</param>
+            <param name="bType">缓冲区类型</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.Decompress(System.IO.Stream,System.IO.Stream,System.Int64)">
+            <summary>
+            解压缩输入流中的数据，写入到输出流中
+            </summary>
+            <param name="input">数据输入流</param>
+            <param name="output">数据输出流</param>
+            <param name="length">输入流中要读取的数据长度</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.Decompress(System.IO.Stream,System.IO.Stream,CommonLibrary.Compression.BufferType)">
+            <summary>
+            解压缩输入流中的数据，写入到输出流中
+            </summary>
+            <param name="input">数据输入流</param>
+            <param name="output">数据输出流</param>
+            <param name="bType">缓冲区类型</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.Decompress(System.IO.Stream,System.IO.Stream)">
+            <summary>
+            解压缩输入流中的数据，写入到输出流中
+            </summary>
+            <param name="input">数据输入流</param>
+            <param name="output">数据输出流</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.Decompress(System.Byte[])">
+            <summary>
+            解压缩数据
+            </summary>
+            <param name="data">要解压的数据</param>
+            <returns>解压后的数据</returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.CompressObject(System.Object,System.IO.Stream)">
+            <summary>
+            序列化并压缩一个对象，然后写入到流中
+            </summary>
+            <param name="obj">要压缩的对象</param>
+            <param name="output">数据输出流</param>
+        </member>
+        <member name="M:CommonLibrary.Compression.CompressObject(System.Object)">
+            <summary>
+            序列化并压缩一个对象
+            </summary>
+            <param name="obj">要压缩的对象</param>
+            <returns>压缩后的数据</returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.DecompressObject(System.IO.Stream,System.Int64)">
+            <summary>
+            从流中读取数据然后解压缩并反序列化成对象
+            </summary>
+            <param name="input">数据输入流</param>
+            <param name="length">对象在流中的长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.DecompressObject(System.IO.Stream)">
+            <summary>
+            从流中读取数据然后解压缩并反序列化成对象
+            </summary>
+            <param name="input">数据输入流</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.DecompressObject(System.Byte[])">
+            <summary>
+            解压缩数据并还原为对象
+            </summary>
+            <param name="data">压缩后的对象数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.CreateBuffer(System.IO.Stream,System.Int64,CommonLibrary.Compression.BufferType)">
+            <summary>
+            创建缓冲流
+            </summary>
+            <param name="input">数据来源流</param>
+            <param name="length">源流中要读取的数据大小</param>
+            <param name="bType">缓冲流类型</param>
+            <returns>缓冲区流</returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.CreateFileBuffer">
+            <summary>
+            创建一个文件缓冲流
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.CreateMemoryBuffer">
+            <summary>
+            创建一个内存缓冲流
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Compression.RenewBuffer(System.IO.Stream)">
+            <summary>
+            让一个缓冲区流重新可用
+            </summary>
+            <param name="bufferStream">缓冲区流</param>
+            <returns>新的可用的缓冲区流</returns>
+        </member>
+        <member name="T:CommonLibrary.Compression.BufferType">
+            <summary>
+            压缩、解压过程中的缓冲方式
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Compression.BufferType.Memory">
+            <summary>
+            使用内存缓冲
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Compression.BufferType.File">
+            <summary>
+            使用文件缓冲
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Compression.BufferType.Auto">
+            <summary>
+            自动缓冲，对于大于10M的数据将使用文件缓冲，否则将使用内存缓冲，可通过修改MaxMemoryBufferSize值来修改这个边界
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Zip.ZipWriterEntry">
+            <summary>
+            向Zip文件中写入数据的入口
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipWriterEntry.#ctor(System.String)">
+            <summary>
+            初始化一个Zip文件中压缩文件入口
+            </summary>
+            <param name="name">压缩文件在Zip文件中的路径</param>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriterEntry.Name">
+            <summary>
+            获取或设置文件在Zip文件中的名称
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriterEntry.IsDirectory">
+            <summary>
+            获取此入口是否表示一个目录
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriterEntry.Extra">
+            <summary>
+            获取或设置此文件的附加内容
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipWriterEntry.LastModifyTime">
+            <summary>
+            获取或设置此文件的最后修改时间
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Zip.ZipReadStream">
+            <summary>
+            从Zip文件中读出数据的流
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReadStream.Flush">
+            <summary>
+            刷新流基础数据区
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReadStream.Close">
+            <summary>
+            关闭流
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReadStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            从流中读取数据
+            </summary>
+            <param name="buffer">存放数据的字节数组</param>
+            <param name="offset">数组存放位置开始索引</param>
+            <param name="count">最大读取长度</param>
+            <returns>实际读取长度</returns>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReadStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>
+            
+            </summary>
+            <param name="offset"></param>
+            <param name="origin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReadStream.SetLength(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReadStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="buffer"></param>
+            <param name="offset"></param>
+            <param name="count"></param>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReadStream.CanRead">
+            <summary>
+            获取流是否可读取
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReadStream.CanSeek">
+            <summary>
+            获取流是否可定位
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReadStream.CanWrite">
+            <summary>
+            获取流是否可写
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReadStream.Length">
+            <summary>
+            获取流的长度
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReadStream.Position">
+            <summary>
+            获取或设置流当前的位置
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Zip.ZipReaderEntryCollection">
+            <summary>
+            Zip文件中压缩文件入口集合
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReaderEntryCollection.GetEnumerator">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipReaderEntryCollection.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntryCollection.Item(System.Int32)">
+            <summary>
+            根据索引获取压缩文件入口
+            </summary>
+            <param name="index">文件的索引</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntryCollection.Item(System.String)">
+            <summary>
+            根据文件名获取压缩文件入口
+            </summary>
+            <param name="name">文件名</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipReaderEntryCollection.Count">
+            <summary>
+            获取入口数量
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.AjaxMethodAttribute">
+            <summary>
+            标记一个方法可以被AjaxRequestBase通过HTTP参数调用
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Convert">
+            <summary>
+            提供转换到简单值结构的方法
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToString(System.Object,System.String)">
+            <summary>
+            将对象转换为字符串
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <param name="defaultValue">默认的返回值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToString(System.Object)">
+            <summary>
+            将对象转换为字符串，如果无法转换则返回string.Empty
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToDouble(System.Object,System.Double)">
+            <summary>
+            将对象转换为浮点型
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <param name="defaultValue">默认的返回值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToDouble(System.Object)">
+            <summary>
+            将对象转换为浮点型
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToInt64(System.Object,System.Int64)">
+            <summary>
+            将对象转换为64位整型
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <param name="defaultValue">默认的返回值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToInt64(System.Object)">
+            <summary>
+            将对象转换为64位整型
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToInt32(System.Object,System.Int32)">
+            <summary>
+            将对象转换为整型
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <param name="defaultValue">默认的返回值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToInt32(System.Object)">
+            <summary>
+            将对象转换为整型
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToDateTime(System.Object,System.DateTime)">
+            <summary>
+            将对象转换为日期时间值
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <param name="defaultValue">默认的返回值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToDateTime(System.Object)">
+            <summary>
+            将对象转换为日期时间值
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToBoolean(System.Object,System.Boolean)">
+            <summary>
+            将对象转换为布尔值
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <param name="defaultValue">默认的返回值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToBoolean(System.Object)">
+            <summary>
+            将对象转换为布尔值
+            </summary>
+            <param name="obj">要转换的对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Convert.ToType(System.Object,System.Type)">
+            <summary>
+            将对象转换为另一个类型
+            </summary>
+            <param name="obj"></param>
+            <param name="valueType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLibrary.Zip.ZipFileWriter">
+            <summary>
+            创建Zip文件的对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipFileWriter.#ctor(System.String)">
+            <summary>
+            初始化一个Zip文件创建对象
+            </summary>
+            <param name="filePath">要创建的Zip文件路径</param>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipFileWriter.AddFile(CommonLibrary.Zip.ZipWriterEntry)">
+            <summary>
+            添加一个文件入口，并打开此入口的输入流
+            </summary>
+            <param name="entry">文件入口</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipFileWriter.Close">
+            <summary>
+            关闭ZIP文件
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipFileWriter.Dispose">
+            <summary>
+            释放对象所占用的资源
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipFileWriter.Level">
+            <summary>
+            获取或设置当前的压缩率，取值范围1-9，数字越高压缩率越大，设为-1使用默认的压缩率
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipFileWriter.Comment">
+            <summary>
+            获取或设置文件注释
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Zip.ZipFileReader">
+            <summary>
+            表示一个用于读取Zip文件的对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipFileReader.#ctor(System.String)">
+            <summary>
+            初始化一个Zip文件读取类
+            </summary>
+            <param name="path">要读取的Zip文件路径</param>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipFileReader.ReadFile">
+            <summary>
+            读取ZIP文件中的内容
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipFileReader.Dispose">
+            <summary>
+            释放对象所占用的资源
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Zip.ZipFileReader.Close">
+            <summary>
+            关闭ZIP读取对象
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Zip.ZipFileReader.Entiries">
+            <summary>
+            获取Zip文件中压缩文件入口集合
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Web.DomainName">
+            <summary>
+            提供对域名的处理方法
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.DomainName.#ctor(System.Uri)">
+            <summary>
+            初始化一个域名对象
+            </summary>
+            <param name="uri">Uri对象</param>
+        </member>
+        <member name="M:CommonLibrary.Web.DomainName.#ctor(System.String)">
+            <summary>
+            初始化一个域名对象
+            </summary>
+            <param name="domain">表示此域名的字符串</param>
+        </member>
+        <member name="M:CommonLibrary.Web.DomainName.ToString">
+            <summary>
+            获取此域名的字符串表现形式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Web.DomainName.ParseDomain(System.String)">
+            <summary>
+            解析域名字符串
+            </summary>
+            <param name="domain">要解析的域名字符串</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Web.DomainName.TopLevelRoot">
+            <summary>
+            获取此域名的顶级根(包括国家代码)
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.DomainName.Root">
+            <summary>
+            获取此域名的根域名
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.DomainName.SubDomains">
+            <summary>
+            获取此域名的子级域名集合，等级越低排在越前
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Constants">
+            <summary>
+            提供各种全局常量
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Constants.UnixMinTime">
+            <summary>
+            UNIX时间戳为0时表示的时间值
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Constants.DatabaseMinTime">
+            <summary>
+            数据库所能接受的日期时间最小值
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Logger">
+            <summary>
+            提供日志支持的对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Logger.WriteLog(System.String)">
+            <summary>
+            记录普通日志
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CommonLibrary.Logger.WriteLog(System.String,System.String)">
+            <summary>
+            记录普通日志
+            </summary>
+            <param name="msg">日志内容</param>
+            <param name="prefix">日志文件前缀</param>
+        </member>
+        <member name="M:CommonLibrary.Logger.WriteLog(System.Exception,System.String)">
+            <summary>
+            记录异常日志
+            </summary>
+            <param name="ex">异常对象</param>
+            <param name="prefix">日志文件前缀</param>
+        </member>
+        <member name="M:CommonLibrary.Logger.WriteLog(System.Exception)">
+            <summary>
+            记录异常日志
+            </summary>
+            <param name="ex">异常对象</param>
+        </member>
+        <member name="M:CommonLibrary.Logger.PrepareLogFile(System.DateTime,System.String)">
+            <summary>
+            准备日志文件
+            </summary>
+            <param name="now">当前时间</param>
+            <param name="prefix">日志文件前缀</param>
+            <returns>日志文件地址</returns>
+        </member>
+        <member name="M:CommonLibrary.Logger.PrepareLogFile(System.DateTime)">
+            <summary>
+            准备日志文件
+            </summary>
+            <param name="now">当前时间</param>
+            <returns>日志文件地址</returns>
+        </member>
+        <member name="P:CommonLibrary.Logger.Disabled">
+            <summary>
+            获取或设置是否禁用日志
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorkQueue`1">
+            <summary>
+            提供异步方式进行非响应处理的队列
+            
+            <typeparam name="T">处理所需的数据的类型</typeparam>
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorkQueue`1.#ctor(CommonLibrary.AsyncWorkQueue{`0}.WorkHandler)">
+            <summary>
+            初始化一个异步数据处理队列
+            </summary>
+            <param name="handler">处理方法委托</param>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorkQueue`1.AddWork(`0)">
+            <summary>
+            向队列中添加一项工作任务
+            </summary>
+            <param name="workData">工作所需要的数据</param>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkQueue`1.IsBusy">
+            <summary>
+            获取队列是否正在进行处理中
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.AsyncWorkQueue`1.WorkCompleted">
+            <summary>
+            当某个异步操作运行结束时引发的事件
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorkQueue`1.WorkHandler">
+            <summary>
+            处理方法委托
+            </summary>
+            <param name="data">进行处理所需要的数据类型</param>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorkQueue`1.WorkCompleteEventArgs">
+            <summary>
+            为异步处理完成提供事件的对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorkQueue`1.WorkCompleteEventArgs.#ctor(`0)">
+            <summary>
+            初始化异步操作完成事件数据对象
+            </summary>
+            <param name="data">异步操作的参数数据</param>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkQueue`1.WorkCompleteEventArgs.Data">
+            <summary>
+            获取完成处理的数据
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorkQueue`2">
+            <summary>
+            提供异步方式进行响应处理的队列
+            </summary>
+            <typeparam name="T1">处理所需的参数数据类型</typeparam>
+            <typeparam name="T2">处理结果的数据类型</typeparam>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorkQueue`2.#ctor(CommonLibrary.AsyncWorkQueue{`0,`1}.WorkHandler)">
+            <summary>
+            初始化一个异步数据处理队列
+            </summary>
+            <param name="handler">处理方法委托</param>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorkQueue`2.AddWork(`0)">
+            <summary>
+            向队列中添加一项工作任务
+            </summary>
+            <param name="workData">工作所需要的数据</param>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkQueue`2.IsBusy">
+            <summary>
+            获取队列是否正在进行处理中
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.AsyncWorkQueue`2.WorkCompleted">
+            <summary>
+            当某个异步操作运行结束时引发的事件
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorkQueue`2.WorkHandler">
+            <summary>
+            异步处理的托管方法
+            </summary>
+            <param name="data">处理所需的参数数据</param>
+            <returns>处理结果数据</returns>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorkQueue`2.WorkCompleteEventArgs">
+            <summary>
+            为异步处理完成提供事件的对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorkQueue`2.WorkCompleteEventArgs.#ctor(`0,`1)">
+            <summary>
+            初始化异步操作完成事件数据对象
+            </summary>
+            <param name="data">异步操作的参数数据</param>
+            <param name="result">异步操作的结果数据</param>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkQueue`2.WorkCompleteEventArgs.Data">
+            <summary>
+            获取完成处理的数据
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkQueue`2.WorkCompleteEventArgs.Result">
+            <summary>
+            获取处理结果
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorker">
+            <summary>
+            提供异步线程操作的对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorker.Run">
+            <summary>
+            开始异步操作
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorker.Run(System.Object)">
+            <summary>
+            开始异步操作
+            </summary>
+            <param name="argument">传递给异步操作的参数</param>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorker.Cancel">
+            <summary>
+            取消异步操作
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.AsyncWorker.DoWork">
+            <summary>
+            需要异步执行的方法
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.AsyncWorker.WorkComplete">
+            <summary>
+            异步操作结束时引发的事件
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorker.IsBusy">
+            <summary>
+            获取异步操作是否正在进行中
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorkerEventArgs">
+            <summary>
+            异步线程操作参数对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorkerEventArgs.#ctor(System.Object)">
+            <summary>
+            初始化一个异步操作参数对象
+            </summary>
+            <param name="arguments">异步操作参数</param>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkerEventArgs.Arguments">
+            <summary>
+            获取异步操作参数
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkerEventArgs.Result">
+            <summary>
+            获取或设置异步操作结果
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.AsyncWorkerResultEventArgs">
+            <summary>
+            异步线程操作结果对象
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.AsyncWorkerResultEventArgs.#ctor(System.Boolean,System.Exception,System.Object)">
+            <summary>
+            初始化一个异步操作结果事件对象
+            </summary>
+            <param name="cancelled">异步操作是否被取消</param>
+            <param name="error">异步操作中发生的异常</param>
+            <param name="result">异步操作的结果</param>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkerResultEventArgs.Cancelled">
+            <summary>
+            获取异步操作是否被用户取消
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkerResultEventArgs.Error">
+            <summary>
+            获取异步操作过程中发生的异常
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.AsyncWorkerResultEventArgs.Result">
+            <summary>
+            获取异步操作的结果
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Functions">
+            <summary>
+            提供各种全局公共方法的类
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Functions.InvokeDelegate(System.Delegate,System.Object[])">
+            <summary>
+            执行一个托管事件
+            </summary>
+            <param name="target">要执行的事件托管对象</param>
+            <param name="args">传递的参数</param>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetAppSetting(System.String)">
+            <summary>
+            获取应用程序配置文件中对应键的值
+            </summary>
+            <param name="key">配置键</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetAppSetting(System.String,System.String)">
+            <summary>
+            获取应用程序配置文件中对应键的值
+            </summary>
+            <param name="key">配置键</param>
+            <param name="defaultValue">当键不存在时返回的默认值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.TimestampToDateTime(System.Int32)">
+            <summary>
+            把UNIX时间戳转换为时间值
+            </summary>
+            <param name="unixTimeStamp">UNIX时间戳</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.DateTimeToTimestamp(System.DateTime)">
+            <summary>
+            把时间值转换为UNIX时间戳
+            </summary>
+            <param name="t">时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetNumber(System.String,System.Int32)">
+            <summary>
+            分析文本中包含的数字
+            </summary>
+            <param name="s">包含数字的文本</param>
+            <param name="index">需要忽略的前N个数字串</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetNumber(System.String)">
+            <summary>
+            分析文本中包含的数字
+            </summary>
+            <param name="s">包含数字的文本</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetDateTime(System.String)">
+            <summary>
+            从文本中分析包含的时间日期
+            </summary>
+            <param name="s">包含时间日期的文本</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.MD5(System.String)">
+            <summary>
+            计算指定字符串的MD5值
+            </summary>
+            <param name="str">要计算MD5的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.MD5(System.Byte[])">
+            <summary>
+            计算指定数据的MD5
+            </summary>
+            <param name="data">要计算的数据</param>
+            <returns>返回值</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.MD5File(System.String)">
+            <summary>
+            计算指定文件的MD5
+            </summary>
+            <param name="filePath">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetConnString(System.String)">
+            <summary>
+            获取配置文件中指定名称的数据库连接串
+            </summary>
+            <param name="name">连接串名</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetPath(System.String)">
+            <summary>
+            获取一个格式化好的路径字符串，字符串结束不包括反斜杠
+            </summary>
+            <param name="path">路径字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.UniqueFile(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            在指定的目录中寻找一个未被使用的文件名
+            </summary>
+            <param name="path">要寻找的目录</param>
+            <param name="prefix">文件名前缀</param>
+            <param name="ext">文件扩展名</param>
+            <param name="returnFullPath">是否返回完整的路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.UniqueFile(System.String,System.String,System.String)">
+            <summary>
+            在指定的目录中寻找一个未被使用的文件名
+            </summary>
+            <param name="path">要寻找的目录</param>
+            <param name="prefix">文件名前缀</param>
+            <param name="ext">文件扩展名</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.UniqueFile(System.String,System.String)">
+            <summary>
+            在指定的目录中寻找一个未被使用的文件名
+            </summary>
+            <param name="path">要寻找的目录</param>
+            <param name="ext">文件扩展名</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.UniqueFile(System.String)">
+            <summary>
+            在指定的目录中寻找一个未被使用的文件名
+            </summary>
+            <param name="path">要寻找的目录</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.UniqueFolder(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            在指定的目录中寻找一个未被使用的目录名
+            </summary>
+            <param name="path">要寻找的目录名</param>
+            <param name="prefix">目录名前缀</param>
+            <param name="suffix">目录名后缀</param>
+            <param name="returnFullPath">是否返回完整目录路径</param>
+            <returns>找到的未被使用的目录</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.UniqueFolder(System.String,System.String,System.Boolean)">
+            <summary>
+            在指定的目录中寻找一个未被使用的目录名
+            </summary>
+            <param name="path">要寻找的目录名</param>
+            <param name="prefix">目录名前缀</param>
+            <param name="returnFullPath">是否返回完整目录路径</param>
+            <returns>找到的未被使用的目录</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.UniqueFolder(System.String,System.Boolean)">
+            <summary>
+            在指定的目录中寻找一个未被使用的目录名
+            </summary>
+            <param name="path">要寻找的目录名</param>
+            <param name="returnFullPath">是否返回完整目录路径</param>
+            <returns>找到的未被使用的目录</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.UniqueFolder(System.String)">
+            <summary>
+            在指定的目录中寻找一个未被使用的目录名
+            </summary>
+            <param name="path">要寻找的目录名</param>
+            <returns>找到的未被使用的目录</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.SafeLikeCondition(System.String,System.Boolean)">
+            <summary>
+            将字符串中的特殊字符进行转义，以用于SQL的Like查询串中
+            </summary>
+            <param name="word">要转移的字符串</param>
+            <param name="slashQuote">是否转移引号</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.SafeLikeCondition(System.String)">
+            <summary>
+            将字符串中的特殊字符进行转义，以用于SQL的Like查询串中
+            </summary>
+            <param name="word">要转移的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.ExcelToDataSet(System.String)">
+            <summary>
+            从Excel中读取数据填充到DataSet中
+            </summary>
+            <param name="filename">Excel文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetLastDate(System.DateTime,System.DayOfWeek)">
+            <summary>
+            根据指定的星期，获取小于或等于指定日期的最大日期
+            </summary>
+            <param name="d">参照日期</param>
+            <param name="dayOfWeek">星期值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetNextDate(System.DateTime,System.DayOfWeek)">
+            <summary>
+            根据指定的星期，获取大于或等于指定日期的最大日期
+            </summary>
+            <param name="d">参照日期</param>
+            <param name="dayOfWeek">星期值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.CloneObject(System.Object)">
+            <summary>
+            简单生成一个对象的克隆体，原对象必须可以序列化
+            </summary>
+            <param name="source">要克隆的对象</param>
+            <returns>新对象</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.EnumToDict(System.Type)">
+            <summary>
+            将一个枚举中所有的值放置到一个字典中
+            </summary>
+            <param name="enumType">枚举类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.LocalIp">
+            <summary>
+            获得本机IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.PathCombine(System.String,System.String)">
+            <summary>
+            合并两个文件系统路径，返回目标路径的完整表示
+            </summary>
+            <param name="path">相对或绝对路径</param>
+            <param name="basePath">要合并到的基路径(基路径必须是完整路径)</param>
+            <returns>合并后的完整路径</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetHardDiskSerials">
+            <summary>
+            获取硬盘的序列号
+            </summary>
+            <returns>序列号数组</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.GetFirstHardDiskSerial">
+            <summary>
+            获取第一个硬盘的序列号
+            </summary>
+            <returns>序列号</returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.DataTableToExcelBook(System.Data.DataTable)">
+            <summary>
+            将一个数据表转换为Excel工作簿对象
+            </summary>
+            <param name="dt">数据表</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.DataSetToExcelBook(System.Data.DataSet)">
+            <summary>
+            将一个数据集转换为Excel工作簿对象
+            </summary>
+            <param name="ds">数据集</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Functions.Base64Decode(System.String)">
+            <summary>
+            Base64解码
+            </summary>
+            <param name="base64">base64字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLibrary.Web.HttpWebClient">
+            <summary>
+            加强型HTTP资源客户端
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.OnRequestReady">
+            <summary>
+            当请求准备好时进行的操作
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.OnResponseReady">
+            <summary>
+            当向响应准备好时进行的操作
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.OnPostCompleted">
+            <summary>
+            当向请求中发送数据实体结束时引发的事件
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.DoRequest(System.String)">
+            <summary>
+            发起请求
+            </summary>
+            <param name="url">要请求的地址</param>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.CopyResponseData(System.IO.Stream)">
+            <summary>
+            复制响应的内容到指定流
+            </summary>
+            <param name="target">目标流</param>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.Go(System.String)">
+            <summary>
+            根据当前设置请求指定的URL地址
+            </summary>
+            <param name="url">要请求的URL地址</param>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.GetData(System.String)">
+            <summary>
+            获取指定HTTP地址的数据
+            </summary>
+            <param name="url">URL地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.GetData(System.String,System.IO.Stream)">
+            <summary>
+            获取指定地址的数据，并复制到指定流中
+            </summary>
+            <param name="url">URL地址</param>
+            <param name="targetStream">接收数据的流</param>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.GetFile(System.String,System.String)">
+            <summary>
+            获取指定地址的数据，保存到文件中
+            </summary>
+            <param name="url">URL地址</param>
+            <param name="targetFile">文件保存路径</param>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.GetString(System.String,System.Text.Encoding)">
+            <summary>
+            获取指定HTTP地址的文本内容
+            </summary>
+            <param name="url">URL地址</param>
+            <param name="enc">文本编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.GetString(System.String)">
+            <summary>
+            获取指定HTTP地址的文本内容，并尝试自动解码
+            </summary>
+            <param name="url">URL地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLibrary.Web.HttpWebClient.Dispose">
+            <summary>
+            释放当前所关联的所有资源
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.Web.HttpWebClient.RequestReady">
+            <summary>
+            当请求准备好时引发的事件
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.Web.HttpWebClient.PostComplete">
+            <summary>
+            当POST内容发送结束时引发的事件
+            </summary>
+        </member>
+        <member name="E:CommonLibrary.Web.HttpWebClient.ResponseReady">
+            <summary>
+            当请求对象准备好时引发的事件
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.Cookies">
+            <summary>
+            获取所有的Cookie集合
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.Referer">
+            <summary>
+            获取或设置请求使用的引用地址
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.Proxy">
+            <summary>
+            获取或设置请求使用的代理
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.Credentials">
+            <summary>
+            获取或设置用户身份凭据
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.RequestTimeout">
+            <summary>
+            获取或设置请求的超时时间，单位毫秒
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.ReadWriteTimeout">
+            <summary>
+            获取或设置数据读取和写入的超时时间，单位毫秒
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.Method">
+            <summary>
+            获取或设置请求方法
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.PostData">
+            <summary>
+            需要在POST体中发送的内容
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.LastRequest">
+            <summary>
+            获取上一次请求对象
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Web.HttpWebClient.LastResponse">
+            <summary>
+            获取上一次响应对象
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Excel.Worksheet">
+            <summary>
+            Excel工作表
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Excel.Worksheet.Title">
+            <summary>
+            获取获设置工作表的标题
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Excel.Worksheet.Rows">
+            <summary>
+            获取数据行列表
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Excel.Workbook">
+            <summary>
+            Excel工作簿
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Excel.Workbook.Save(System.String)">
+            <summary>
+            保存到文件
+            </summary>
+            <param name="filename">要保存到的文件名</param>
+        </member>
+        <member name="M:CommonLibrary.Excel.Workbook.Save(System.IO.Stream)">
+            <summary>
+            保存到流
+            </summary>
+            <param name="stream">要保存到的流</param>
+        </member>
+        <member name="P:CommonLibrary.Excel.Workbook.Sheets">
+            <summary>
+            获取工作表集合
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Excel.Workbook.NS">
+            <summary>
+            Excel命名空间定义
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Excel.Workbook.NS.SPREAD_SHEET">
+            <summary>
+            基础命名空间
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Excel.Workbook.NS.X">
+            <summary>
+            Excel命名空间
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Excel.Workbook.NS.SS">
+            <summary>
+            工作表命名空间
+            </summary>
+        </member>
+        <member name="F:CommonLibrary.Excel.Workbook.NS.HTML">
+            <summary>
+            HTML命名空间
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Excel.WorksheetCollection.Add(System.String)">
+            <summary>
+            创建指定标题的工作表并加入到集合中
+            </summary>
+            <param name="title">工作表标题</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Excel.WorksheetCollection.Item(System.Int32)">
+            <summary>
+            获取指定索引处的工作表
+            </summary>
+            <param name="index">工作表的索引</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Excel.WorksheetCollection.Item(System.String)">
+            <summary>
+            获取指定标题的工作表
+            </summary>
+            <param name="title">工作表的标题</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommonLibrary.Excel.WorksheetCollection.Count">
+            <summary>
+            获取工作表总数
+            </summary>
+        </member>
+        <member name="T:CommonLibrary.Excel.WorkRow">
+            <summary>
+            Excel数据行
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Excel.WorkRow.#ctor(System.Collections.Generic.IEnumerable{System.Object})">
+            <summary>
+            初始化一个数据行
+            </summary>
+            <param name="data">数据行中包含的数据</param>
+        </member>
+        <member name="M:CommonLibrary.Excel.WorkRow.#ctor">
+            <summary>
+            初始化一个空数据行
+            </summary>
+        </member>
+        <member name="P:CommonLibrary.Excel.WorkRow.Cells">
+            <summary>
+            获取行中包含的数据
+            </summary>
+        </member>
+        <member name="M:CommonLibrary.Excel.WorkRowCollection.Add(System.Object[])">
+            <summary>
+            添加一个数据行
+            </summary>
+            <param name="data">数据行中的数据</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

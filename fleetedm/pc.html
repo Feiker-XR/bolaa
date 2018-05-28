@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>长安福特供应商员工购车优惠计划</title>
+    <link href="pc.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/swfobject.js"></script>
+    <script src="js/modernizr.2.5.3.min.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?d1f5db9340baac4a3ce25ce4bbf7d956";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    <script type="text/javascript">
+        var wrapWidth;
+
+        var flash;
+
+        function flash_ready() {
+            flash.go();
+        }
+
+        function flash_complete() {
+            $('.wrap').show();
+            $('#flipbook, #pcbg').show().animate({ opacity: 1 }, { duration: 2500, easing: null });
+            $('#flash').animate({ opacity: 0 }, { duration: 1500, easing: null });
+            //flash.hidePaper();
+        }
+
+        $(function () {
+            wrapWidth = Math.ceil($(window).height() / 828 * 624);
+
+            var h = $(window).height();
+
+            $('.wrap').css({
+                width: wrapWidth + 'px',
+                height: h + 'px'
+            });
+
+            //swfobject.embedSWF('img/bag.swf?' + Math.random(), 'flash', wrapWidth, h, '11.7', '', {}, {
+            //    allowScriptAccess: 'always',
+            //    wmode: 'transparent'
+            //}, {}, function (evt) {
+            //    flash = evt.ref;
+            //    $(flash).css('position', 'absolute');
+            //});
+
+            $('#flipbook').turn({
+                width: wrapWidth,
+                height: h,
+                display: 'single',
+                duration: 2000
+            });
+
+            $("#flipbook").bind("turning", function (evt, page, view) {
+                //console.log(arguments);
+                if (page == 5) {
+                    $('.clicktip').hide();
+                }
+                else {
+                    $('.clicktip').show();
+                }
+
+                if (page == 5) {
+                    $('.btn').show();
+                }
+                else {
+                    $('.btn').hide();
+                }
+            });
+
+            $('<img src="img/clicktip.png" class="clicktip" />').appendTo($('#flipbook'));
+
+            $('<a href="TableDownload.ashx" target="_blank" class="btn" style="display: none;"><img src="img/btn.png" /></a>').appendTo($('#flipbook'));
+
+            tipStep1();
+        });
+
+        if (!Modernizr.csstransforms) {
+            document.writeln('<script src="js/turn.html4.min.js"></' + 'script>');
+        }
+        else {
+            document.writeln('<script src="js/turn.min.js"></' + 'script>');
+        }
+
+        function tipStep1() {
+            $('.clicktip').animate({ left: -30 }, { duration: 1000, easing: null, complete: tipStep2 });
+        }
+
+        function tipStep2() {
+            $('.clicktip').animate({ left: 0 }, { duration: 1000, easing: null, complete: tipStep1 });
+        }
+    </script>
+</head>
+<body>
+    <div id="pcbg" style="display: none; opacity: 0; filter: alpha(opacity = 0);"></div>
+    <div id="flash">
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="bag" align="middle">
+            <param name="movie" value="img/bag.swf" />
+            <param name="quality" value="high" />
+            <param name="play" value="true" />
+            <param name="loop" value="true" />
+            <param name="wmode" value="transparent" />
+            <param name="scale" value="showall" />
+            <param name="menu" value="false" />
+            <param name="devicefont" value="false" />
+            <param name="allowScriptAccess" value="sameDomain" />
+            <!--[if !IE]>-->
+            <object type="application/x-shockwave-flash" data="img/bag.swf" width="100%" height="100%">
+                <param name="movie" value="img/bag.swf" />
+                <param name="quality" value="high" />
+                <param name="play" value="true" />
+                <param name="loop" value="true" />
+                <param name="wmode" value="transparent" />
+                <param name="scale" value="showall" />
+                <param name="menu" value="false" />
+                <param name="devicefont" value="false" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <!--<![endif]-->
+                <a href="http://www.adobe.com/go/getflash">
+                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获得 Adobe Flash Player" />
+                </a>
+                <!--[if !IE]>-->
+            </object>
+            <!--<![endif]-->
+        </object>
+    </div>
+    <div class="wrap" style="display: none;">
+        <div id="flipbook" style="position: absolute; opacity: 0; filter: alpha(opacity = 0);">
+            <div class="page">
+                <img src="img/paperbg.png" />
+                <img src="img/paper_0_pc.png" />
+            </div>
+            <div class="page">
+                <img src="img/paperbg.png" />
+                <img src="img/paper_1_pc.png" />
+            </div>
+            <div class="page">
+                <img src="img/paperbg.png" />
+                <img src="img/paper_2_pc.png" />
+            </div>
+            <div class="page">
+                <img src="img/paperbg.png" />
+                <img src="img/paper_3_pc.png" />
+            </div>
+            <div class="page">
+                <img src="img/paperbg.png" />
+                <img src="img/paper_4_pc.png" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{margin:0px; padding:0px;}
+ul{ list-style-type:none;}
+a{ text-decoration:none;}
+.page{ width:640px; position:absolute; overflow:hidden;}
+#logo{width:570px; height:50px; position:fixed; left:35px; top:20px; background:url(../images/logo.png) no-repeat center center; z-index:1;}
+@-webkit-keyframes myarrow {
+	from{bottom:10px;}
+	to{bottom:60px;}
+}
+#arrow{display:block;width:67px; height:78px; background:url(../images/arrow.png) no-repeat center center; position:absolute; left:45%;  z-index:10;-webkit-animation:myarrow 2s infinite;}
+
+@-webkit-keyframes music {
+	from{-webkit-transform:rotate(0deg);}
+	to{-webkit-transform:rotate(360deg);}
+}
+#music{width:44px; height:44px; background:url("../images/music_on.png") no-repeat center center; position:fixed; bottom:30px; left:25px; z-index:2;}
+.mi{ -webkit-animation: music 1s linear infinite;}
+
+@-webkit-keyframes mybg {
+	from{ -webkit-transform:scale(1);}
+	to { -webkit-transform:scale(1.05);}
+}
+
+.co{width:640px; height:1136px; position:absolute;-webkit-animation:mybg 8s forwards;}
+
+#p1 .co{ background:url(../images/p1_bg.jpg) no-repeat center bottom;  }
+#p1 img {width:565px; height:163px; position:absolute; left:44px; top:250px;}
+
+#p2{top:1136px;}
+#p2 .co{background:url(../images/p2_bg.jpg) no-repeat center bottom;}
+#p2 img {width:601px; height:248px; position:absolute; left:48px; bottom:358px;}
+#p3{top:1136px;}
+#p3 .co{background:url(../images/p3_bg.jpg) no-repeat center bottom;}
+#p3 img {width:596px; height:336px; position:absolute; left:22px; top:266px;}
+#p4{top:1136px;}
+#p4 .co{background:url(../images/p4_bg.jpg) no-repeat center bottom;}
+#p4 img {width:581px; height:294px; position:absolute; left:50px; top:236px;}
+#p5{top:1136px;}
+#p5 .co{background:url(../images/p5_bg.jpg) no-repeat center bottom;}
+#p5 img {width:567px; height:246px; position:absolute; left:50px; top:252px;}
+#p6{top:1136px;}
+#p6 .co{background:url(../images/p6_bg.jpg) no-repeat center bottom;}
+#p6 img {width:624px; height:277px; position:absolute; left:42px; top:424px;}
+#p7{top:1136px;}
+#p7 .co{background:url(../images/p7_bg2.jpg) no-repeat center bottom;}
+#p7 .p7_word {width:528px; height:196px; position:absolute; left:62px; top:178px;}
+#p7 .p7_button{width:263px; height:80px; position:absolute; left:184px; /*bottom:186px; top:866px;*/ top:830px;}
+#p7  #video{width:525px; height:302px; position:absolute; left:57px; /*bottom:312px;top:522px;*/ top:465px;z-index:5;}
+
+

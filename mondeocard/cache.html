@@ -1,0 +1,188 @@
+﻿<div id="p1" class="p">
+    <div class="word">
+        <img src="img/main_bg.png" class="bg" />
+        <div class="fill">
+            <img src="img/main_fill.png" />
+        </div>
+        <img src="img/main_word.png" class="top" />
+    </div>
+</div>
+
+<div id="p2" class="p">
+    <img src="img/p2_bg.png" class="bg" />
+    <div class="sp">
+        <img src="img/sp_1.png" class="sp_1" />
+        <img src="img/sp_2.png" class="sp_2" />
+        <img src="img/sp_3.png" class="sp_3" />
+        <img src="img/sp_4.png" class="sp_4" />
+    </div>
+    <img src="img/btn_start.png" class="btn_start" onclick="stage._navigate(p3);" />
+</div>
+
+<div id="p3" class="p">
+    <img src="img/p3_bg.png" class="bg" />
+    <img src="img/word_0.png" class="word_show" />
+    <img src="img/word_1.png" class="word_show" style="display: block;" />
+    <img src="img/word_2.png" class="word_show" />
+    <img src="img/word_3.png" class="word_show" />
+    <img src="img/word_4.png" class="word_show" />
+    <img src="img/word_5.png" class="word_show" />
+    <img src="img/word_6.png" class="word_show" />
+
+    <img src="img/font_0.png" class="font_show" />
+    <img src="img/font_1.png" class="font_show" style="display: block;" />
+    <img src="img/font_2.png" class="font_show" />
+
+    <img src="img/preview_0_0.png" class="word_preview" />
+    <img src="img/preview_0_1.png" class="word_preview" />
+    <img src="img/preview_0_2.png" class="word_preview" />
+    <img src="img/preview_0_3.png" class="word_preview" />
+    <img src="img/preview_0_4.png" class="word_preview" />
+    <img src="img/preview_0_5.png" class="word_preview" />
+    <img src="img/preview_0_6.png" class="word_preview" />
+
+    <img src="img/preview_1_0.png" class="word_preview" />
+    <img src="img/preview_1_1.png" class="word_preview" style="display: block;" />
+    <img src="img/preview_1_2.png" class="word_preview" />
+    <img src="img/preview_1_3.png" class="word_preview" />
+    <img src="img/preview_1_4.png" class="word_preview" />
+    <img src="img/preview_1_5.png" class="word_preview" />
+    <img src="img/preview_1_6.png" class="word_preview" />
+
+    <img src="img/preview_2_0.png" class="word_preview" />
+    <img src="img/preview_2_1.png" class="word_preview" />
+    <img src="img/preview_2_2.png" class="word_preview" />
+    <img src="img/preview_2_3.png" class="word_preview" />
+    <img src="img/preview_2_4.png" class="word_preview" />
+    <img src="img/preview_2_5.png" class="word_preview" />
+    <img src="img/preview_2_6.png" class="word_preview" />
+
+    <img src="img/arr_left.png" class="arr_left word_arr" onclick="wordPrev();" />
+    <img src="img/arr_left.png" class="arr_right word_arr" onclick="wordNext();" />
+    <img src="img/arr_left.png" class="arr_left font_arr" onclick="fontPrev();" />
+    <img src="img/arr_left.png" class="arr_right font_arr" onclick="fontNext();" />
+    <img src="img/btn_submitword.png" class="btn_submitword" onclick="stage._navigate(p4);" />
+</div>
+
+<div id="p4" class="p">
+    <img src="img/p4_bg.png" class="bg" />
+
+    <img src="img/voice_tip.png" class="voice_tip" />
+
+    <img src="img/touchtip.png" class="touchtip" style="display: none;" />
+
+    <label class="btn_uploadphoto">
+        <input type="file" id="uploader" />
+        <img src="img/btn_upload.png" />
+    </label>
+
+    <img src="img/btn_select.png" class="btn_selectphoto" onclick="$(dlgPhoto.element).show();" />
+
+    <div class="photoeditor">
+        <img src="img/photo_empty.jpg" class="photo_empty" />
+        <canvas width="393" height="243" id="photocanvas"></canvas>
+        <img src="img/photo_box.png" class="photo_box" />
+    </div>
+
+    <div class="voice_btn">
+        <img src="img/voice_bg.png" />
+        <img src="img/voice_empty.png" class="voice_empty" />
+        <div class="voice_full" style="display: none;" onclick="playVoice();">
+            <img src="img/voice_full.png" />
+            <img src="img/voice_play.gif" class="wave play" />
+            <img src="img/voice_stop.png" class="wave stop" />
+        </div>
+    </div>
+
+    <img src="img/btn_selectvoice.png" class="btn_selectvoice selectvoice" onclick="selectVoice();" />
+    <img src="img/btn_clearvoice.png" class="btn_selectvoice clearvoice" style="display: none;" onclick="clearVoice();" />
+
+    <img src="img/btn_preview.png" class="btn_preview" onclick="goPreview();" />
+</div>
+
+<div id="p4_1" class="p">
+    <img src="img/photodlg_bg.png" class="bg" />
+    <div class="photo_item">
+        <img src="img/photo_0.jpg" id="photo_0" />
+    </div>
+    <div class="photo_item">
+        <img src="img/photo_1.jpg" id="photo_1" />
+    </div>
+    <div class="photo_item">
+        <img src="img/photo_2.jpg" id="photo_2" />
+    </div>
+    <div class="photo_item">
+        <img src="img/photo_3.jpg" id="photo_3" />
+    </div>
+</div>
+
+<div id="p4_2" class="p">
+    <img src="img/voicedlg_bg.png" class="bg" />
+
+    <div class="voice_item">
+        <img class="playbtn" src="img/voice_play.png" />
+        <img class="bar" src="img/voice_bar.png" />
+        <img class="ok" src="img/voice_ok.png" />
+        <div class="mark"></div>
+    </div>
+
+    <div class="voice_item">
+        <img class="playbtn" src="img/voice_play.png" />
+        <img class="bar" src="img/voice_bar.png" />
+        <img class="ok" src="img/voice_ok.png" />
+        <div class="mark"></div>
+    </div>
+
+    <div class="voice_item">
+        <img class="playbtn" src="img/voice_play.png" />
+        <img class="bar" src="img/voice_bar.png" />
+        <img class="ok" src="img/voice_ok.png" />
+        <div class="mark"></div>
+    </div>
+
+    <div class="voice_item">
+        <img class="playbtn" src="img/voice_play.png" />
+        <img class="bar" src="img/voice_bar.png" />
+        <img class="ok" src="img/voice_ok.png" />
+        <div class="mark"></div>
+    </div>
+</div>
+
+<div id="p5" class="p">
+    <img src="img/p5_bg.png" class="bg" />
+
+    <div class="photo_show">
+        <canvas id="photo_show" width="393" height="243"></canvas>
+        <img src="img/photo_bg.png" />
+    </div>
+
+    <div class="word_finish"><img src="img/preview_1_1.png" /></div>
+
+    <div class="voice_item">
+        <img class="playbtn" src="img/voice_play2.png" />
+        <img class="bar" src="img/voice_bar2.png" />
+        <div class="mark"></div>
+    </div>
+
+    <img src="img/btn_back.png" class="btn_back" onclick="reset();" />
+
+    <img src="img/btn_publish.png" class="btn_preview" onclick="publish();" />
+</div>
+
+<img src="img/btn_close.png" id="close1" />
+<img src="img/btn_close.png" id="close2" />
+
+<img src="img/photo_mask.png" id="photo_mask" />
+
+<audio src="img/music1.mp3" id="music1" preload="auto" controls="controls">
+    <source src="img/music1.mp3" type="audio/mpeg" />
+</audio>
+<audio src="img/music2.mp3" id="music2" preload="auto" controls="controls">
+    <source src="img/music2.mp3" type="audio/mpeg" />
+</audio>
+<audio src="img/music3.mp3" id="music3" preload="auto" controls="controls">
+    <source src="img/music3.mp3" type="audio/mpeg" />
+</audio>
+<audio src="img/music4.mp3" id="music4" preload="auto" controls="controls">
+    <source src="img/music4.mp3" type="audio/mpeg" />
+</audio>

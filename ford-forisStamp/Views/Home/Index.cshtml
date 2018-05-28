@@ -1,0 +1,359 @@
+﻿@*首页*@
+<div id="page1" style="display: none;" onclick="autoplay()">
+    <img src="@Url.Content("~/Content/images/bg1.jpg")" style="width:100%; z-index:1;" />
+    <img src="@Url.Content("~/Content/images/bottom1.png")" style="width:100%; z-index:2; position:fixed; bottom:1px; left:0;" />
+    <img src="@Url.Content("~/Content/images/home.png")" style="width:57%; z-index:3; position:absolute; top:17%; left:26%;" />
+    <img src="@Url.Content("~/Content/images/yao.png")" style="width:24%; z-index:3; position:absolute; left:38%;top:71%; " class="yao" />
+    <audio id="myMusicyao" preload="auto" src="@Url.Content("~/Content/yao.mp3")"></audio>
+    <audio id="myMusic" src="@Url.Content("~/Content/sound.mp3")" loop="loop" autoplay="autoplay" preload="auto" ></audio>
+    <audio id="myMusicShare" loop="loop" ></audio>
+</div>
+
+
+<div style=" z-index:15;position:absolute;display:none;top:46%;left:35%;width:30%;" id="loading">
+加载中……
+
+</div>
+
+@*第二页*@
+<div id="page2" style="display: none;">
+    <img src="@Url.Content("~/Content/images/bg2.jpg")" style="width:100%; z-index:1;" />
+    <img src="@Url.Content("~/Content/images/bottom2.png")" style="width:100%; z-index:2; position:fixed; bottom:1px; left:0;" />
+    <img src="@Url.Content("~/Content/images/title.png")" style="width:42%; z-index:3; position:absolute; top:8%; left:12%;" />
+
+@*邮票*@ 
+<div style="width:100%; z-index:4;position:absolute; top:5%; ">
+<img id="imgstamp" style="width:88%;" />
+<img src="@Url.Content("~/Content/images/sound.png")" class="play"  style="width:11%;position:absolute; bottom:12%; left:20%; cursor:pointer; display:none;" />
+<img src="@Url.Content("~/Content/images/sound.png")" class="play1"  style="width:11%;position:absolute; bottom:12%; left:20%; cursor:pointer; display:none;" />
+</div>
+
+@*    <img src="@Url.Content("~/Content/images/stamp" + @ViewBag.Stampnum + ".png")" style="width:72%; z-index:4; position:absolute; left:15%;top:18%;" />
+    <img src="@Url.Content("~/Content/images/sound.png")" class="play"  style="width:11%;position:absolute; bottom:15%; left:24%; " />*@
+
+    @*分享朋友 再抽一次*@
+    <div id="complete" style="display: none; width: 100%; text-align: center; position: absolute; top: 80%; left: 0; z-index: 10;">
+        <img onclick="showfloat()" src="@Url.Content("~/Content/images/btn1.png")" style="width:32%;" />&nbsp;&nbsp;&nbsp;&nbsp;
+        <img onclick="replay()" src="@Url.Content("~/Content/images/btn2.png")" style="width:32%;" />
+    </div>
+    @*录制语音 再抽一次*@
+    <div id="dosound" style=" display: none;width: 100%; text-align: center; position: absolute; top: 80%; left: 0; z-index: 10;">
+        <img onclick="dosoundstart()" src="@Url.Content("~/Content/images/btn4.png")" style="width:32%;" />&nbsp;&nbsp;&nbsp;&nbsp;
+        <img onclick="replay()" src="@Url.Content("~/Content/images/btn2.png")" style="width:32%;" />
+    </div>
+@*分享浮层*@
+<img src="@Url.Content("~/Content/images/mengc.png")" style="width:100%;position: absolute;top:0;left:0;z-index:12; display:none;" id="floatlay" onclick="javascript:$(this).hide();"/>
+@*我要制作*@
+<div id="mydo" style="width:100%; text-align:center; position:absolute; top:80%; left:0;z-index:10;display:none; ">
+   <a href="/"> <img src="@Url.Content("~/Content/images/btn3.png")" style="width:32%;" /></a>
+</div>
+
+    <div>
+        @*开始录音*@
+        <div class="start" style="display: none;position: absolute; width: 100%; text-align: center; z-index: 7; top: 80%; ">
+            <img class="startbg" src="@Url.Content("~/Content/images/soundStar.png")" style="width:100%; z-index:5; position:absolute; left:0;top:0;" />
+            <img class="startbtn" src="@Url.Content("~/Content/images/bg3.png")" style="width:19%; z-index:6; position:absolute;left:41%;top:76%; cursor:pointer; " />
+        </div>
+        @*停止录音*@
+        <div class="stop" style="position: absolute; width: 100%; text-align: center; z-index: 7; top: 80%; display: none; ">
+            <img class="startbg" src="@Url.Content("~/Content/images/soundStop.png")" style="width:100%; " />
+            <span style="color: white; font-size: 12px;" id="showtime">…60…</span><br />
+      @*      <img src="@Url.Content("~/Content/images/soundStop1.png")" style="width:100%;" />*@
+            @*<img class="stopbtn" src="@Url.Content("~/Content/images/bg3.png")" style="width:19%; z-index:6; border:1px solid white; position:absolute;left:41%;top:0; cursor:pointer; " />*@
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var shareStampid = "@ViewBag.Stampid";
+    var shareMediaid = "@ViewBag.Mediaid";
+
+    function showmsg(m) {
+        alert(m);
+    }
+    $(window).on('scroll.elasticity', function (e) {
+        e.preventDefault();
+    }).on('touchmove.elasticity', function (e) {
+        e.preventDefault();
+    });
+
+    $(function () {
+        //onImageReady();
+       
+
+        $("#loading").show();
+        ImageLoader.load([
+            { name: 'img1', url: '/Content/images/bg1.jpg' },
+            { name: 'img2', url: '/Content/images/bg2.jpg' },
+            { name: 'img3', url: '/Content/images/bg3.png' },
+            { name: 'img4', url: '/Content/images/bottom1.png' },
+            { name: 'img5', url: '/Content/images/bottom2.png' },
+            { name: 'img6', url: '/Content/images/title.png' },
+            { name: 'img7', url: '/Content/images/soundStar.png' },
+            { name: 'img8', url: '/Content/images/soundStop.png' }
+        ], onImageReady);
+    });
+
+    var play1state = 0;
+    var play2state = 0;
+    function onImageReady() {
+
+        var audio = document.getElementById("myMusic");
+
+        if (shareStampid != "") {
+            document.querySelector('.play1').onclick = function () {
+                var audio = document.getElementById("myMusicShare");
+
+                if (play1state == 0) {
+                    play1state = 1;
+                    audio.play();
+                    playsound(".play1");
+                    
+                } else {
+                    play1state = 0;
+                    audio.pause();
+                    $(".play1").attr("src", "@Url.Content("~/Content/images/sound.png")");
+                    window.clearInterval(playsoundTimer);
+                }
+                
+            };
+            serverId = "@ViewBag.Mediaid";
+            $("#page1").hide();
+            $("#page2").show();
+            audio.pause();
+            var audio1 = document.getElementById("myMusicShare");
+            audio1.src = "/Download/mp3/" + serverId + ".mp3";
+
+            $(".play1").show();
+            $(".start").hide();
+            $("#mydo").show();
+            getstampid(shareStampid);
+        } else {
+            if (location.href.indexOf('from=singlemessage') > 0) {
+                location.href = 'http://forisstamp.ser2.ford001.com/';
+            }
+            wxConfig();
+            startconfig();
+            $("#page1").show();
+            audio.play();
+            var shaker = new Shaker();
+            shaker.onDone = function () {
+                shakeAnimation();
+            }
+            shaker.start = true;
+            getstampid("");
+        }
+
+        $("#loading").hide();
+    }
+
+    function showfloat() {
+        $("#floatlay").show();
+    }
+
+    function dosoundstart() {
+        $("#dosound").hide();
+        $(".start").show();
+    }
+
+    var stampid=0;
+    function getstampid(sid) {
+      
+        if (sid == "") {
+            stampid = Math.floor(Math.random() * 12);
+        } else {
+            stampid = sid;
+        }
+        $("#imgstamp").attr("src", "/Content/images/stamp" + stampid + ".png");
+
+
+        if (stampid == 0) {
+            shareTitle1 = '◆ 我抽到福票：想一想，其实我也是【工作狂】';
+            shareTitle = '◆ 【工作狂】，你是否还在忙忙忙？';
+            shareDesc = '全心投入工作的背后，一定有你坚持的理由。';
+        } else if (stampid == 1) {
+            shareTitle1 = '◆ 我抽到福票：回【家】需要理由吗？';
+            shareTitle = '◆ 回【家】需要理由吗？';
+            shareDesc = "找100个理由离开，找1个理由回来。回家吧，因为家在等你。";
+        } else if (stampid == 2) {
+            shareTitle1 = '◆ 我抽到福票：【顾家的孩子】，更懂父母的心思';
+            shareTitle = '◆ 【顾家的孩子】，更懂父母的玻璃心';
+            shareDesc = "如果你顾家，就不要让故乡成为回不去的地方。";
+        } else if (stampid == 3) {
+            shareTitle1 = '◆ 我抽到福票：原来我一直都是【孩子】';
+            shareTitle = '◆ 永远的【孩子】';
+            shareDesc = '你知道吗？其实，你一直都还是孩子！';            
+        } else if (stampid == 4) {
+            shareTitle1 = '◆ 我抽到福票：当我们开始扮演【父母】的角色';
+            shareTitle = '◆ 养儿方知【父母】恩';
+            shareDesc = '父母和子女，是彼此赠与的最佳礼物。';
+        } else if (stampid == 5) {
+            shareTitle1 = '◆ 我抽到福票：不知不觉就成了【怪蜀黍】';
+            shareTitle = '◆ 【怪蜀黍】出没，请注意避让！';
+            shareDesc = "怪蜀黍这个称呼，你，值得拥有！";
+        } else if (stampid == 6) {            
+            shareTitle1 = '◆ 我抽到福票：【人生导师】其实就是一碗心灵鸡汤';
+            shareTitle = '◆ 成长路上的【人生导师】';
+            shareDesc = "感谢你，带我翻越那座山丘。";    
+        } else if (stampid == 7) {
+            
+            shareTitle1 = '◆ 我抽到福票：无论多少岁，还做【好姐妹】';
+            shareTitle = '◆ 无论多少岁，还做【好姐妹】';
+            shareDesc = "好姐妹，我们又一起老了一岁……";
+        } else if (stampid == 8) {
+            shareTitle1 = '◆ 我抽到福票：被人叫【土豪】，我竟无言以对！';
+            shareTitle = '◆ 还不承认你是【土豪】？！';
+            shareDesc = "壕，我们做朋友吧！";
+        } else if (stampid == 9) {
+            shareTitle1 = '◆ 我抽到福票：【技术宅】的春天终于要来了';
+            shareTitle = '◆ 请你表扬【技术宅】';
+            shareDesc = '热爱生活的技术宅，有了你，生活更精彩!';
+        } else if (stampid == 10) {
+            shareTitle1 = '◆ 我抽到福票：我能混进【暖男】的队伍吗？';
+            shareTitle = '◆ 为【暖男】点赞';
+            shareDesc = '暖男的英文翻译是sweet guy，你造吗?';            
+        } else if (stampid == 11) {
+            shareTitle1 = '◆ 我抽到福票：【女汉子】也需要温柔呵护';
+            shareTitle = '◆ 【女汉子】也需要呵护';
+            shareDesc = "知道你只是假装坚强，这里有你需要的肩膀。";
+        }
+    }
+    
+
+    function replay() {
+        $("#page2").hide();
+        $("#page1").show();
+        isshake = false; //可以继续摇
+        getstampid("");
+        var audio = document.getElementById("myMusic");
+        audio.play();
+        localId = "";
+        $(".start").show();
+        $("#complete").hide();
+        $(".play").hide();
+        shareLink = shareLinkDefault;
+        sharecontent();
+    }
+    var isshake = false;
+    function shakeAnimation() {
+        //alert('不要摇了，头晕');
+  
+        if (isshake) { return; }
+        isshake = true;
+        var i = 0;
+        var k = 0;
+        var m = window.setInterval(function () {
+            k++;
+            if (i == 0) {
+                i = 1;
+                $(".yao").attr("src", "@Url.Content("~/Content/images/yao.png")");
+            } else {
+                i = 0;
+                $(".yao").attr("src", "@Url.Content("~/Content/images/yaoright.png")");
+            }
+            if (k == 5) {
+                var audio1 = document.getElementById("myMusicyao");
+                audio1.play();
+            }
+            if (k > 10) {  window.clearInterval(m); gotonext(); }
+        }, 300);
+    }
+
+    var Shaker = function () {
+        this.SHAKE_THRESHOLD = 1000;
+        this.last_update = 0;
+        this.x = 0;
+        this.y = 0;
+        this.z = 0;
+        this.last_x = 0;
+        this.last_y = 0;
+        this.last_z = 0;
+        this.isdone = false;
+        this.start = false;
+
+        this.deviceMotionHandler = function (evt) {
+            evt.preventDefault();
+            var eventData = evt;
+            if (this.isdone) return;
+            var acceleration = eventData.accelerationIncludingGravity;
+            var curTime = new Date().getTime();
+            if ((curTime - this.last_update) > 100) {
+                var diffTime = curTime - this.last_update;
+                this.last_update = curTime;
+                this.x = acceleration.x;
+                this.y = acceleration.y;
+                this.z = acceleration.z;
+                var speed = Math.abs(this.x + this.y + this.z - this.last_x - this.last_y - this.last_z) / diffTime * 10000;
+                //console.log(speed);
+                if (speed > this.SHAKE_THRESHOLD) {
+                    isdone = true;
+                    start = false;
+                    this.onDone();
+                    return;
+                }
+                this.last_x = this.x;
+                this.last_y = this.y;
+                this.last_z = this.z;
+            }
+        };
+
+        this.onDone = function () {
+
+        };
+
+        window.addEventListener('devicemotion', this.deviceMotionHandler.bind(this), false);
+    };
+
+    var playsoundTimer;
+    function playsound(p) {
+        var i = 0;
+        playsoundTimer = window.setInterval(function () {
+            if (i == 0) {
+                i = 1;
+                $(p).attr("src", "@Url.Content("~/Content/images/sound0.png")");
+            } else if (i == 1) {
+                i = 2;
+                $(p).attr("src", "@Url.Content("~/Content/images/sound1.png")");
+            }else{
+                i = 0;
+                $(p).attr("src", "@Url.Content("~/Content/images/sound.png")");
+            }
+     
+            //if (k > 10) { window.clearInterval(m); gotonext(); }
+        }, 300);
+    }
+
+    //下一页
+    function gotonext() {
+        //alert('转到下一页');
+        saveInfo1();
+        var audio = document.getElementById("myMusic");
+        audio.pause();
+        //window.location.href = "/Home/Index1";
+        $("#page1").hide();
+        $("#page2").show();
+        $("#dosound").show();
+        $(".start").hide();
+        $(".stop").hide();
+
+    }
+
+    function saveInfo1() {    
+
+        $.ajax({
+            url: "/Home/SaveInfo1", data: { s: stampid }, type: "post", success: function (response) {
+                if (response.Message == "") {
+                    shareLink = "http://forisstamp.ser2.ford001.com/?cid=" + response.Data;
+                    sharecontent();
+
+                }
+            }
+        });
+    }
+
+    function autoplay() {
+        var audio = document.getElementById("myMusic");
+        audio.play();
+
+    }
+</script>

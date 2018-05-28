@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="db-Web.config Connection String" description="db 由应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=db.ser2.ford001.com,54687;Initial Catalog=focus;Integrated Security=False;User ID=zhenglei;Password=staticx" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Work\\Focus\\Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='db']/@connectionString" />
+  </parameter>
+</parameters>

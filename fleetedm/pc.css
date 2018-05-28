@@ -1,0 +1,94 @@
+﻿html, body
+{
+    margin: 0px;
+    background-color: #958683;
+    height: 100%;
+    overflow: hidden;
+}
+
+#flash
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.wrap
+{
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#flipbook .page img
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn
+{
+    position: absolute;
+    display: block;
+    width: 50%;
+    bottom: 0px;
+    left: 0px;
+    z-index: 11;
+}
+
+#flipbook .btn img
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#flipbook .p-temporal
+{
+    background-color: #fff;
+}
+
+#flipmask
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+#flipmask img
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.clicktip
+{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#pcbg
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/pcbg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pcbg.jpg', sizingMethod='scale');
+}

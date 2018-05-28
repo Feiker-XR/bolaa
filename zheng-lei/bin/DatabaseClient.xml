@@ -1,0 +1,778 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DatabaseClient</name>
+    </assembly>
+    <members>
+        <member name="T:DatabaseClient.TableAttribute">
+            <summary>
+            为数据实体类型指示关联数据表属性
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.TableAttribute.Name">
+            <summary>
+            实体对应的数据源中的表或视图名称
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.TableAttribute.IsReadOnly">
+            <summary>
+            是否允许将实体中的内容更新到数据源
+            </summary>
+        </member>
+        <member name="T:DatabaseClient.DataAdapter">
+            <summary>
+            为数据源与数据实体间提供连接的适配器类
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter.Dispose">
+            <summary>
+            释放适配器所使用的所有资源
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DataAdapter.Client">
+            <summary>
+            获取当前适配器所使用的数据库连接客户端
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DataAdapter.AutoDisposeClient">
+            <summary>
+            获取或设置在适配器释放时是否也自动释放所使用的客户端对象
+            </summary>
+        </member>
+        <member name="T:DatabaseClient.DataAdapter`1">
+            <summary>
+            为数据源与数据实体间提供连接的适配器类
+            </summary>
+            <typeparam name="T">数据实体类型</typeparam>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.#ctor">
+            <summary>
+            初始化一个与数据源无关的数据实体适配器
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.#ctor(DatabaseClient.DatabaseClient)">
+            <summary>
+            初始化一个数据实体适配器
+            </summary>
+            <param name="client">要使用的数据库客户端对象</param>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.#ctor(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="conn">数据库连接串配置对象</param>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.#ctor(System.String)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="connName">数据库连接串配置名</param>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.#ctor(System.String,System.String)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="connectionString">连接字符串</param>
+            <param name="providerName">与连接字符串一起使用的提供程序的名称</param>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.#ctor(System.Int32)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="index">数据库连接串配置在配置文件中的索引</param>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetPropertyAttribute(System.Reflection.PropertyInfo)">
+            <summary>
+            获取数据实体上指定属性的列类型
+            </summary>
+            <param name="p">要查询的属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.FillProperty(`0,System.Reflection.PropertyInfo,System.Data.DataRow)">
+            <summary>
+            用数据行中的数据填充数据实体的指定属性
+            </summary>
+            <param name="mdl">要填充的数据实体</param>
+            <param name="p">要填充的属性</param>
+            <param name="row">包含数据的数据行</param>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.ClientCheck">
+            <summary>
+            检查数据连接客户端是否可用，若不可用会甩出异常
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.OnInit">
+            <summary>
+            在构造结束后进行必要的初始化过程
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModel(System.Data.DataRow)">
+            <summary>
+            将数据行转换为数据实体
+            </summary>
+            <param name="row">包含数据的数据行</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModel(System.String,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter},System.Data.CommandType)">
+            <summary>
+            通过数据源执行查询命令并返回与第一个数据行对应的数据实体
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="sql">查询命令</param>
+            <param name="pars">查询参数</param>
+            <param name="type">指示查询命令的类型</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModel(System.String,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            通过数据源执行查询命令并返回与第一个数据行对应的数据实体
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="sql">查询命令</param>
+            <param name="pars">查询参数</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModel(System.String,System.Data.CommandType)">
+            <summary>
+            通过数据源执行查询命令并返回与第一个数据行对应的数据实体
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="sql">查询命令</param>
+            <param name="type">指示查询命令的类型</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModel(System.String)">
+            <summary>
+            通过数据源执行查询命令并返回与第一个数据行对应的数据实体
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="sql">查询命令</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModelList(System.Data.DataRow[])">
+            <summary>
+            将数据行数组转换为数据实体列表
+            </summary>
+            <param name="rows">数据行数组</param>
+            <returns>数据实体列表</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModelList(System.Data.DataTable)">
+            <summary>
+            将数据表中的所有行转换为数据实体列表
+            </summary>
+            <param name="dt">数据表</param>
+            <returns>数据实体列表</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModelList(System.String,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter},System.Data.CommandType)">
+            <summary>
+            通过数据源执行查询命令并将所有返回的数据行转换为数据实体列表
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="sql">查询命令</param>
+            <param name="pars">查询参数</param>
+            <param name="type">指示查询命令的类型</param>
+            <returns>数据实体列表</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModelList(System.String,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            通过数据源执行查询命令并将所有返回的数据行转换为数据实体列表
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="sql">查询命令</param>
+            <param name="pars">查询参数</param>
+            <returns>数据实体列表</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModelList(System.String,System.Data.CommandType)">
+            <summary>
+            通过数据源执行查询命令并将所有返回的数据行转换为数据实体列表
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="sql">查询命令</param>
+            <param name="type">指示查询命令的类型</param>
+            <returns>数据实体列表</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetModelList(System.String)">
+            <summary>
+            通过数据源执行查询命令并将所有返回的数据行转换为数据实体列表
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="sql">查询命令</param>
+            <returns>数据实体列表</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.Add(`0)">
+            <summary>
+            将数据实体的内容添加到数据源
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="mdl">数据实体</param>
+            <returns>最后一个由插入所返回的标识（如果有）</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.Add(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            将数据实体列表中的内容添加到数据源
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="mdlList">数据实体列表</param>
+            <returns>最后一个由插入所返回的标识（默认返回null，可以通过重写该方法返回此值）</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.GetSchemaTable">
+            <summary>
+            返回一个数据表，此表用于存放数据实体的原始表结构，并已从数据源中将架构读取完整
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <returns>数据表</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.Update(`0,System.String[])">
+            <summary>
+            将数据实体中的内容更新到数据源
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="mdl">数据实体</param>
+            <param name="updateColumns">要更新的数据表列名</param>
+            <returns>是否有更新</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.Update(System.Collections.Generic.IEnumerable{`0},System.String[])">
+            <summary>
+            将数据实体列表中的内容更新到数据源
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="mdlList">数据实体列表</param>
+            <param name="updateColumns">要更新的数据表列名</param>
+            <returns>更新的行数</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.Delete(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            从数据源中删除实体所对应的数据行
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="mdlList">数据实体列表</param>
+            <returns>删除的行数</returns>
+        </member>
+        <member name="M:DatabaseClient.DataAdapter`1.Delete(`0)">
+            <summary>
+            从数据源中删除实体所对应的数据行
+            
+            执行此方法需要存在数据库连接客户端对象
+            </summary>
+            <param name="mdl">数据实体</param>
+            <returns>是否删除</returns>
+        </member>
+        <member name="P:DatabaseClient.DataAdapter`1.ModelType">
+            <summary>
+            获取适配器所对应的数据实体类型
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DataAdapter`1.CommandBuilder">
+            <summary>
+            获取或设置适配器所使用的语句生成器对象
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DataAdapter`1.ModelTableAttribute">
+            <summary>
+            获取定义在数据实体类型上的表属性
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DataAdapter`1.TableName">
+            <summary>
+            获取数据实体在数据源中所对应的表名
+            </summary>
+        </member>
+        <member name="T:DatabaseClient.ColumnAttribute">
+            <summary>
+            为数据实体中的属性与数据源中的表的指定列提供关联的属性
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.ColumnAttribute.Name">
+            <summary>
+            对应的列名称
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.ColumnAttribute.Type">
+            <summary>
+            列类型
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.ColumnAttribute.IsNullable">
+            <summary>
+            列是否允许为空值
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.ColumnAttribute.IsMaxSize">
+            <summary>
+            是否为无限长度
+            </summary>
+        </member>
+        <member name="T:DatabaseClient.ColumnType">
+            <summary>
+            列类型
+            </summary>
+        </member>
+        <member name="F:DatabaseClient.ColumnType.Normal">
+            <summary>
+            普通列
+            </summary>
+        </member>
+        <member name="F:DatabaseClient.ColumnType.PrimaryKey">
+            <summary>
+            主键列
+            </summary>
+        </member>
+        <member name="F:DatabaseClient.ColumnType.Identity">
+            <summary>
+            自增长标识列
+            </summary>
+        </member>
+        <member name="T:DatabaseClient.DatabaseClient">
+            <summary>
+            数据库连接客户端对象
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.Dispose">
+            <summary>
+            释放客户端所占用的所有资源
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.Configuration.ConnectionStringSettings,System.Boolean)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="conn">数据库连接串配置对象</param>
+            <param name="standalone">是否总是创建一个新的连接对象（不使用共享连接池）</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="conn">数据库连接串配置对象</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.String,System.Boolean)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="connName">数据库连接串配置名</param>
+            <param name="standalone">是否总是创建一个新的连接对象（不使用共享连接池）</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.String)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="connName">数据库连接串配置名</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.String,System.String,System.Boolean)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="connectionString">连接字符串</param>
+            <param name="providerName">与连接字符串一起使用的提供程序的名称</param>
+            <param name="standalone">是否总是创建一个新的连接对象（不使用共享连接池）</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.String,System.String)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="connectionString">连接字符串</param>
+            <param name="providerName">与连接字符串一起使用的提供程序的名称</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="index">数据库连接串配置在配置文件中的索引</param>
+            <param name="standalone">是否总是创建一个新的连接对象（不使用共享连接池）</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.Int32)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="index">数据库连接串配置在配置文件中的索引</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor(System.Boolean)">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+            <param name="standalone">是否总是创建一个新的连接对象（不使用共享连接池）</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.#ctor">
+            <summary>
+            初始化一个数据库连接客户端对象
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.Open">
+            <summary>
+            打开数据库连接
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.Close">
+            <summary>
+            关闭数据库连接
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.ChangeDatabase(System.String)">
+            <summary>
+            改变当前连接的数据库
+            </summary>
+            <param name="dbName">要连接到的数据库名</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.BeginTransaction(System.Data.IsolationLevel)">
+            <summary>
+            开始数据库事务
+            </summary>
+            <param name="isoLevel">事务隔离级别</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.BeginTransaction">
+            <summary>
+            开始数据库事务
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.Commit">
+            <summary>
+            提交当前连接中的事务
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.Rollback">
+            <summary>
+            回滚当前连接中的事务
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.CreateCommand(System.String,System.Data.CommandType,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            创建一个查询命令对象
+            </summary>
+            <param name="commandText">查询命令内容</param>
+            <param name="type">命令类型</param>
+            <param name="pars">命令参数</param>
+            <returns>查询命令对象</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunCommand(System.Data.Common.DbCommand,System.Data.Common.DbDataReader@,System.Data.CommandBehavior)">
+            <summary>
+            执行数据库命令
+            </summary>
+            <param name="cmd">要执行的命令</param>
+            <param name="reader">返回的数据读取器对象</param>
+            <param name="behavior">查询结果和查询对数据库的影响</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunCommand(System.Data.Common.DbCommand,System.Data.DataSet@)">
+            <summary>
+            执行数据库命令
+            </summary>
+            <param name="cmd">要执行的命令</param>
+            <param name="ds">返回的数据集</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunCommand(System.Data.Common.DbCommand)">
+            <summary>
+            执行数据库命令
+            </summary>
+            <param name="cmd">要执行的命令</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.CreateParameter(System.String,System.Object,System.Data.ParameterDirection)">
+            <summary>
+            创建一个查询参数
+            </summary>
+            <param name="name">参数名</param>
+            <param name="value">参数值</param>
+            <param name="direction">参数类型</param>
+            <returns>查询参数对象</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String,System.Data.Common.DbDataReader@,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter},System.Data.CommandBehavior)">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+            <param name="reader">返回的数据读取器对象</param>
+            <param name="pars">查询参数</param>
+            <param name="behavior">查询结果和查询对数据库的影响</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String,System.Data.Common.DbDataReader@,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+            <param name="reader">返回的数据读取器对象</param>
+            <param name="pars">查询参数</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String,System.Data.Common.DbDataReader@)">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+            <param name="reader">返回的数据读取器对象</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String,System.Data.DataSet@,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+            <param name="ds">返回的数据集</param>
+            <param name="pars">查询参数</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String,System.Data.DataSet@)">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+            <param name="ds">返回的数据集</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String,System.Data.DataTable@,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+            <param name="dt">返回的数据表</param>
+            <param name="pars">查询参数</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String,System.Data.DataTable@)">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+            <param name="dt">返回的数据表</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+            <param name="pars">查询参数</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunQuery(System.String)">
+            <summary>
+            执行SQL语句查询
+            </summary>
+            <param name="query">要查询的语句</param>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String,System.Data.Common.DbDataReader@,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter},System.Data.CommandBehavior)">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <param name="reader">返回的数据读取器对象</param>
+            <param name="pars">查询参数</param>
+            <param name="behavior">查询结果和查询对数据库的影响</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String,System.Data.Common.DbDataReader@,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <param name="reader">返回的数据读取器对象</param>
+            <param name="pars">查询参数</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String,System.Data.Common.DbDataReader@)">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <param name="reader">返回的数据读取器对象</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String,System.Data.DataSet@,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <param name="ds">返回的数据集</param>
+            <param name="pars">查询参数</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String,System.Data.DataSet@)">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <param name="ds">返回的数据集</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String,System.Data.DataTable@,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <param name="dt">返回的数据表</param>
+            <param name="pars">查询参数</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String,System.Data.DataTable@)">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <param name="dt">返回的数据表</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String,System.Collections.Generic.IEnumerable{System.Data.Common.DbParameter})">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <param name="pars">查询参数</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.RunProc(System.String)">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procName">存储过程名称</param>
+            <returns>存储过程的返回值</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.Update(System.Data.DataSet)">
+            <summary>
+            用数据集中的内容更新数据源
+            </summary>
+            <param name="ds">要提交的数据库的数据集</param>
+            <returns>插入、删除、修改的行数</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.Update(System.Data.DataTable)">
+            <summary>
+            用数据表中的内容更新数据源
+            </summary>
+            <param name="dt">要提交的数据库的数据表</param>
+            <returns>插入、删除、修改的行数</returns>
+        </member>
+        <member name="M:DatabaseClient.DatabaseClient.Update(System.Data.DataTable,System.Boolean)">
+            <summary>
+            用数据表中的内容更新数据源
+            </summary>
+            <param name="dt">要提交的数据库的数据表</param>
+            <param name="updateAllValues">是否更新所有值（包括未更改的）</param>
+            <returns>插入、删除、修改的行数</returns>
+        </member>
+        <member name="P:DatabaseClient.DatabaseClient.DefaultConnectionStringSettings">
+            <summary>
+            获取或设置默认使用的数据库连接串配置对象
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DatabaseClient.ConnectionShared">
+            <summary>
+            获取或设置是否使用数据连接共享功能
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DatabaseClient.ConnectionStringSettings">
+            <summary>
+            获取当前所使用的数据库连接串配置对象
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DatabaseClient.Provider">
+            <summary>
+            获取数据提供程序工厂对象
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DatabaseClient.CommandTimeout">
+            <summary>
+            获取或设置语句执行超时时间
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DatabaseClient.InTransaction">
+            <summary>
+            获取当前连接中是否存在事务
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DatabaseClient.Connection">
+            <summary>
+            获取当前使用的数据库连接对象
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.DatabaseClient.Transaction">
+            <summary>
+            获取当前正在使用的事务对象
+            </summary>
+        </member>
+        <member name="T:DatabaseClient.CommandBuilder`1">
+            <summary>
+            为数据实体生成查询语句的对象
+            </summary>
+            <typeparam name="T">数据实体类型</typeparam>
+        </member>
+        <member name="T:DatabaseClient.ICommandBuilder`1">
+            <summary>
+            为数据源适配器提供插入、修改、删除语句的SQL语句生成器接口
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.ICommandBuilder`1.GetInsertCommand(`0,System.Boolean)">
+            <summary>
+            生成插入语句
+            </summary>
+            <param name="mdl">要生成插入语句的数据实体</param>
+            <param name="withLastId">是否附带查询最后插入的自增长标识</param>
+            <returns>插入命令对象</returns>
+        </member>
+        <member name="M:DatabaseClient.ICommandBuilder`1.GetUpdateCommand(`0,System.String[])">
+            <summary>
+            生成更新语句
+            </summary>
+            <param name="mdl">要生成更新语句的数据实体</param>
+            <param name="updateColumns">要更新的列</param>
+            <returns>更新命令对象</returns>
+        </member>
+        <member name="M:DatabaseClient.ICommandBuilder`1.GetDeleteCommand(`0)">
+            <summary>
+            生成删除语句
+            </summary>
+            <param name="mdl">要生成删除语句的数据实体</param>
+            <returns>删除命令对象</returns>
+        </member>
+        <member name="P:DatabaseClient.ICommandBuilder`1.SupportGetLastInsertId">
+            <summary>
+            获取生成的插入语句是否支持查询最后插入的自增长标识
+            </summary>
+        </member>
+        <member name="M:DatabaseClient.CommandBuilder`1.GetInsertCommand(`0,System.Boolean)">
+            <summary>
+            生成插入语句
+            </summary>
+            <param name="mdl">要生成插入语句的数据实体</param>
+            <param name="withLastId">是否附带查询最后插入的自增长标识</param>
+            <returns>插入命令对象</returns>
+        </member>
+        <member name="M:DatabaseClient.CommandBuilder`1.GetUpdateCommand(`0,System.String[])">
+            <summary>
+            生成更新语句
+            </summary>
+            <param name="mdl">要生成更新语句的数据实体</param>
+            <param name="updateColumns">要更新的列</param>
+            <returns>更新命令对象</returns>
+        </member>
+        <member name="M:DatabaseClient.CommandBuilder`1.GetDeleteCommand(`0)">
+            <summary>
+            生成删除语句
+            </summary>
+            <param name="mdl">要生成删除语句的数据实体</param>
+            <returns>删除命令对象</returns>
+        </member>
+        <member name="P:DatabaseClient.CommandBuilder`1.ModelType">
+            <summary>
+            获取数据实体类型
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.CommandBuilder`1.ModelTableAttribute">
+            <summary>
+            获取定义在数据实体类型上的表属性
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.CommandBuilder`1.TableName">
+            <summary>
+            获取数据实体在数据源中所对应的表名
+            </summary>
+        </member>
+        <member name="P:DatabaseClient.CommandBuilder`1.SupportGetLastInsertId">
+            <summary>
+            生成的插入语句是否支持查询最后插入的自增长标识
+            </summary>
+        </member>
+    </members>
+</doc>

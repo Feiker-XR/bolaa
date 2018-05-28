@@ -1,0 +1,90 @@
+﻿2015/4/17 21:13:01
+不能将值 NULL 插入列 'openid'，表 'ford-focus1.dbo.wxusers'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
+   在 DatabaseClient.DatabaseClient.Update(DataTable dt, Boolean updateAllValues)
+   在 DatabaseClient.DataAdapter`1.Add(IEnumerable`1 mdlList)
+   在 WxApp.BLL.BLLBase.AddModel[T](T model)
+   在 WxApp.BLL.WxHelper.AddWxUser(wxusers user)
+
+
+2015/4/17 21:35:40
+不能将值 NULL 插入列 'name'，表 'ford-focus1.dbo.appointment'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
+   在 DatabaseClient.DatabaseClient.Update(DataTable dt, Boolean updateAllValues)
+   在 DatabaseClient.DataAdapter`1.Add(IEnumerable`1 mdlList)
+   在 WxApp.BLL.BLLBase.AddModel[T](T model)
+   在 WxApp.Controllers.HomeController.Submit(appointment model)
+
+
+2015/4/17 21:35:41
+不能将值 NULL 插入列 'name'，表 'ford-focus1.dbo.appointment'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
+   在 DatabaseClient.DatabaseClient.Update(DataTable dt, Boolean updateAllValues)
+   在 DatabaseClient.DataAdapter`1.Add(IEnumerable`1 mdlList)
+   在 WxApp.BLL.BLLBase.AddModel[T](T model)
+   在 WxApp.Controllers.HomeController.Submit(appointment model)
+
+
+2015/4/17 21:35:42
+不能将值 NULL 插入列 'name'，表 'ford-focus1.dbo.appointment'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
+   在 DatabaseClient.DatabaseClient.Update(DataTable dt, Boolean updateAllValues)
+   在 DatabaseClient.DataAdapter`1.Add(IEnumerable`1 mdlList)
+   在 WxApp.BLL.BLLBase.AddModel[T](T model)
+   在 WxApp.Controllers.HomeController.Submit(appointment model)
+
+
+2015/4/17 21:35:42
+不能将值 NULL 插入列 'name'，表 'ford-focus1.dbo.appointment'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
+   在 DatabaseClient.DatabaseClient.Update(DataTable dt, Boolean updateAllValues)
+   在 DatabaseClient.DataAdapter`1.Add(IEnumerable`1 mdlList)
+   在 WxApp.BLL.BLLBase.AddModel[T](T model)
+   在 WxApp.Controllers.HomeController.Submit(appointment model)
+
+
+2015/4/17 21:35:43
+不能将值 NULL 插入列 'name'，表 'ford-focus1.dbo.appointment'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
+   在 DatabaseClient.DatabaseClient.Update(DataTable dt, Boolean updateAllValues)
+   在 DatabaseClient.DataAdapter`1.Add(IEnumerable`1 mdlList)
+   在 WxApp.BLL.BLLBase.AddModel[T](T model)
+   在 WxApp.Controllers.HomeController.Submit(appointment model)
+
+
